@@ -82,8 +82,8 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
 
-      - name: Fix assets path
-        run: grep -rl 'src="/assets/' book/ | xargs sed -i 's/src="\/assets\//src="\/sweng\/assets\//g'
+      # - name: Fix assets path
+      #   run: grep -rl 'src="/assets/' book/ | xargs sed -i 's/src="\/assets\//src="\/sweng\/assets\//g'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
