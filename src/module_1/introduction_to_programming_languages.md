@@ -3,7 +3,7 @@
 Programming language is a system of notation that uses special sign, keywords,
 symbols and notation to write computer programs
 
-> [!Tip] 
+> [!Tip]
 > Computer programs, as discussed in the previous module, is an instruction passed to a computer to carry out a task
 
 To further comprehend this, think about the natural languages: English, Russian,
