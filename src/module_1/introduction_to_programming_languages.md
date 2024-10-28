@@ -1,7 +1,10 @@
 # Introduction to programming languages
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XASY30EfGAc?si=TmuAGOkBwVvv7M6Z&amp;start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Programming language is a system of notation that uses special sign, keywords,
 symbols and notation to write computer programs
+
 
 > [!Tip]
 > Computer programs, as discussed in the previous module, is an instruction passed to a computer to carry out a task
@@ -15,9 +18,8 @@ Russia, as long as they only speak that language.
 The ability to speak "programming language" is a prerequisite for telling
 computers what to do and getting a response
 
-To complete this lesson, see the video embedded below
 
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XASY30EfGAc?si=TmuAGOkBwVvv7M6Z&amp;start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
