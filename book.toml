@@ -4,3 +4,22 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Backend Roadmap for Humans"
+github = "https://github.com/opeolluwa/backend-for-humans"
+
+[build]
+extra-watch-dirs = ["./exercises"]
+
+
+[preprocessor.alerts]
+
+
+[preprocessor.repl]
+
+src = "https://mr-addict.github.io/mdbook-repl/embed/"
+
+javascript.enable = true
+javascript.loading = "lazy"
+
+# python is disabled by default and loading is lazy
+python.enable = true
+python.loading = "lazy"
