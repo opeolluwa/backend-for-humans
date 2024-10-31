@@ -7,6 +7,11 @@ classification of programming languages
 
 At the end of this module, the participant should be able to explain:
 
-1. Concept of programming
-2. Programming languages
-3. Classification of programming languages 
+1. What a computer program is
+2. A clue of what a computer program is
+3. Concept of programming
+4. Programming languages: Introduction and classification
+
+## Learning Requirement
+
+No special programs required

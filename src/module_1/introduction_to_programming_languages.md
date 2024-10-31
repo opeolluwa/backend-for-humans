@@ -10,11 +10,11 @@ symbols and notation to write computer programs
 > Computer programs, as discussed in the previous module, is an instruction
 > passed to a computer to carry out a task
 
-To further comprehend this, think about the natural languages: English, Russian,
-French, and many more. You need to understand and be able to speak English in
-order to connect with someone in the United States. You must be able to speak
-Russian if you want to purchase something from a seller in Saint Petersburg,
-Russia, as long as they only speak that language.
+To further comprehend this, think about the natural languages like English,
+Russian, Spanish, and many more. The ability to **speak** English, Russian or
+Spanish help you connect with someone in the United States, purchase something
+from a seller in Saint Petersburg, Russia, or study in Universitat de Barcelona,
+as long as you can clearly communicate and understand them.
 
-The ability to speak "programming language" is a prerequisite for telling
-computers what to do and getting a response
+In the same manner, the ability to speak **programming language** is a
+prerequisite for telling computers what to do and getting a response.
