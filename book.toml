@@ -23,3 +23,8 @@ javascript.loading = "lazy"
 # python is disabled by default and loading is lazy
 python.enable = true
 python.loading = "lazy"
+
+[preprocessor.embed]
+
+# book.toml
+[preprocessor.quiz]

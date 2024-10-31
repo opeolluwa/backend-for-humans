@@ -60,6 +60,7 @@ jobs:
           cargo install mdbook-embedify
           cargo install mdbook-alerts
           cargo install mdbook-repl
+          cargo install mdbook-quiz --locked
 
 
       - name: Download PlantUML
