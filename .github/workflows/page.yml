@@ -43,13 +43,7 @@ jobs:
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
           key: ${{ runner.os }}
-
-      - name: Install NodeJS
-        uses: actions/setup-node@v4
-        with: 
-              node-version: 18
-      - run: cd src && npm install --save
-
+          
       - name: Install mdBook
         if: steps.cache-restore.outputs.cache-hit != 'true'
         run: |
@@ -60,6 +54,7 @@ jobs:
           cargo install mdbook-embedify
           cargo install mdbook-alerts
           cargo install mdbook-repl
+          cargo install mdbook-quiz --locked
 
 
       - name: Download PlantUML

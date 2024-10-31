@@ -1,0 +1,29 @@
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which these best explains a programming language"
+prompt.distractors = [
+    "Python, C++ and JavaScript",
+    "Machine language",
+    "Coding",
+]
+answer.answer = "Symbols, signs and special words for instructing a computer"
+context = ""
+id = "1afe3486-6000-4a99-911e-ff0c664c00b3"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of this is not a classifiaction of programming language"
+prompt.distractors = ["Object Oriented", "Imperative"]
+answer.answer = "Functioning"
+context = ""
+id = "2461b21e-9c09-4a1b-9e07-a795224f3a6b"
+
+
+[[question]]
+type = "ShortAnswer"
+prompt.prompt = "C++ is an example of"
+context = ""
+answer.answer = "compiled"
+id = "c7932961-9e83-4bba-b7b5-148dd43d7f73"
