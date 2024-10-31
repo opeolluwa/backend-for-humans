@@ -13,7 +13,7 @@ finish the remaining modules.
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/rRSD128KWIM?si=q3jzMjQYlHnioC2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Computers are everywhere, and in almost in everything. 
-Often times we hear Smart home, smart TV, Smart Ring, and many more. What makes them smart is the computed embedded in them.
+Often times we hear Smart home, smart TV, Smart Ring, and many more. What makes them smart is the computer embedded in them.
 
 And In reality, none is this device is smart; computers are like dumb machines that excel at carrying out a very detailed instruction.  These instructions give computers  the power they have, your smart watch, smart home, mobile phone and many more.
 
