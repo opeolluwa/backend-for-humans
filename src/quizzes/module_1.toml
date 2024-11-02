@@ -27,3 +27,76 @@ prompt.prompt = "C++ is an example of"
 context = ""
 answer.answer = "compiled"
 id = "c7932961-9e83-4bba-b7b5-148dd43d7f73"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why are computer programming languages necessary for humans to use?"
+prompt.distractors = [
+    "Because computers only operate in decimal",
+    "Because computers need to perform only simple tasks",
+    "Because binary is easy for humans to understand",
+]
+answer.answer = "Because humans find it difficult to write complex instructions in binary"
+context = ""
+id = "2a1d3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of a programming language?"
+prompt.distractors = [
+    "To create pictures on a computer",
+    "To make computers smarter than humans",
+    "To translate computer code into binary directly",
+]
+answer.answer = "To provide an easier way for humans to instruct the computer"
+context = ""
+id = "3b2d3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these is NOT mentioned as a popular programming language?"
+prompt.distractors = [
+    "Python",
+    "C++",
+    "Java",
+]
+answer.answer = "Ruby"
+context = ""
+id = "4c3d3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What are instructions passed to a computer in a programming language called?"
+prompt.distractors = [
+    "Commands",
+    "Functions",
+    "Processes",
+]
+answer.answer = "Programs"
+context = ""
+id = "5d4e3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Where are programs stored in a computer?"
+prompt.distractors = [
+    "In a binary file",
+    "In a data file",
+    "In a text file",
+]
+answer.answer = "In a source file"
+context = ""
+id = "6e5f3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why do different programming languages exist if they all theoretically do the same thing?"
+prompt.distractors = [
+    "Because computers need many languages to operate",
+    "Because humans need options for designing graphics",
+    "Because some languages are faster than others",
+]
+answer.answer = "Because certain languages are easier to use in specific fields"
+context = ""
+id = "7f6g3486-6000-4a99-911e-ff0c664c00b3"

@@ -3,6 +3,7 @@ authors = ["Adeoye Adefemi"]
 language = "en"
 multilingual = false
 src = "src"
+description = "Backend development guide for non-techical people"
 title = "Backend Roadmap for Humans"
 github = "https://github.com/opeolluwa/backend-for-humans"
 
