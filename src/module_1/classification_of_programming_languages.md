@@ -6,8 +6,7 @@ programs and the several available ways to do it
 ## A closer look at a computers
 
 A lot of people like to conceive of computers as either laptops or desktops. Is
-that all there is to it, though? Watch the video below, then when you're ready,
-finish the remaining modules.
+that all there is to it, though? Watch the video below, then when you're ready, read through the text below it. 
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/rRSD128KWIM?si=q3jzMjQYlHnioC2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
