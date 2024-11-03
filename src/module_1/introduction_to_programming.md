@@ -15,3 +15,6 @@ like showing a picture, playing a sound, or solving a math problem.
 This special set of words, signs and symbols is what makes up the programming
 language which we will explore in the next module and through out the rest of
 the document.
+
+> [!IMPORTANT]
+> Computer programming or simply programming is telling a computer what to do 
