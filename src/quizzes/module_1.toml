@@ -100,3 +100,40 @@ prompt.distractors = [
 answer.answer = "Because certain languages are easier to use in specific fields"
 context = ""
 id = "7f6g3486-6000-4a99-911e-ff0c664c00b3"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the main difference between an interpreted and a compiled programming language?"
+prompt.distractors = [
+    "Interpreted languages are more efficient than compiled languages.",
+    "Both interpreted and compiled languages translate source code into machine code at runtime.",
+    "Compiled languages translate code every time the program is run."
+]
+answer.answer = "Interpreted languages translate code each time a task is required, while compiled languages translate code once and create an executable file."
+context = ""
+id = "b7c3a5e6-1234-4b45-80d2-fd0c6a82a1b1"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following describes the function of an interpreter?"
+prompt.distractors = [
+    "Translates source code once and creates an executable file.",
+    "Converts source code into high-level language.",
+    "Transforms machine code back into source code."
+]
+answer.answer = "Translates the content of the source file to machine code every time the task is required."
+context = ""
+id = "c3a9b5d2-8765-4f91-b4e3-faa8d8d9b3c6"
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these is an example of a compiled language?"
+prompt.distractors = [
+    "Python",
+    "JavaScript",
+    "Ruby"
+]
+answer.answer = "C++"
+context = ""
+id = "f5a8d2c1-4321-4a87-b1e5-abc9d4e6f3b2"

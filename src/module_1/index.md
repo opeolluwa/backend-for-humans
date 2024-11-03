@@ -1,8 +1,7 @@
 # Module 1
 
-In this module, you will be exposed to a deeper understanding of how computer
-works; what computer programs are. We will complete the module by learning about
-programming languages.
+In this module you will get a greater grasp of how computers function and what
+computer programs are. We will study programming languages to finish the module.
 
 ## Learning expectation
 
@@ -14,5 +13,5 @@ At the end of this module, you should be able to explain:
 4. What a _source file_ is
 
 ## Learning Requirement
-
-No special programs required
+> [!NOTE]
+> No additional requirements is required for this module
