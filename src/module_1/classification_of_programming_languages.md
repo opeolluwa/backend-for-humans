@@ -11,9 +11,9 @@ finish the remaining part of this  module.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/rRSD128KWIM?si=q3jzMjQYlHnioC2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Computers are everywhere, and in almost in everything. Often times we hear Smart
-home, smart TV, Smart Ring, and many more. What makes them smart is the computed
-embedded in them.
+Computers are everywhere, and in almost in everything. 
+Often times we hear Smart home, smart TV, Smart Ring, and many more. What makes them smart is the computer embedded in them.
+
 
 And In reality, none is this device is smart; computers are like dumb machines
 that excel at carrying out a very detailed instruction. These instructions give
@@ -67,10 +67,12 @@ Programming language called JavaScript
 
 ```javascript
 // javascript codeblock
+
 let result = 2 + 2;
 console.log(`The result of 2+2 is ${result}`);
 ```
 
+<<<<<<< HEAD
 
 ## Classification of programming language 
 I mentioned the following concepts earlier, shall we do a quick recap before  we go on?
@@ -97,3 +99,4 @@ Summarily, programming languages are classified as:
 There are other forms of classification such as imperative languages, Object oriented languages, functional languages, and maybe more but I will restrict our reach to only interpreted and compiled language.
 
 And with that we have come to the end of this module. There is a review page and a few quizzes up next. Good luck! 
+
