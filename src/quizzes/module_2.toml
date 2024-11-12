@@ -1,0 +1,84 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does HTTPS stand for?"
+prompt.distractors = [
+    "Hyperlink Transfer Protocol Secure",
+    "High Text Transfer Protocol Secure",
+    "Hyper Terminal Transfer Protocol Secure",
+]
+answer.answer = "Hypertext Transfer Protocol Secure"
+context = ""
+id = "a2f9e5c8-3b4d-7d1f-9e6c-8f5a7b3d2e9f"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What protocol is used to automatically assign IP addresses on a network?"
+prompt.distractors = ["TCP", "SMTP", "HTTP"]
+answer.answer = "DHCP"
+context = ""
+id = "f9a7e5d8-7b5c-4e9f-a2b4-6d9e5f3c2e8f"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "When did the internet begin as a research project?"
+answer.answer = "1960s"
+context = """
+The internet began in the 1960s as a research project focused on facilitating communication between computers.
+"""
+id = "c7a4f9c5-8e21-4b8a-a5d3-2f9e5d4c3d9f"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of the FTP protocol?"
+prompt.distractors = [
+    "Sending emails",
+    "Accessing websites",
+    "Translating domain names",
+]
+answer.answer = "Transferring files between client and server"
+context = ""
+id = "b8c1d3e9-69f5-4f3b-b8a9-3de8a89d4d2e"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "which programming language was used to make the sample network request"
+answer.answer = "javascript"
+context = """
+
+"""
+id = "c9e8f7d6-4a2b-3d9f-5e7c-a1f2b4d3e9f5"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does HTTP stand for?"
+prompt.distractors = [
+    "Hyperlink Transfer Protocol",
+    "High Text Transfer Protocol",
+    "Hyper Terminal Transfer Protocol",
+]
+answer.answer = "Hypertext Transfer Protocol"
+context = ""
+id = "c93a6aec-aad5-4e4b-a989-f74e9b63e61b"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which protocol helps to translate domain names into IP addresses?"
+prompt.distractors = ["TCP/IP", "HTTP", "IMAP"]
+answer.answer = "DNS"
+context = ""
+id = "e5a3f2c8-4b7d-9e1f-2c8a-f3b4e2d9f8c1"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which protocol is used as the foundation for data transmission over the internet?"
+prompt.distractors = ["SMTP", "FTP", "POP3"]
+answer.answer = "TCP/IP"
+context = ""
+id = "e4b3a7c8-5d9f-2e1f-4c6a-f7d5e9b2a1c3"

@@ -35,3 +35,14 @@ additional-js = ["mermaid.min.js", "mermaid-init.js"]
 [preprocessor.last-changed]
 command = "mdbook-last-changed"
 renderer = ["html"]
+
+
+
+# [preprocessor.codeblocks]
+# renderers = ["html"]
+# cpp = { color = "#FFFF99", link = "https://wiki.redmodding.org/red4ext" }
+# redscript = { color = "tomato", link = "https://wiki.redmodding.org/redscript" }
+# rust = { color = "#ac4313", link = "https://github.com/jac3km4/red4ext-rs" }
+# lua = { link = "https://wiki.redmodding.org/cyber-engine-tweaks" }
+# swift = { label = "Swift code snippet", color = "skyblue" }
+# javascript = {label ="JavaScript coe snippet", color ="#fdca00"}

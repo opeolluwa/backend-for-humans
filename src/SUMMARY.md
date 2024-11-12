@@ -6,8 +6,6 @@
 
 [Mode of learning](./overview/mode_of_learning.md)
 
-
-
 ## Preliminary concepts
 
 ---
@@ -21,7 +19,14 @@
   - [Module review](./module_1/review.md)
   - [Review Questions](./module_1/quiz.md)
 
-- [What is the internet]()
+- [What is the internet](./module_2/index.md)
+  - [A closer look](./module_2/a_closer_look.md)
+  - [Computer networks](./module_2/networks.md)
+  - [Protocols](./module_2/protocol.md)
+  - [Common Protocols](./module_2/common_protocols.md)
+  - [Resources and network request](./module_2/resources_and_network_request.md)
+  - [Module review](./module_2/review.md)
+  - [Review questions](./module_2/quiz.md)
 
 - [Introduction to Operating Systems]()
 
