@@ -1,5 +1,6 @@
 # Module 1
 
+
 In this module you will get a greater grasp of how computers function and what
 computer programs are. We will study programming languages to finish the module.
 
