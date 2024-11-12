@@ -6,8 +6,7 @@ programs and the several available ways to do it
 ## A closer look at a computers
 
 A lot of people like to conceive of computers as either laptops or desktops. Is
-that all there is to it, though? Watch the video below, then when you're ready,
-finish the remaining part of this  module.
+that all there is to it, though? Watch the video below, then when you're ready, read through the text below it. 
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/rRSD128KWIM?si=q3jzMjQYlHnioC2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -37,17 +36,28 @@ Theoretically, they all do the same thing and they are all capable of doing the
 same thing. I say theoretically because it is easier to use a programming
 language in certain fields than others.
 
-The instructions passed to a computer are called programs in a special file
-called **source file**
+Generally, the instructions passed to a computer are contained in a special file
+called **source file** The contents of a source file is called **source code**
 
 > [!NOTE] 
 > A source file is a special kind of file that contains a computer program
 
+
 ### How programs  work 
+
+
+Ideally, these "special files" or source files are essentially text files, with certain file extensions. A JavaScript source file would typically have a `.mjs` `.cjs` or `.js` extension. 
+
+> [!TIP] 
+> To understand a file extension, consider, images usually end in `.png` or `jpg` or `jpeg`, for audio files we have `.mp3` or `.avi` , these jpg, mp3, etc are called file extension 
+
 To complete the whole process of instructing a computer, the computer uses
 special programs to translate the content of a source file passed to it, these
-programs will be discussed later in this coursework, for the sake of brevity.
-The Figure below shows the sequence of human instructing a computer
+programs will be discussed later in this coursework, for the sake of brevity, we'll just introduce them as `compilers` and `interpreters` 
+
+### Sample program 
+
+The Figure below shows the sequence of human instructing a computer to add two numbers, there's nothing fancy here 
 
 ```mermaid
 sequenceDiagram
@@ -60,7 +70,6 @@ sequenceDiagram
     Computer-)Human: Hello Human, The answer is 4
 ```
 
-### Sample Program
 
 Consider an implementation of the steps discussed above, implemented in a
 Programming language called JavaScript
@@ -72,7 +81,7 @@ let result = 2 + 2;
 console.log(`The result of 2+2 is ${result}`);
 ```
 
-<<<<<<< HEAD
+
 
 ## Classification of programming language 
 I mentioned the following concepts earlier, shall we do a quick recap before  we go on?
