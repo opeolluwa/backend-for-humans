@@ -32,7 +32,7 @@ module, the internet is a collection of resource. and everything we access on
 the web (internet) is stored on a computer somewhere. The HTTP[^http] is a protocol that help us make request to access these resources 
 
 
-[^dns]: DNS is protocol which stands for a domain name protocol. 
+[^dns]: DNS is protocol which stands for a Domain Name System  
 [^ip]: IP - internet protocol 
 [^html]: Hypertext Markup Language 
 [^http]: HTTP - Hypertext Transfer Protocol 
