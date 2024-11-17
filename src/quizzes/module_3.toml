@@ -1,0 +1,105 @@
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "What is the primary purpose of an operating system?"
+"prompt.distractors" = [
+    "To edit text documents",
+    "To browse the internet",
+    "To play music files",
+]
+"answer.answer" = "To manage computer hardware, software, memory, and processes"
+context = "The operating system is essential for managing all core aspects of a computer's functionality."
+id = "faeec231-d788-46e5-adfb-0bc20e9d7c3b"
+
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "Which category does an operating system belong to?"
+"prompt.distractors" = [
+    "Application software",
+    "Utility software",
+    "Programming software",
+]
+"answer.answer" = "System software"
+context = ""
+id = "676fb058-f210-4b8c-89b4-924796634802"
+
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "Which of these is NOT an example of application software?"
+"prompt.distractors" = ["Internet browser", "Word processor", "Image viewer"]
+"answer.answer" = "Compiler"
+context = "Application software includes tools used for everyday tasks, while compilers are part of system software."
+id = "cfaabbca-58ba-4a7f-b605-d2953d9ea1fa"
+
+
+[[questions]]
+type = "ShortAnswer"
+"prompt.prompt" = "Name one example of system software apart from the operating system."
+"answer.answer" = "Compiler"
+context = ""
+id = "f9d98168-8e92-4771-b455-a94e4ff39f5b"
+
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "What is the key difference between system software and application software?"
+"prompt.distractors" = [
+    "System software is used for entertainment, while application software is for professional tasks.",
+    "System software is downloaded from the internet, while application software is pre-installed.",
+    "System software runs only on servers, while application software runs on desktops.",
+]
+"answer.answer" = "System software manages hardware and provides a platform for application software."
+context = ""
+id = "c21d97e4-b0e9-466f-b904-b04e75ffd7ac"
+
+
+[[questions]]
+type = "ShortAnswer"
+"prompt.prompt" = "What is an example of an application software used for communication?"
+"answer.answer" = "Slack"
+context = ""
+id = "4bf1ef5e-9213-4efb-a7d3-5199f40fde32"
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "Why is the operating system considered essential?"
+"prompt.distractors" = [
+    "It allows the computer to connect to the internet.",
+    "It ensures all files are stored securely.",
+    "It prevents hardware from malfunctioning.",
+]
+"answer.answer" = "It acts as the backbone, managing hardware and providing a platform for other software."
+context = ""
+id = "50cd0166-4428-4238-aac4-07f9a0978825"
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "Which software type includes compilers and interpreters?"
+"prompt.distractors" = [
+    "Application software",
+    "Utility software",
+    "Entertainment software",
+]
+"answer.answer" = "System software"
+context = ""
+id = "407828fd-fb17-433e-b5e0-d4e83d63ca9c"
+
+[[questions]]
+type = "ShortAnswer"
+"prompt.prompt" = "What is the role of an interpreter in system software?"
+"answer.answer" = "To convert high-level code into machine code line-by-line."
+context = ""
+id = "e28fdb1a-87c8-4c14-aa51-75428744ff08"
+
+[[questions]]
+type = "MultipleChoice"
+"prompt.prompt" = "Which of the following is a characteristic of system software?"
+"prompt.distractors" = [
+    "It is used for photo editing.",
+    "It must be installed by the user manually.",
+    "It is only needed for gaming purposes.",
+]
+"answer.answer" = "It is responsible for managing system resources and hardware."
+context = ""
+id = "0e3ca1f6-755b-45f8-8f13-728e92aefdf7"
