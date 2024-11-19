@@ -28,8 +28,12 @@
   - [Module review](./module_2/review.md)
   - [Review questions](./module_2/quiz.md)
 
-- [Introduction to Operating Systems]()
-
+- [Introduction to Operating Systems](./module_3/index.md)
+  - [Meeting the house keeper](./module_3/meeting_the_house_keeper.md)
+  - [Common Operating systems](./module_3/common_operating_systems.md)
+  - [Module review](./module_3/review.md)
+  - [Review Questions](./module_3/quiz.md)
+  
 - [Introduction to Shell scripting]()
 
 - [Introduction to git and Github]()

@@ -31,6 +31,7 @@ git-repository-url = "https://github.com/opeolluwa/backend-for-humans"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/opeolluwa/backend-for-humans/edit/master/{path}"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-file =["last-changed.css"]
 
 [preprocessor.last-changed]
 command = "mdbook-last-changed"
