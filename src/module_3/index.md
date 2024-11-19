@@ -2,7 +2,7 @@
 
 In the previous modules, I have tried to establish that, Computers, irrespective
 of the form they appear (laptop, desktop, mobile...) or what they are used for
-(gaming, video editing, software development...). They don't do anything exactly
+(gaming, video editing, software development...); they don't do anything exactly
 magical!
 
 To speak plainly, they're more or less a lump of plastic, and metals, and
@@ -19,7 +19,7 @@ computer understand what we want. This house keeper is also a kind of software,
 called **Operating System**
 
 In this module, you will learn about different kinds of Operating systems, along
-side some interesting concepts.
+side some other interesting concepts.
 
 ## Learning expectation
 
