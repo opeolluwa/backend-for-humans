@@ -1,5 +1,7 @@
 # Summary
 
+[Cover page](./index.md)
+
 [Introduction](./overview/index.md)
 
 [Requirements](./overview/requirements.md)
@@ -33,8 +35,22 @@
   - [Common Operating systems](./module_3/common_operating_systems.md)
   - [Module review](./module_3/review.md)
   - [Review Questions](./module_3/quiz.md)
-  
-- [Introduction to Shell scripting]()
+
+- [Introduction to Shell scripting](./module_4/index.md)
+  - [What is a Shell](./module_4/what-is-a-shell.md)
+  - [Installing git and git Bash](./module_4/installing-git-and-git-bash.md)
+  - [Learning Shell scripting](./module_4/learning-shell-scripting.md)
+  - [Shell commands](./module_4/shell-commands.md)
+    - [echo](./module_4/commands/echo.md)
+    - [clear](./module_4/commands/clear.md)
+    - [pwd](./module_4/commands/pwd.md)
+    - [ls](./module_4/commands/ls.md)
+    - [touch](./module_4/commands/touch.md)
+    - [mkdir](./module_4/commands/mkdir.md)
+    - [rmdir](./module_4/commands/rmdir.md)
+    - [rm](./module_4/commands/rm.md)
+    - [find](./module_4/commands/find.md)
+  - [Using flags](./module_4/using-flags.md)
 
 - [Introduction to git and Github]()
 

@@ -3,8 +3,8 @@
 In the last module we talked briefly about Operating system, the house keeper,
 remember?
 
-In this module we'll pray the role of an hacker! I hope you find it exciting as
-I do! We'll learn shell scripting
+In this module we'll play the role of an hacker! I hope you find it exciting as
+I do! We'll be learning shell scripting
 
 ## Learning expectation
 
