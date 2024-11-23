@@ -1,4 +1,8 @@
-# Backend for Human
+# Backend for Humans
 
-[Discord](https://discord.gg/wG5FCKr2) |
-[GitHub](https://github.com/opeolluwa/backend-for-humans)
+
+<img src="./assets/bhe.png" style="max-width:100%; margin-top:-18rem"/>
+
+[> Join Discord community](https://discord.gg/wG5FCKr2)
+
+[> Star on GitHub](https://github.com/opeolluwa/backend-for-humans)
