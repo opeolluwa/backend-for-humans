@@ -26,12 +26,9 @@ side some other interesting concepts.
 At the end of this module, you should the able to
 
 1. Explain Operating system in your own words
-2. Describe systems programming 
-3. Give examples of Operating systems 
-
+2. Describe systems programming
+3. Give examples of Operating systems
 
 ## Learning Requirement
 
-> [!NOTE] 
-> No additional requirements is required for this module
-
+No additional requirements is required for this module

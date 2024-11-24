@@ -10,7 +10,7 @@ I do! We'll be learning shell scripting
 
 At the end of this module, you should be able to:
 
-1. explain what the _shell_ is
+1. explain what the _Shell_ is
 2. perform some basic shell scripting
 3. give example of the different kinds of Shells we have
 
