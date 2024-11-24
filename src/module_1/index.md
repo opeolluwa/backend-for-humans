@@ -1,6 +1,5 @@
 # Module 1
 
-
 In this module you will get a greater grasp of how computers function and what
 computer programs are. We will study programming languages to finish the module.
 
@@ -14,5 +13,5 @@ At the end of this module, you should be able to explain:
 4. What a _source file_ is
 
 ## Learning Requirement
-> [!NOTE]
-> No additional requirements is required for this module
+
+No additional requirements is required for this module

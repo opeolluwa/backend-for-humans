@@ -2,7 +2,7 @@
 
 [Cover page](./index.md)
 
-[Introduction](./overview/index.md)
+[Forward](./forward.md)
 
 [Requirements](./overview/requirements.md)
 
@@ -44,8 +44,11 @@
     - [echo](./module_4/commands/echo.md)
     - [clear](./module_4/commands/clear.md)
     - [pwd](./module_4/commands/pwd.md)
-    - [ls](./module_4/commands/ls.md)
     - [touch](./module_4/commands/touch.md)
+    - [ls](./module_4/commands/ls.md)
+    - [stdin, stdout, stderr](./module_4/commands/std.md)
+    - [Writing content to file](./module_4/commands/writing-content-to-file.md)
+    - [Inspecting the content of a file](./module_4/commands/inspecting-the-content-of-a-file.md)
     - [mkdir](./module_4/commands/mkdir.md)
     - [rmdir](./module_4/commands/rmdir.md)
     - [rm](./module_4/commands/rm.md)

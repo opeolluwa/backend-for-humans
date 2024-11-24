@@ -1,5 +1,6 @@
 # Backend for Humans
 
+_by Adeoye Adefemi_
 
 <img src="./assets/bhe.png" style="max-width:100%; margin-top:-18rem"/>
 
