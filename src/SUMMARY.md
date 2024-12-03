@@ -54,8 +54,21 @@
     - [Inspecting the content of a file](./module_4/commands/inspecting-the-content-of-a-file.md)
     - [mkdir](./module_4/commands/mkdir.md)
     - [rmdir and rm](./module_4/commands/rmdir.md)
-  - [Writing shell scripts](./module_4/scripts/index.md)
-    - [Your first script](./module_4/scripts/first-script.md)
+  - [Module review](./module_4/review.md)
+  - [Review questions](./module_4/quiz.md)
+
+- [Writing shell scripts](./module_5/index.md)
+  - [Your first script](./module_5/scripts/first-script.md)
+  - [Anatomy of the your first script](./module_5/scripts/anatomy.md)
+  - [Making script executable](./module_5/scripts/making-script-executable.md)
+  - [Using Variable](./module_5/scripts/using-variables.md)
+  - [Using arrays](./module_5/scripts/using-arrays.md)
+  - [Conditional evaluation](./module_5/scripts/conditional.md)
+  - [Using for loop](./module_5/scripts/for-loop.md)
+  - [Sample scripts](./module_5/scripts/sample-scripts.md)
+  - [Additional resources](./module_5/additional-resources.md)
+  - [Module review](./module_5/review.md)
+  - [Review questions](./module_5/quiz.md)
 
 - [Introduction to git and Github]()
 
