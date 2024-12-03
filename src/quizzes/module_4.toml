@@ -16,13 +16,8 @@ context = ""
 
 [[questions]]
 type = "ShortAnswer"
-prompt.prompt = """
-What is the output of this command
-```sh
-echo "Hello World"
-```
-"""
-prompt.answer = "hello world"
+prompt.prompt = " What is the output of this command `echo \"Hello World\"`"
+answer.answer = "hello world"
 context = ""
 id = "2f686000-f603-47c6-b52b-6571ac958cff"
 
@@ -30,7 +25,7 @@ id = "2f686000-f603-47c6-b52b-6571ac958cff"
 [[questions]]
 type = "ShortAnswer"
 prompt.prompt = "Which command would you use to create a directory"
-prompt.answer = "mkdir"
+answer.answer = "mkdir"
 context = ""
 id = "58e3d839-9e34-4275-a285-bf76d9ad7abd"
 
@@ -38,7 +33,7 @@ id = "58e3d839-9e34-4275-a285-bf76d9ad7abd"
 [[questions]]
 type = "ShortAnswer"
 prompt.prompt = "Which command would you use to create a file"
-prompt.answer = "touch"
+answer.answer = "touch"
 context = ""
 id = "f1882dff-7d49-4df7-a9fe-ddc38e83677d"
 
@@ -46,6 +41,6 @@ id = "f1882dff-7d49-4df7-a9fe-ddc38e83677d"
 [[questions]]
 type = "ShortAnswer"
 prompt.prompt = "Which command would you use to create a print the content of a file"
-prompt.answer = "cat"
+answer.answer = "cat"
 context = ""
 id = "115421d9-b35a-4b0b-bfaa-dfb23f31299f"
