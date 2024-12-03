@@ -11,7 +11,7 @@ To begin;
 
 1. create a folder at the desktop, call it `workspace`, ensure to use lowercase
    all through
-2. For Windows user, left click on the newly created folder and select
+2. For Windows user, right click on the newly created folder and select
    `Git Bash here`
    ![git bash in the new folder](../assets/git-bash-in-folder.jpg)
 

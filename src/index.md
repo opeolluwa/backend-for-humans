@@ -2,7 +2,7 @@
 
 _by Adeoye Adefemi_
 
-<img src="./assets/bhe.png" style="max-width:100%; margin-top:-18rem"/>
+<img src="./assets/bhe.png" style="max-width:100%; margin-top:-15rem"/>
 
 [> Join Discord community](https://discord.gg/wG5FCKr2)
 

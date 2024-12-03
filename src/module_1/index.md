@@ -1,7 +1,8 @@
 # Module 1
 
 In this module you will get a greater grasp of how computers function and what
-computer programs are. We will study programming languages to finish the module.
+computer programs are, to conclude the module, we will briefly study programming
+languages. Let's get started!
 
 ## Learning expectation
 
