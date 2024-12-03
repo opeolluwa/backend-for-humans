@@ -1,13 +1,51 @@
 [[questions]]
 type = "MultipleChoice"
-prompt.prompt = "What does it mean if a variable `x` is immutable?"
-prompt.distractors = [
-  "`x` is stored in the immutable region of memory.",
-  "After being defined, `x` can be changed at most once.",
-  "You cannot create a reference to `x`."
-]
-answer.answer = "`x` cannot be changed after being assigned to a value."
-context = """
-Immutable means "not mutable", or not changeable.
+prompt.prompt = "Which of these describes an a Shell?"
+prompt.distractors = ["A tool used for hacking", "Unix-based operating system"]
+answer.answer = "an interface to the user to use operating system services"
+id = "2dc230f0-cc1b-469d-be1b-6ed8b9a7fcf3"
+context = ""
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these is not a amongst the popular kinds of shell"
+prompt.distractors = ["ksh", "csh", "zsh"]
+answer.answer = "rsh"
+id = "49cb1804-8703-4ce8-83a5-158b0284f59b"
+context = ""
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = """
+What is the output of this command
+```sh
+echo "Hello World"
+```
 """
-id = "dd324af0-84d2-4d9d-8d7e-74c9d782d2c6"
+prompt.answer = "hello world"
+context = ""
+id = "2f686000-f603-47c6-b52b-6571ac958cff"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Which command would you use to create a directory"
+prompt.answer = "mkdir"
+context = ""
+id = "58e3d839-9e34-4275-a285-bf76d9ad7abd"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Which command would you use to create a file"
+prompt.answer = "touch"
+context = ""
+id = "f1882dff-7d49-4df7-a9fe-ddc38e83677d"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Which command would you use to create a print the content of a file"
+prompt.answer = "cat"
+context = ""
+id = "115421d9-b35a-4b0b-bfaa-dfb23f31299f"
