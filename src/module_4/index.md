@@ -1,10 +1,16 @@
 # Introduction to Shell scripting
 
-In the last module we talked briefly about Operating system, the house keeper,
-remember?
+In the last module we discussed operating system.
 
-In this module we'll play the role of an hacker! I hope you find it exciting as
-I do! We'll be learning shell scripting
+In this module we'll learn one of the most important concept required for any
+serious programming task and that's Shell scripting. We'll start by learning
+what the Shell is, common Shell commands, amongst other things.
+
+The module also contain optional lessons for participants that use the Windows
+operating system, feel free to skip if you use a Linux or an Apple Laptop.
+
+For questions and clarification, consider raising them in the
+[Backend for Humans Discord server](https://discord.gg/wG5FCKr2)
 
 ## Learning expectation
 
@@ -19,4 +25,4 @@ At the end of this module, you should be able to:
 For this module, you need:
 
 1. Vscode
-2. git bash (only for Windows user)
+2. Windows Subsystem for Linux (only for Windows user)

@@ -9,7 +9,7 @@ brevity sake.
 
 ![Desktop environment](../assets/program.png)
 
-The operating system is the most important software a software a computer runs,
+The operating system is the most important software a computer runs,
 it manages the computer hardware, software, memory and processes[^os] You can't
 see it like every other software package that you use, but it lives there,
 working beneath them all. The operating system belongs to a category of software

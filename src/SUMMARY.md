@@ -37,10 +37,13 @@
   - [Review Questions](./module_3/quiz.md)
 
 - [Introduction to Shell scripting](./module_4/index.md)
+  - [Installing the necessary tools](./module_4/tools/index.md)
+    - [VS code](./module_4/tools/vs-code.md)
+    - [WSL (optional - for Windows users)](./module_4/tools/wsl.md)
   - [What is a Shell](./module_4/what-is-a-shell.md)
   - [Installing git and git Bash](./module_4/installing-git-and-git-bash.md)
   - [Learning Shell scripting](./module_4/learning-shell-scripting.md)
-  - [Shell commands](./module_4/shell-commands.md)
+  - [Shell commands](./module_4/commands/index.md)
     - [echo](./module_4/commands/echo.md)
     - [clear](./module_4/commands/clear.md)
     - [pwd](./module_4/commands/pwd.md)
@@ -50,10 +53,9 @@
     - [Writing content to file](./module_4/commands/writing-content-to-file.md)
     - [Inspecting the content of a file](./module_4/commands/inspecting-the-content-of-a-file.md)
     - [mkdir](./module_4/commands/mkdir.md)
-    - [rmdir](./module_4/commands/rmdir.md)
-    - [rm](./module_4/commands/rm.md)
-    - [find](./module_4/commands/find.md)
-  - [Using flags](./module_4/using-flags.md)
+    - [rmdir and rm](./module_4/commands/rmdir.md)
+  - [Writing shell scripts](./module_4/scripts/index.md)
+    - [Your first script](./module_4/scripts/first-script.md)
 
 - [Introduction to git and Github]()
 
