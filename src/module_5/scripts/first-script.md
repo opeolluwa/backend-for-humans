@@ -3,7 +3,7 @@
 To begin, open the [VS code](./../tools/vs-code.md) then see the video below for
 setup instructions to create a folder
 
-<video autoplay controls src="../../assets/using-vs-code/using-vscode.mp4" style="border-radius:24px; margin:2rem 0">
+<video  controls src="../../assets/using-vs-code/using-vscode.mp4" style=" margin:2rem 0">
 </video>
 
 ## Creating a new folder
@@ -14,7 +14,7 @@ To create a in Vscode use can use either of the following approach
 
 The video instruction walks you through how to crate files in Vscode
 
-<video autoplay controls src="../../assets/using-vs-code/vs-code-new-file.mp4" style="border-radius:24px; margin:2rem 0">
+<video  controls src="../../assets/using-vs-code/vs-code-new-file.mp4" style=" margin:2rem 0">
 </video>
 
 ### Method 2
@@ -37,9 +37,7 @@ their script, like this `hello.sh`. It's however not necessary and we wont be
 doing that. In the newly created file, add the following content
 
 ```sh
-#!/bin/bash 
-
-echo "Hello, World"
+{{#include ../../code-samples/module_5/hello}}
 ```
 
 Still form the terminal, execute `sh hello`

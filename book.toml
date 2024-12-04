@@ -30,13 +30,17 @@ command = "mdbook-mermaid"
 git-repository-url = "https://github.com/opeolluwa/backend-for-humans"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/opeolluwa/backend-for-humans/edit/master/{path}"
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
-additional-css =["last-changed.css"]
+additional-js = [
+    "plugins/mermaid.min.js",
+    "plugins/mermaid-init.js",
+    "plugins/code-line-number-plugin.js",
+]
+additional-css = ["plugins/last-changed.css", "plugins/line-number.css"]
+
 
 [preprocessor.last-changed]
 command = "mdbook-last-changed"
 renderer = ["html"]
-
 
 
 # [preprocessor.codeblocks]
@@ -46,4 +50,5 @@ renderer = ["html"]
 # rust = { color = "#ac4313", link = "https://github.com/jac3km4/red4ext-rs" }
 # lua = { link = "https://wiki.redmodding.org/cyber-engine-tweaks" }
 # swift = { label = "Swift code snippet", color = "skyblue" }
-# javascript = {label ="JavaScript coe snippet", color ="#fdca00"}
+# javascript = { label = "JavaScript code snippet", color = "#fdca00" }
+# bash = { label = "Bash code snipper", color = "#997C70" }

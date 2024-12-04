@@ -2,11 +2,17 @@
 
 [Cover page](./index.md)
 
+[Acknowledgement](./acknowldegement.md)
+
 [Forward](./forward.md)
 
-[Requirements](./overview/requirements.md)
+[Dedication](./dedication.md)
 
-[Mode of learning](./overview/mode_of_learning.md)
+[Requirements](./requirements.md)
+
+[Mode of learning](./mode_of_learning.md)
+ 
+[Who you should know](./what-you-should-know.md)
 
 ## Preliminary concepts
 
@@ -87,12 +93,52 @@
 
 # Beginning Programming
 
-- [A closer look at JavaScript]()
-  - [Overview]()
+- [Choosing a programming language]()
+- [Available Programming languages]()
+  - [JavaScript]()
+  - [Rust]()
+  - [Python]()
+  - [Golang]()
+- [Core programming concepts]()
+  - [Overview of the language]()
   - [Data types]()
   - [Control flow]()
   - [Iteration]()
   - [Functions]()
+
+- [Project 1]()
+- [Project 2]()
+- [Project 3]()
+- [Project 4]()
+- [Project 5]()
+
+---
+
+---
+
+# Data Structures and Algorithm
+
+- [Data Structures]()
+  - [Choose a language]()
+  - [Data structures]()
+  - [Implementing data structures]()
+- [Algorithms]()
+  - [What you should know]()
+
+---
+
+# Working with databases
+
+- [Introduction to databases]()
+- [Types of databases]()
+- [Choosing the right database]()
+- [Using SQL databases]()
+  - [Mysql]()
+  - [Sqlite]()
+  - [PostgreSQL]()
+- [Database design]()
+  - [What you should know]()
+- [Project]()
 
 ---
 

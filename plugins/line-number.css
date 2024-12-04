@@ -1,0 +1,6 @@
+.line-number {
+    border: 2px solid #ccc;
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: small;
+}
