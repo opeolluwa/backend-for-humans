@@ -37,7 +37,7 @@ their script, like this `hello.sh`. It's however not necessary and we wont be
 doing that. In the newly created file, add the following content
 
 ```sh
-{{#include ../../code-samples/module_4_shell-scripting/hello}}
+{{#include ../../code-samples/module_5/hello}}
 ```
 
 Still form the terminal, execute `sh hello`
