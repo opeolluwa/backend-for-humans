@@ -43,6 +43,7 @@ jobs:
           cargo install mdbook-quiz
           cargo install mdbook-mermaid
           cargo install mdbook-last-changed
+          cargo install mdbook-codeblocks
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
