@@ -12,7 +12,16 @@ The first script looks like this
 - Line <span class="line-number">3</span> Is the same as the
   [echo command](../../module_4/commands/echo.md) we learnt in module 2
 
-The key take away it that,
+As you advance, you will discover that it is possible to use programming
+languages like, Perl, Python, JavaScript, Lua, and many more for shell
+scripting. The central key to unlocking this is using getting the Shebang right.
+As an example, the example above can be rewritten in JavaScript as
+
+```sh
+{{#include ../../code-samples/module_5/hello-js}}
+```
+
+Node that the first line is different! The key take away it that,
 
 1. Any shell script must start with a shebang.
 2. Your shell script does not need to have a file extension

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Please input a color of the rainbow"
+read color
+
+if [ "$color" = "red" ]; then
+    echo "Awesome! I love Red!"
+elif [ "$color" = "orange" ]; then
+    echo "Bright and cheerful! Orange is great!"
+elif [ "$color" = "yellow" ]; then
+    echo "Sunny! Yellow is wonderful!"
+elif [ "$color" = "green" ]; then
+    echo "So fresh! Green is amazing!"
+elif [ "$color" = "blue" ]; then
+    echo "Cool choice! Blue is calming!"
+elif [ "$color" = "indigo" ]; then
+    echo "Unique and deep! Indigo is awesome!"
+elif [ "$color" = "violet" ]; then
+    echo "Elegant! Violet is beautiful!"
+else
+    echo "Hmm, that doesn't seem to be a color of the rainbow!"
+fi
