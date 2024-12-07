@@ -18,10 +18,10 @@ Consider this JavaScript code
 ```
 
 <div style="margin: 5rem 0">
-To be candid, for someone that has not written any code, there is a lot of things going on here, which you don't need to worry about, read along!
+To be candid, for someone that has not written any code, there is a lot of things going on here, and i can almost guess that you just scroll past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
 
-But first, I encourage you to click on the arrow at the top right corner to see
-the code in action
+When you are done, I encourage you to click on the arrow at the top right corner to see
+the code in action.
 
 ![code run](../../assets/js-code-run.png)
 

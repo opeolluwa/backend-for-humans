@@ -1,7 +1,7 @@
 # Writing shell scripts
 
 In [module 4](../module_4/index.md) we explored common shell commands, and
-manipulated folders and files and directories with the commands amongst other
+manipulated folders and files and directories with these commands among other
 things. This module will build on the previous knowledge from that module. You
 might need to review [module 4](../module_4/index.md) if you're starting with
 this.
