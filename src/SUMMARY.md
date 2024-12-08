@@ -12,7 +12,7 @@
 
 [Mode of learning](./mode_of_learning.md)
  
-[Who you should know](./what-you-should-know.md)
+[What you should know](./what-you-should-know.md)
 
 ## Preliminary concepts
 
@@ -69,6 +69,7 @@
   - [Making script executable](./module_5/scripts/making-script-executable.md)
   - [Using Variable](./module_5/scripts/using-variables.md)
   - [Using arrays](./module_5/scripts/using-arrays.md)
+  - [Accepting inputs](./module_5/scripts/accepting-inputs.md)
   - [Conditional evaluation](./module_5/scripts/conditional.md)
   - [Using for loop](./module_5/scripts/for-loop.md)
   - [Sample scripts](./module_5/scripts/sample-scripts.md)

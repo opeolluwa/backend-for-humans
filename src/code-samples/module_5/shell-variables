@@ -1,0 +1,7 @@
+#!/bin/bash
+
+name="adeoye"
+age=4
+
+echo $name 
+echo $age

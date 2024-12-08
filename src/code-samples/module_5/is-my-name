@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+echo "Hello What is your name"
+
+read name 
+
+if [  $name = 'adeoye' ]; then
+    echo "Hello boss you are welcome!"
+else 
+    echo "Oops! I'm not sure I know you"
+fi
