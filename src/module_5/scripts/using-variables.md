@@ -1,9 +1,9 @@
 # Using Variable
 
-Variables are not typical to Shell scripting, we'll see them a lot in the
-modules to come. That said, variables are like special containers for holding
+Variables are not only typical to Shell scripting, we'll see them a lot in the
+modules to come. They are like special containers for holding
 values. The values they hold can be just about anything you as the programmer
-can think of.
+can think of and they are identified by the name we give them. 
 
 Variable allow us to easily mutate (change, update ) a value. Before going on to
 dealing with variables in Shell scripting, it would suffice to examine how
@@ -18,10 +18,10 @@ Consider this JavaScript code
 ```
 
 <div style="margin: 5rem 0">
-To be candid, for someone that has not written any code, there is a lot of things going on here, and i can almost guess that you just scroll past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
+To be candid, for someone that has not written any code, there is a lot of things going on here, and I can almost guess that you just scroll past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
 
-When you are done, I encourage you to click on the arrow at the top right corner to see
-the code in action.
+When you are done, I encourage you to click on the arrow at the top right corner
+to see the code in action.
 
 ![code run](../../assets/js-code-run.png)
 
@@ -48,7 +48,7 @@ At first age was "storing" the value **34**, then I updated this value to
 
 ## Naming Variables
 
-As a rule in many programming languages or toolchain, like the Shell scripting
+As a rule in many programming languages, or toolchain like the Shell scripting
 we are studying, it is often encouraged that:
 
 1. A variable should be descriptive,
@@ -87,9 +87,9 @@ In snake case, you separate your variables with underscore. For example,
 
 ### Upper snake case
 
-Like upper snake case, you separate your variables with underscore, however
+Like the snake case, you separate your variables with underscore, however
 these words must be capitalized. For example `MY_NAME`, `MY_FRIENDS_NAME`. This
-is often used for variables that would not change =, otherwise knows as
+is often used for variables that would not change, otherwise knows as
 constants.
 
 ### Camel case

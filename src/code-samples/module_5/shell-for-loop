@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rainbows=(red orange yellow green blue indigo violet)
+
+
+for color in ${rainbows}
+    do
+    echo "$color"
+done
