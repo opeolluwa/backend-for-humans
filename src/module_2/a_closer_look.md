@@ -18,6 +18,6 @@ these devices (phone, laptops, servers) are able to talk to each other and share
 information. The concept of computer communication is the internet. In other
 words, the internet is the networking of computers.
 
-In the next module, we will talk extensively about computer networks. 
+
 
 [^note]: [https://www.britannica.com/technology/Internet/Foundation-of-the-Internet](https://www.britannica.com/technology/Internet/Foundation-of-the-Internet)
