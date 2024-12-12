@@ -6,15 +6,12 @@ To begin this module, see the video below.
 
 ## What is computer programming?
 
-Computer programming is like telling a computer exactly what to do, step by
-step, using special words, signs and symbols called **code**
+Broadly, computer programming is telling a computer exactly what to do. This is
+done using a step-by-step, using special words, signs and symbols called
+**code**
 
-It’s like giving the computer a recipe so it knows how to make something happen,
-like showing a picture, playing a sound, or solving a math problem.
+It’s like giving the computer a recipe so it knows how to make something happen.
 
-This special set of words, signs and symbols is what makes up the programming
-language which we will explore in the next module and through out the rest of
-the document.
-
-> [!IMPORTANT]
-> Computer programming or simply programming is telling a computer what to do 
+This special set of words, signs and symbols is  otherwise known as computer
+**programming language** which would be explored in detail in subsequent
+modules.

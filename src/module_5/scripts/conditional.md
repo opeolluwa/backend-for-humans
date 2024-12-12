@@ -1,7 +1,8 @@
 # Conditional evaluation
 
 Like variables, conditional evaluation is on of the key things you'll see in
-programming. It's based on a action to execute based on condition.
+programming. It's based on which action to execute based on the matched
+condition.
 
 Bash gives you four keywords `if`, `elif`, `else` and `fi`
 

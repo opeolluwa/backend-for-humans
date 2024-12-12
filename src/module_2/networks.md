@@ -1,7 +1,7 @@
 # Computer networks
 
 When we say networks, what exactly does it mean? have you ever thought of it? In
-the previous lecture, we talked about the internet as the concept of computer
+the previous lesson, we talked about the internet as the concept of computer
 communication. In this section, we will discover that the internet itself is a
 combination of numerous amounts of other networks. The video says more
 
