@@ -1,4 +1,4 @@
-# Programming Languages: An Introduction and Classification
+# Classification of programming languages.
 
 Before we delve into the classifications, we must firmly establish why we write
 programs and the several available ways to do it
@@ -9,23 +9,23 @@ As you may know or have heard, computer accepts and process instructions in
 binary, which is essentially a large sequence of zero's and one's
 
 ![binaries](../assets//binay_numbers.png) Humans are incapable of writing
-complex instructions in binary and that's why computer programming language came
-into the picture.
+complex instructions in binary due to a very high tendency of loss of attention
+and inherent tendencies of multiple mistakes and that's why computer programming
+language came into the picture.
 
-Computer programming language is an `English-like` construct which is easier to
-write and learn and eventually, easier to instruct the computer with. As of
+Computer programming language uses an `English-like` construct which is easier
+to write and learn and eventually, easier to instruct the computer with. As of
 today, there are hundreds of programming languages, or a few thousand. Some of
 the popular ones are Python, C++, Java, C, and COBOL, to mention a few.
 
-Theoretically, because it is easier to use a programming language in certain
-fields than others.
+## Source file
 
 Generally, the raw form of instructions passed to a computer are contained in a
 special file called **source file** The contents of a source file is called
 **source code**. Some additional processes which would be discussed in
 subsequent modules, is required to turn the source code into a useful program.
-
-### How programs work
+This processes would take the source files and convert them into the binary
+format (**machine code**) required by the computer.
 
 Ideally, these **special files** or source files are essentially text files,
 with two parts, the file name, which can be anything, and certain file
@@ -44,22 +44,22 @@ I mentioned the following concepts earlier, shall we do a quick recap before we
 go on?
 
 > [!IMPORTANT]
->
-> 1. Computer understands binary, thus we have to instruct them in binary
-> 2. Human cannot efficiently codify instructions in binary, so we use computer
-> programming language Remember? Ok good!
->
 
-Eventually our programs, or instructions contained in our source file will be
-acted upon by the computer. To do this, the computer uses special programs, one
-is called an **interpreter** and the other one is a **compiler**. As the name
-implies, interpreter translates the content of the source file to what the
-computer can understand, which is? ____ Yes! Binary is correct. This
+> Computer understands binary, thus we have to instruct them in binary; Also
+> humans cannot efficiently codify instructions in binary, so we use computer
+> programming language. Remember? Ok good!
+
+Eventually the instructions contained in source files will need to be processed by the
+computer. To do this, the computer uses special programs, such an
+**interpreter** or a **compiler**.
+
+As the name implies, interpreter translates the content of the source file to
+what the computer can understand, which is? ____ Yes! Binary is correct. This
 interpretation happens every time we want to perform the desired task. On the
 other hand the compiler interprets the programs once and create something called
 an **executable**, this executable is read every time the task is required
 
-> [!NOTE] 
+> [!NOTE]
 
 > Interpreter translates every time the task is required to be completed
 > Compiler translates once and create an executable file from the source file

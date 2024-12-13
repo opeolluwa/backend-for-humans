@@ -1,0 +1,46 @@
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = """Which shell interpreter is used in this code snippet
+```sh
+#!/bin/zsh
+
+echo "Hello, world!"
+```
+"""
+answer.answer = "zsh"
+context = ""
+id = "2ab75601-5eda-4236-babe-a9bffb590b93"
+
+
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = """What is the final output of this code 
+```sh
+#!/bin/zsh
+
+output="Hello world"
+echo $output 
+
+$output=Hello
+echo $output
+```
+"""
+answer.answer = "hello"
+context = ""
+id = "dd1f52c0-b524-4e80-a7fa-a14b60cc5553"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these indicates the ending of a conditional evaluation?"
+prompt.distractors = ["do", "if", "in"]
+answer.answer = "fi"
+id = "f29dee70-f1ea-4244-b023-dbe4482c827e"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these indicates the end of a for-loop?"
+prompt.distractors = ["do", "for", "fi"]
+answer.answer = "done"
+id = "68e0e118-1149-4812-b94e-cc897a35625d"

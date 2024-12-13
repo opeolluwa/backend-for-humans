@@ -28,4 +28,4 @@ Node that the first line is different! The key take away it that,
 1. Any shell script must start with a shebang.
 2. Your shell script does not need to have a file extension
 3. You can couple any combination of the commands we learnt in module 4 for use
-   in a shell script
+   in a shell script. 
