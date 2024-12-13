@@ -11,7 +11,7 @@
 [Requirements](./requirements.md)
 
 [Mode of learning](./mode_of_learning.md)
- 
+
 [What you should know](./what-you-should-know.md)
 
 ## Preliminary concepts
@@ -23,7 +23,7 @@
 - [Introduction to Programming](./module_1/index.md)
   - [Introduction to programming](./module_1/introduction_to_programming.md)
   - [Introduction to programming languages](./module_1/introduction_to_programming_languages.md)
-  - [Programming languages](./module_1/classification_of_programming_languages.md)
+  - [Classification of programming languages](./module_1/classification_of_programming_languages.md)
   - [Module review](./module_1/review.md)
   - [Review Questions](./module_1/quiz.md)
 
@@ -47,7 +47,7 @@
     - [VS code](./module_4/tools/vs-code.md)
     - [WSL (optional - for Windows users)](./module_4/tools/wsl.md)
   - [What is a Shell](./module_4/what-is-a-shell.md)
-  - [Installing git and git Bash](./module_4/installing-git-and-git-bash.md)
+  <!-- - [Installing git and git Bash](./module_4/installing-git-and-git-bash.md) -->
   - [Learning Shell scripting](./module_4/learning-shell-scripting.md)
   - [Shell commands](./module_4/commands/index.md)
     - [echo](./module_4/commands/echo.md)

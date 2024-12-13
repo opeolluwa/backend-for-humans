@@ -6,7 +6,7 @@ In this module we'll learn one of the most important concept required for any
 serious programming task and that's Shell scripting. We'll start by learning
 what the Shell is, common Shell commands, amongst other things.
 
-The module also contain optional requirements for participants that use the Windows
+The module also contain optional requirements for participants that uses the Windows
 operating system, feel free to skip if you use a Linux or an Apple Laptop.
 
 For questions and clarification, consider raising them in the
