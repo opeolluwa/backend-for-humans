@@ -1,9 +1,9 @@
 # Using Variable
 
 Variables are not only typical to Shell scripting, we'll see them a lot in the
-modules to come. They are like special containers for holding
-values. The values they hold can be just about anything you as the programmer
-can think of and they are identified by the name we give them. 
+modules to come. They are like special containers for holding values. The values
+they hold can be just about anything you as the programmer can think of and they
+are identified by the name we give them.
 
 Variable allow us to easily mutate (change, update ) a value. Before going on to
 dealing with variables in Shell scripting, it would suffice to examine how
@@ -18,7 +18,7 @@ Consider this JavaScript code
 ```
 
 <div style="margin: 5rem 0">
-To be candid, for someone that has not written any code, there is a lot of things going on here, and I can almost guess that you just scroll past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
+To be candid, for someone that has not written any code, there is a lot of things going on here, and I can almost guess that you just scrolled past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
 
 When you are done, I encourage you to click on the arrow at the top right corner
 to see the code in action.
@@ -87,10 +87,9 @@ In snake case, you separate your variables with underscore. For example,
 
 ### Upper snake case
 
-Like the snake case, you separate your variables with underscore, however
-these words must be capitalized. For example `MY_NAME`, `MY_FRIENDS_NAME`. This
-is often used for variables that would not change, otherwise knows as
-constants.
+Like the snake case, you separate your variables with underscore, however these
+words must be capitalized. For example `MY_NAME`, `MY_FRIENDS_NAME`. This is
+often used for variables that would not change, otherwise knows as constants.
 
 ### Camel case
 
