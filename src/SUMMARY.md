@@ -65,7 +65,7 @@
 
 - [Writing shell scripts](./module_5/index.md)
   - [Your first script](./module_5/scripts/first-script.md)
-  - [Anatomy of the your first script](./module_5/scripts/anatomy.md)
+  - [Anatomy of your first script](./module_5/scripts/anatomy.md)
   - [Making script executable](./module_5/scripts/making-script-executable.md)
   - [Using Variable](./module_5/scripts/using-variables.md)
   - [Using arrays](./module_5/scripts/using-arrays.md)

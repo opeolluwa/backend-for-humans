@@ -1,4 +1,4 @@
-# Anatomy of the your first script
+# Anatomy of your first script
 
 The first script looks like this
 
