@@ -77,18 +77,13 @@
   - [Module review](./module_5/review.md)
   - [Review questions](./module_5/quiz.md)
 
-- [Introduction to git and Github]()
+- [Introduction to git and Github](./module_6/index.md)
 
 ---
 
 # Frontend basics
 
-- [Introduction to web development]()
-  - [Beginning HTML]()
-  - [Styling the web]()
-  - [Web programming with JavaScript]()
-  - [DOM manipulation with JavaScript]()
-  - [A glance at WebAssembly]()
+- [Introduction frontend development](./module_7/index.md)
 
 ---
 
