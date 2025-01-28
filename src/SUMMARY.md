@@ -78,14 +78,7 @@
   - [Review questions](./module_5/quiz.md)
 
 - [Introduction to git and Github](./module_6/index.md)
-
----
-
-# Frontend basics
-
-- [Introduction frontend development](./module_7/index.md)
-
----
+- [Introduction backend development](./module_7/index.md)
 
 # Beginning Programming
 
