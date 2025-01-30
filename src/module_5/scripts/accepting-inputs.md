@@ -1,7 +1,7 @@
 # Accepting inputs
 
 At times, you want to pass inputs to your shell scripts, this can be achieved
-using the `read` keyword
+using the `read` keyword.
 
 ```sh
 {{#include ../../code-samples/module_5/accepting-inputs}}

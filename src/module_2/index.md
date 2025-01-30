@@ -18,4 +18,4 @@ to
 
 ## Learning Requirement
 
-No additional requirements is required for this module
+No additional requirements is required for this module.

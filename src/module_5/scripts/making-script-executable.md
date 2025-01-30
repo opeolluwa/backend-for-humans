@@ -1,9 +1,10 @@
 # Making script executable
 
-Earlier in this module, you wrote the first script, and execute it
-`sh <file_name>`, it becomes tedious to do this, and that leads us to **making
-you script executable**. Simply this would mean running the script without
-appending the `sh`, consider the previous example,
+Earlier in this module, you wrote the first script, and executed directly in the terminal using the `sh <file_name>` commanand. It becomes tedious to do this repeatedly and that leads us to **making your script executable**.
+
+This is done by adding the `chmod u+x <file_name>` command to the script.
+
+Consider the previous example
 
 ```sh
 {{#include ../../code-samples/module_5/hello}}
@@ -21,17 +22,11 @@ Then to run it, do:
 ./hello
 ```
 
-As a template, to make a script executable, do
-
-```bash
-{{#include ../../code-samples/module_5/make-script-executable}}
-```
-
-As a final example,if our filename is delete_all running this would be
+As a final example, if our file name is `delete_all` and we want to make it executable and run it, we can do:
 
 ```sh
 chmod u+x delete_all
 ./delete_all
 ```
 
-That said, we're do here! Over to the next one.
+That said, we're done here! Over to the next one.

@@ -1,7 +1,7 @@
 # Conditional evaluation
 
-Like variables, conditional evaluation is on of the key things you'll see in
-programming. It's based on which action to execute based on the matched
+Like variables, conditional evaluation is on of the key things you'll come acrossin
+programming. It is used to execute a certain action based on the matched
 condition.
 
 Bash gives you four keywords `if`, `elif`, `else` and `fi`
@@ -10,8 +10,7 @@ Bash gives you four keywords `if`, `elif`, `else` and `fi`
 2. The conditional evaluation can contain zero or more `elif`
 3. The base case, or the fallback must be handled by an `else`
 
-Consider this example, we will read the input from the user and check if it a
-color of the rainbow
+Consider this example, we will read the input from the user and check if it is a rainbow color.
 
 ```sh
 {{#include ../../code-samples/module_5/is-rainbow-color}}

@@ -35,18 +35,20 @@ fi
 The original script, found
 [here](https://github.com/opeolluwa/filesync/blob/master/justfile), is used
 alongside Just[^just], a Shell command runner, to manage a codebase for building
-desktop(macOS) and mobile applications
+desktop(macOS) and mobile applications.
 
-1. On line <span class="line-number">1</span>, we see the previously explained
-   shebang in action
-2. Line <span class="line-number">3</span> to line
-   <span class="line-number">7</span>, declared some variables whose values
-   would be reused in multiple places
-3. On line <span class="line-number">9</span> to
-   line<span class="line-number">24</span>, we have
-   - Conditional evaluation arms with copy the build application, from the
-     source to the destination
-   - If `all` is passed, it would copy all the supported targets, otherwise, it
-     would copy the built application for the stated platform
+1. On line <span class="line-number">1</span>, we see the previously explained shebang in action
+
+2. Line <span class="line-number">3</span> to line <span class="line-number">7</span> declared some variables whose values would be reused in multiple places
+
+3. On line <span class="line-number">9</span> to line<span class="line-number">24</span>, we have
+
+   - Conditional evaluation arms with copy the build application, from thesource to the destination
+
+   - If `all` is passed, it would copy all the supported targets, otherwise, itwould copy the built application for the stated platform.
+
+Don't worry if you don't understand everything at a glance. Like I said, it is an excerpt from a personal project, so it should give you a glimpse of the real life application of what we've just learnt.
+
+I'll encourage you to ponder on it for a short while,  you should figure it out soon enough.
 
 [^just]: <https://just.systems>
