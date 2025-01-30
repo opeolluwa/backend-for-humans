@@ -5,23 +5,22 @@ modules to come. They are like special containers for holding values. The values
 they hold can be just about anything you as the programmer can think of and they
 are identified by the name we give them.
 
-Variable allow us to easily mutate (change, update ) a value. Before going on to
-dealing with variables in Shell scripting, it would suffice to examine how
-variables are named, and how they work
+Variable allow us to easily mutate (change, update) a value.
+
+Before going on to dealing with variables in Shell scripting, it would suffice to examine how variables are named, and how they work.
 
 ## A closer look at variables
 
-Consider this JavaScript code
+Consider this JavaScript code:
 
 ```js
 {{#include ../../code-samples/module_5/introduction_to_variables.js}}
 ```
 
 <div style="margin: 5rem 0">
-To be candid, for someone that has not written any code, there is a lot of things going on here, and I can almost guess that you just scrolled past it! Now, go back, it doesn't make any or much sense but just read/observe all the lines.
+To be candid, for someone that has not written any code, there is a lot of things going on here, and I can almost guess that you just scrolled past it! Now, go back, it doesn't make any or much sense but just read and observe all the lines closely.
 
-When you are done, I encourage you to click on the arrow at the top right corner
-to see the code in action.
+When you are done, I encourage you to click on the play icon on the code snippet top right corner to see the code in action.
 
 ![code run](../../assets/js-code-run.png)
 
@@ -41,8 +40,8 @@ code again.
 These three things; `age`, `gender` and `name` as used here are called
 variables.
 
-At first age was "storing" the value **34**, then I updated this value to
-**45**, and finally **60**
+At first age stored the value **34**, then I updated this value to
+**45**, and finally **60**.
 
 </div>
 
@@ -51,27 +50,24 @@ At first age was "storing" the value **34**, then I updated this value to
 As a rule in many programming languages, or toolchain like the Shell scripting
 we are studying, it is often encouraged that:
 
-1. A variable should be descriptive,
-2. A variable should start with a letter followed by a letter, more alphabets,
-   or underscore.
+1. A variable be descriptive,
+2. A variable starts with a letter followed by a letter, more alphabets, or underscore.
 
-Here are a few examples
+Here are a few examples:
 
-```
+```sh
 my_name = "Adeoye"
-my_country = "nigeria"
+my_country = "Nigeria"
 title_of_a_king = "King Jaja of Opobo"
 ```
 
-The first one, talks about my name, it's very descriptive, the next is my
-country, note that the variable `my_country` is very descriptive, and the same
-can be said about the last example
+The first one, talks about my name, it's very descriptive, the next is my country, note that the variable `my_country` is very descriptive, and the same can be said about the last example.
 
-With out of the way, let's address variable naming convection.
+With this out of the way, let's address variable naming conventions.
 
-## Variable naming convection
+## Variable naming conventions
 
-As of today, there are 5 convectional methods of naming variables, they are as
+As of today, there are 5 conventional methods of naming variables, they are as
 follows
 
 1. snake case
@@ -83,12 +79,12 @@ follows
 ### Snake case
 
 In snake case, you separate your variables with underscore. For example,
-`my_name`, `my_friends_name`
+`my_name`, `my_friends_name`.
 
 ### Upper snake case
 
 Like the snake case, you separate your variables with underscore, however these
-words must be capitalized. For example `MY_NAME`, `MY_FRIENDS_NAME`. This is
+words must be capitalized. For example, `MY_NAME`, `MY_FRIENDS_NAME`. This is
 often used for variables that would not change, otherwise knows as constants.
 
 ### Camel case
@@ -99,12 +95,12 @@ this gives `myName` , `myFriendsName`.
 ### Pascal case
 
 Very similar to camel case, just that you capitalize the first letter of each
-word, this gives. `MyName`, `MyFriendsName`.
+word like this `MyName`, `MyFriendsName`.
 
 ### Kebab case
 
 The kebab case is very similar to the snake case, just that hyphens are used in
-place of underscores. For example, we have `my-name`, `my-friends-name`
+place of underscores. For example, we have `my-name`, `my-friends-name`.
 
 ## Variables in shell scripting
 
@@ -117,22 +113,20 @@ following content.
 ```
 
 On line <span class="line-number"> 3</span> and <span class="line-number">
-4</span>. We declared, the variables `name` and `age`. Then on line
-<span class="line-number"> 6</span> and <span class="line-number"> 7 </span> We
-print this values, using the [echo](../../module_4/commands/echo.md) command we
-have previously discussed.
+4</span> we declared, the variables `name` and `age`. Then on line
+<span class="line-number"> 6</span> and <span class="line-number"> 7 </span> we
+print these values using the [echo](../../module_4/commands/echo.md) command.
 
-Go on to make this executable and run it.
+Let's proeed to make this executable and run it.
 
 ```sh
 chmod u+x var
 ./var
 ```
 
-Suffice to say that, when we want to use these values, we had to prepend the
-variables with dollar sign `$` this is a very important thing.
+Notice how when we needed to access the variable values we had to prepend it with a dollar sign `$`. This is a very important concept when working with variables in Shell scripting.
 
-Your output should be similar to this
+The executed script output should be similar to this:
 
 ```sh
 adeoye

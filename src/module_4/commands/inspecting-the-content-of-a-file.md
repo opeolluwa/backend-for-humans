@@ -1,9 +1,8 @@
 # Inspecting the content of a file
 
-In the [previous lesson](./writing-content-to-file.md), we learnt about writing
-content to a file, what if we can to see the content? we use the `cat` command.
+In the [previous lesson](./writing-content-to-file.md), we learnt about writing content to a file, but what if we can to see the file content?
 
-The `cat` command takes the file path as an argument, this
+The `cat` command takes the file name as an argument and displays its content.
 
 ```sh
 cat info.txt

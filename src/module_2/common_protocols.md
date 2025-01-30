@@ -15,10 +15,10 @@ These are some of the protocols you interact with every day, and their uses:
 | 9     | TCP/IP                | Transmission Control Protocol / Internet Protocol | Basis of the internet, used for reliable data transmission between computers.   |
 
 Other protocols include [gPPC](https://grpc.io/), [MQTT](https://mqtt.org/),
-[AMQP](https://www.amqp.org/)
+[AMQP](https://www.amqp.org/).
 
 One of the things we would do in later parts of this book is to write
-programs to use these protocols to make network request to resource.
+programs that use these protocols to make network request to a resource.
 
 The next section explains what a resource is in detail and uses a sample program
-to make a network request
+to make a network request.
