@@ -35,7 +35,11 @@ additional-js = [
     "plugins/mermaid-init.js",
     "plugins/code-line-number-plugin.js",
 ]
-additional-css = ["plugins/last-changed.css", "plugins/line-number.css"]
+additional-css = [
+    "plugins/last-changed.css",
+    "plugins/line-number.css",
+    "plugins/main.css",
+]
 
 
 [preprocessor.last-changed]

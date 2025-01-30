@@ -82,7 +82,7 @@
 
 # Beginning Programming
 
-- [Choosing a programming language]()
+- [Choosing a programming language](./module_8/index.md)
 - [Available Programming languages]()
   - [JavaScript]()
   - [Rust]()
