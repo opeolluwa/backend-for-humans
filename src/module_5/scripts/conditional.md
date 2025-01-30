@@ -1,6 +1,6 @@
 # Conditional evaluation
 
-Like variables, conditional evaluation is on of the key things you'll come acrossin
+Like variables, conditional evaluation is on of the key things you'll come across in
 programming. It is used to execute a certain action based on the matched
 condition.
 

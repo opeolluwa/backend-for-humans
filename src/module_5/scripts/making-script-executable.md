@@ -1,6 +1,6 @@
 # Making script executable
 
-Earlier in this module, you wrote the first script, and executed directly in the terminal using the `sh <file_name>` commanand. It becomes tedious to do this repeatedly and that leads us to **making your script executable**.
+Earlier in this module, you wrote the first script, and executed directly in the terminal using the `sh <file_name>` commanand. It becomes tedious to do this repeatedly and that leads us to **making your script an executable**.
 
 This is done by adding the `chmod u+x <file_name>` command to the script.
 

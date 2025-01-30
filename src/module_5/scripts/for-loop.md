@@ -2,9 +2,9 @@
 
 The `for` loop as seen in many programming languages, is often used to go over a collection or a list of items and carry out an action.
 
-Four ingredients are required to exeute a for loop in Bash, `for`, `in`, `do`, and `done`.
+Four ingredients are required to execute a for loop in Bash, `for`, `in`, `do`, and `done`.
 
-Consider the array of rainbow colors we mentioned earlier while learning arrays
+Consider the array of rainbow colors we mentioned earlier while learning about arrays
 
 ```sh
 {{#include ../../code-samples/module_5/shell-array}}
