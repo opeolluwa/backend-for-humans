@@ -1,7 +1,9 @@
 # touch
 
-The touch command is used to create files, to create files in the current
-folder, provide the name and path of the file. Let's create a `sample.txt`.
+The touch command is used to create files. To create files in the current
+folder, provide the file name and file extension.
+
+Let's create a `sample.txt` file.
 
 ```sh
 touch sample.txt
@@ -9,7 +11,7 @@ touch sample.txt
 
 ![pwd](../../assets/shell-scripting/touch.png)
 
-To create multiple files, add space between the commands
+To create multiple files, add a space between the file names.
 
 ```sh
 touch info.txt profile.txt interest.txt

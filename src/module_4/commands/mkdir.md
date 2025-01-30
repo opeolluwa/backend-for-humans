@@ -1,14 +1,15 @@
 # mkdir
 
-So far we have learnt how to work with files, `mkdir` allow you to create
-folder, like [touch command](./touch.md), you can pass one or more folders
+So far we have learnt how to work with files. `mkdir` allow you to create
+folder and like [touch command](./touch.md), you can pass one or multiple folder name arguments.
 
-To create a single folder, add one oor more space after `mkdir` then the
-intended name of the folder
+To create a single folder, add a space after `mkdir` then the intended name of the folder.
 
 ```sh
 mkdir test
 ```
+
+![mkdir](../../assets/shell-scripting/mkdir.png)
 
 ## Nested folders
 
@@ -30,7 +31,7 @@ which in turn holds the `sub_directory` and the `another_sub_directory`
 ```
 
 To create a directory `nested_dir` from the parent directory inside the
-`sub_directory`, do:
+`sub_directory`, do this:
 
 ```sh
 mkdir ./root_dir/sub_directory/nested_dir
@@ -38,13 +39,10 @@ mkdir ./root_dir/sub_directory/nested_dir
 
 ## Creating multiple folders
 
-To create multiple folders, specify the folder names separated by one or more
-space character
-
-![mkdir](../../assets/shell-scripting/mkdir.png)
+To create multiple folders, specify the folder names separated by spaces.
 
 ```sh
 mkdir first_folder second_folder third_folder
 ```
 
-for the fun part, you can use the `ls` command to see the content of the file
+Afterwards, you can use the `ls` command to list the newly created files.

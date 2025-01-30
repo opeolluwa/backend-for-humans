@@ -1,7 +1,7 @@
 # Module review
 
 So far, we've barely scratched the surface of shell scripting, there is a lot
-more to it. I have included links to additional resources below
+more to it. I have included links to additional resources below.
 
 ## Additional resources
 

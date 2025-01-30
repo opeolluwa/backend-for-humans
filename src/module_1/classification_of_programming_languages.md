@@ -1,12 +1,11 @@
-# Classification of programming languages.
+# Classification of programming languages
 
-Before we delve into the classifications, we must firmly establish why we write
-programs and the several available ways to do it
+Before we delve into programming language classifications, we must firmly establish why we write programs and the several available ways to do it.
 
-## Beginning programming languages
+## Programming Languages - Foundational Concept
 
 As you may know or have heard, computer accepts and process instructions in
-binary, which is essentially a large sequence of zero's and one's
+binary, which is essentially a large sequence of zero's and one's.
 
 ![binaries](../assets//binay_numbers.png) Humans are incapable of writing
 complex instructions in binary due to a very high tendency of loss of attention
@@ -23,8 +22,8 @@ the popular ones are Python, C++, Java, C, and COBOL, to mention a few.
 Generally, the raw form of instructions passed to a computer are contained in a
 special file called **source file** The contents of a source file is called
 **source code**. Some additional processes which would be discussed in
-subsequent modules, is required to turn the source code into a useful program.
-This processes would take the source files and convert them into the binary
+subsequent modules are required to turn the source code into a useful program.
+These processes collect source files and convert them into the binary
 format (**machine code**) required by the computer.
 
 Ideally, these **special files** or source files are essentially text files,
@@ -49,15 +48,14 @@ go on?
 > humans cannot efficiently codify instructions in binary, so we use computer
 > programming language. Remember? Ok good!
 
-Eventually the instructions contained in source files will need to be processed by the
-computer. To do this, the computer uses special programs, such an
+Eventually the instructions contained in source files will need to be processed by the computer. To do this, the computer uses special programs, such an
 **interpreter** or a **compiler**.
 
 As the name implies, interpreter translates the content of the source file to
 what the computer can understand, which is? ____ Yes! Binary is correct. This
-interpretation happens every time we want to perform the desired task. On the
+interpretation happens every time we want to perform a desired task. On the
 other hand the compiler interprets the programs once and create something called
-an **executable**, this executable is read every time the task is required
+an **executable**, this executable is read every time the task is required.
 
 > [!NOTE]
 
@@ -65,12 +63,12 @@ an **executable**, this executable is read every time the task is required
 > Compiler translates once and create an executable file from the source file
 
 Broadly, computer programming languages are classified based on the special
-programs the computer uses to decode the content of the source file
+programs the computer uses to decode the content of the source file.
 
 Summarily, programming languages are classified as:
 
-1. Interpreted languages, eg JavaScript, Python, Ruby, Perl, etc
-2. Compiled languages, eg. Rust, C++, C, Zig, Go, e.t.c
+1. Interpreted languages, eg. JavaScript, Python, Ruby, Perl, etc.
+2. Compiled languages, eg. Rust, C++, C, Zig, Go, etc.
 
 There are other forms of classification such as imperative languages, Object
 oriented languages, functional languages, and maybe more but I will restrict our
