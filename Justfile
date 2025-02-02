@@ -15,6 +15,7 @@ install-dependencies:
     cargo install mdbook-mermaid
     cargo install mdbook-last-changed
     cargo install mdbook-codeblocks
+    cargo install mdbook-tabs
 
 
 [doc("Build the book and open it in the browser")]
