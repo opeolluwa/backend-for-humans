@@ -14,6 +14,6 @@ The **backend** is where all the heavy lifting happens; where the user's request
 
 Between the backend and the frontend we have the **Application Programming Interfaces** (APIs) which serves as the pipeline connecting the application core (backend) to what the users see -- the frontend.
 
-As a backend engineer, your duties would be to build the application core using any programming language you are most convenient with or with the one your team uses or the one your team lead specifies. Part of yor job is also deciding how the frontend would consume the available data.
+As a backend engineer, your duties would be to build the application core using any programming language you are most convenient with or with the one your team uses or the one your team lead specifies. Part of yor job is also deciding how the frontend would consume the [available resources](../module_2/resources_and_network_request.html?highlight=resour#resource) and handling the absence thereof.
 
 With this, we have come to the end of the preliminary concepts. In the next section, we will focus on programming, from choosing a programming language to doing some tasks and petty projects.
