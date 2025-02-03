@@ -2,9 +2,10 @@
 
 The `for` loop is often used to iterate over a collection or a list of items and carry out an action.
 
-Four key words are used to execute a for loop in Bash, `for`, `in`, `do`, and `done`.
+Four ingredients are required to execute a for loop in Bash, `for`, `in`, `do`, and `done`.
 
-Consider the array of rainbow colors we used in our first lesson on arrays.
+Consider the array of rainbow colors we mentioned earlier while learning about arrays
+
 
 ```sh
 {{#include ../../code-samples/module_5/shell-array}}

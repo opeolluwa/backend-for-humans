@@ -1,6 +1,8 @@
 # Conditional evaluation
 
+
 Like variables, conditional evaluation is one of the key concepts you'll come across in programming. It is used to execute a certain action based on matched conditions.
+
 
 Bash gives you four conditional keywords `if`, `elif`, `else` and `fi`.
 
