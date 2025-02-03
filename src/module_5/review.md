@@ -1,8 +1,3 @@
 # Module review
 
-In this module we learnt about how to put your script in a file and run them,
-rather than input them from the keyboard as seen in module 4. We also talked
-about making your Shell script and executable and other notable concepts like
-array, conditional evaluation, for loops and reading shell script.
-
-
+In this module, we learnt about the process of saving your script to a file and executing it, as opposed to entering commands directly via the keyboard, as demonstrated in module 4. We also covered important concepts such as how to make your shell script executable, working with arrays, performing conditional evaluations, utilizing for loops, and reading shell scripts effectively.

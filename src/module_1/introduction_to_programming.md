@@ -6,11 +6,8 @@ To begin this module, see the video below.
 
 ## What is computer programming?
 
-Broadly, computer programming is telling a computer exactly what to do. This is
-done using a procedural syntax popular referred to as **code**, which combines special words, signs, and symbols.
+Broadly, computer programming is telling a computer exactly what to do. This is done using a procedural syntax popularly referred to as **code**, which combines special words, signs, and symbols.
 
 It’s like giving the computer a recipe so it knows how to make something happen.
 
-This special set of words, signs and symbols is otherwise known as computer
-**programming language** which would be explored in detail in subsequent
-modules.
+These special sets of words, signs and symbols constitute the term **computer programming languages**, a concept we will explore in detail.
