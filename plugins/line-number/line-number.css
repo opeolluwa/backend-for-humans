@@ -3,4 +3,6 @@
     padding: 1px 6px;
     border-radius: 5px;
     font-size: small;
+    display: inline-block;
+    margin: 0 2px;
 }

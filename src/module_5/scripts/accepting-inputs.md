@@ -25,6 +25,6 @@ Adeoye
 45
 ```
 
-When I executed the program, I was greeted with the `What is your name?` question. I responded with my name **Adeoye**. Thanks to the `Read` keyword, this name was assigned and stored as the variable `name`. The same thing happened when I answered the `How old are you?` question, however, this time my response was stored as the variable `age`.
+When I executed the program, I was greeted with the `What is your name?` question. I responded with my name **Adeoye**. Thanks to the `read` keyword, this name was assigned and stored as the variable `name`. The same thing happened when I answered the `How old are you?` question, however, this time my response was stored as the variable `age`.
 
 Ultimately, the program was able to precisely recall and 'echo' my responses to both questions because I made it read and accept them as variable values.
