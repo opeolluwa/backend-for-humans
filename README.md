@@ -10,6 +10,13 @@ An intuitive Backend engineering roadmap especially for for non-technical people
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+
+
+![GitHub contributors](https://img.shields.io/github/contributors/opeolluwa/backend-for-humans)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/opeolluwa/backend-for-humans)
+
+
 ## Description
 
 Backend roadmap for non-technical people
@@ -22,7 +29,7 @@ To build the application locally, you need:
 
 - [Rust](https://rust-lang.org)
 - [just](https://just.systems)
-- [mdbook](=https://rust-lang.github.io/mdBook/)
+- [mdbook](https://rust-lang.github.io/mdBook/)
 
 ### Executing program
 
