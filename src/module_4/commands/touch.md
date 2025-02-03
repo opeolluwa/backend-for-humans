@@ -4,18 +4,40 @@ The touch command is used to create files. To create files in the current folder
 
 Let's create a `sample.txt` file.
 
-```sh
+{{#tabs }}
+{{#tab name="macOS" }}
+
+```bash
 touch sample.txt
 ```
+
+{{#endtab }}
+
+{{#tab name="Powershell" }}
+
+```bash
+code sample.txt
+```
+
+{{#endtab }}
+
+{{#tab name="Linux or WSL" }}
+
+```sh
+touch sample.txt 
+```
+
+{{#endtab }}
+{{#endtabs }}
 
 ![pwd](../../assets/shell-scripting/touch.png)
 
 To create multiple files, add a space between the file names. Add a comma and a space for Windows.
 
 {{#tabs }}
-{{#tab name="Unix" }}
+{{#tab name="macOS" }}
 
-```sh
+```bash
 touch info.txt profile.txt interest.txt
 ```
 
@@ -23,7 +45,7 @@ touch info.txt profile.txt interest.txt
 
 {{#tab name="Powershell" }}
 
-```sh
+```bash
 code info.txt, profile.txt, interest.txt
 ```
 

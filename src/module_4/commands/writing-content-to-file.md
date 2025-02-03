@@ -7,7 +7,7 @@ The [echo](./echo.md) command we discussed earlier can be used to write stuff to
 Typically, the text passed to the echo commands, other wise known as the `argument` gets printed to the [stdout](./std.md), however we can "pipe" this value to a file
 
 ```sh
-echo "This is a very crucial information, keep it safe from prying eyes" > info.txt
+echo "unless you are permitted to share!!" > info.txt
 ```
 
 ![writing content to file](../../assets/shell-scripting/writing-to-file.png)
