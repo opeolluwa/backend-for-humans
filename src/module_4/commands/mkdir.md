@@ -1,9 +1,8 @@
 # mkdir
 
-So far we have learnt how to work with files. `mkdir` allow you to create
-folder and like [touch command](./touch.md), you can pass one or multiple folder name arguments.
+So far, we have learnt how to work with files. `mkdir` allows you to create a folder and like the [touch command](./touch.md), you can pass one or multiple folder name arguments.
 
-To create a single folder, add a space after `mkdir` then the intended name of the folder.
+To create a single folder, add a space after `mkdir` and then pass the intended name of the folder.
 
 ```sh
 mkdir test
@@ -11,14 +10,44 @@ mkdir test
 
 ![mkdir](../../assets/shell-scripting/mkdir.png)
 
+## Creating multiple folders
+
+You can create multiple folders by separating the folder name arguments with space.
+
+{{#tabs }}
+{{#tab name="Unix" }}
+
+```sh
+mkdir first_folder second_folder third_folder
+```
+
+{{#endtab }}
+
+{{#tab name="Powershell" }}
+
+```sh
+mkdir first_folder, second_folder, third_folder
+```
+
+{{#endtab }}
+
+{{#tab name="Linux/WSL" }}
+
+```sh
+mkdir first_folder second_folder third_folder
+```
+
+{{#endtab }}
+{{#endtabs }}
+
+Afterwards, you can use the `ls` command to list the newly created files.
+
 ## Nested folders
 
-This would create a folder in the present directory. If this in not what you
-intend, perhaps you want to create folder on a sub subdirectory, consider the
-following structure, where the `parent_directory` contains the `root_directory`
-which in turn holds the `sub_directory` and the `another_sub_directory`
+Consider the following folder structure, where the `parent_directory` contains a `root_directory` which in turn holds a `sub_directory` and `another_sub_directory`.
 
-```
+```txt
+
 |
 --parent_directory
 |
@@ -30,19 +59,10 @@ which in turn holds the `sub_directory` and the `another_sub_directory`
 |
 ```
 
-To create a directory `nested_dir` from the parent directory inside the
-`sub_directory`, do this:
+To nest a directory `nested_dir` inside the `sub_directory` from the parent directory, do this:
 
 ```sh
-mkdir ./root_dir/sub_directory/nested_dir
+mkdir ./root_directory/sub_directory/nested_dir
 ```
 
-## Creating multiple folders
-
-To create multiple folders, specify the folder names separated by spaces.
-
-```sh
-mkdir first_folder second_folder third_folder
-```
-
-Afterwards, you can use the `ls` command to list the newly created files.
+Voila!

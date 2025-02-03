@@ -1,7 +1,6 @@
 # Your first script
 
-To begin, open the [VS code](./../tools/vs-code.md) then see the video below for
-setup instructions to create a folder
+To begin, open the [VS code](./../tools/vs-code.md) then see the video below for setup instructions to create a folder
 
 ## Creating a new folder
 
@@ -16,20 +15,15 @@ The following video instruction walks you through how to create files in Vscode.
 
 ### Method 2
 
-On the flip side, you can leverage the Shell scripting knowledge you have been
-armed with. Press <kbd> Command </kbd> + <kbd> \`</kbd> on macOS, the <kbd>
-\`</kbd> key is typically under <kbd> Esc</kbd> key.
+Press <kbd> Command </kbd> + <kbd> \`</kbd> on macOS, the <kbd> \`</kbd> key is usually under the <kbd> Esc</kbd> key.
 
-For windows users you press <kbd> Win </kbd> + <kbd> \`</kbd>.
-
-The command will open the Vscode integrated terminal, from where you can create
-a new file.
+For windows users, press the windows key <kbd> Win </kbd> + <kbd> \`</kbd>. The command will open the Vscode integrated terminal, from where you can create a new file.
 
 With that out of the way, let's go on to our first script.
 
 ## Writing our first script
 
-Create a file named `hello`. Yes, some programmers prefer to use the `.sh` extension for their scripts, such as `hello.sh`, it is not required, and we'll not be doing that. In the newly created file, add the following content.
+Create a file named `hello` manually or use the [touch](../../module_4/commands/touch.md) command. Yes, some programmers prefer to use the `.sh` extension for their scripts, such as `hello sh`, it is not required, and we'll not be doing that. In the newly created file, add the following content.
 
 ```sh
 {{#include ../../code-samples/module_5/hello}}
@@ -37,7 +31,7 @@ Create a file named `hello`. Yes, some programmers prefer to use the `.sh` exten
 
 From the terminal, execute `sh hello`.
 
-This would print `Hello world` to the terminal.
+This prints `Hello world` to the terminal.
 
 ```sh
  % sh hello 
