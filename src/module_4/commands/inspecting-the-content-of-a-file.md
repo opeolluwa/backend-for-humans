@@ -1,6 +1,6 @@
 # Inspecting the content of a file
 
-In the [previous lesson](./writing-content-to-file.md), we learnt about writing content to a file, but what if we can to see the file content?
+In the [previous lesson](./writing-content-to-file.md), we learnt about writing content to a file but what if we want to view the file content?
 
 The `cat` command takes the file name as an argument and displays its content.
 

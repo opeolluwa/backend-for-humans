@@ -1,7 +1,6 @@
 # Sample scripts
 
-Here is an excerpt from a personal project which reflect most of the concepts
-discussed hitherto.
+Here's an excerpt from a personal project which reflects the major the concepts discussed in this module.
 
 ```sh
 #!/usr/bin/bash    
@@ -32,10 +31,7 @@ fi
 
 ## Explanation
 
-The original script, found
-[here](https://github.com/opeolluwa/filesync/blob/master/justfile), is used
-alongside Just[^just], a Shell command runner, to manage a codebase for building
-desktop(macOS) and mobile applications.
+The original script, found [here](https://github.com/opeolluwa/filesync/blob/master/justfile), is used alongside **Just**[^just], a Shell command runner, to manage a codebase for building desktop(macOS) and mobile applications.
 
 1. On line <span class="line-number">1</span>, we see the previously explained shebang in action
 
@@ -49,6 +45,6 @@ desktop(macOS) and mobile applications.
 
 Don't worry if you don't understand everything at a glance. Like I said, it is an excerpt from a personal project, so it should give you a glimpse of the real life application of what we've just learnt.
 
-I'll encourage you to ponder on it for a short while,  you should figure it out soon enough.
+I'll encourage you to ponder on it for a short while, you should figure it out soon enough.
 
 [^just]: <https://just.systems>

@@ -23,6 +23,8 @@ python.loading = "lazy"
 
 [preprocessor.quiz]
 
+[preprocessor.tabs]
+
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
@@ -34,12 +36,12 @@ additional-js = [
     "plugins/mermaid.min.js",
     "plugins/mermaid-init.js",
     "plugins/code-line-number-plugin.js",
+    "theme/tabs.js",
 ]
-additional-css = [
-    "plugins/last-changed.css",
-    "plugins/line-number.css",
-    "plugins/main.css",
-]
+
+additional-css = ["plugins/last-changed.css", "plugins/line-number.css", "theme/tabs.css"]
+
+
 
 
 [preprocessor.last-changed]

@@ -5,14 +5,17 @@ An intuitive Backend engineering roadmap especially for for non-technical people
 - [Description](#description)
 - [Getting Started](#getting-started)
   - [Dependencies](#dependencies)
-  - [Installing](#installing)
   - [Executing program](#executing-program)
-- [Documentation](#documentation)
 - [Help](#help)
-- [Authors](#authors)
-- [Version History](#version-history)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+
+
+![GitHub contributors](https://img.shields.io/github/contributors/opeolluwa/backend-for-humans)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/opeolluwa/backend-for-humans)
+
 
 ## Description
 
@@ -22,57 +25,43 @@ Backend roadmap for non-technical people
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before
-  installing program.
-- ex. Windows 10
+To build the application locally, you need:
 
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+- [Rust](https://rust-lang.org)
+- [just](https://just.systems)
+- [mdbook](https://rust-lang.github.io/mdBook/)
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
+#### Clone and set up the project
 
+Setting up the project can take a few to several minutes due to your machine and
+the network speed
+
+```sh
+git clone https://github.com/opeolluwa/backend-for-humans 
+cd backend-for-humans
+just install-dependencies
 ```
-code blocks for commands
+
+#### Run the project in watch mode
+
+```sh
+just watch
 ```
-
-## Documentation
-
-Describe any special instructions that are necessary to install a software
-package on your computer (if applicable).
 
 ## Help
 
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie\
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-- 0.2
-  - Various bug fixes and optimizations
-  - See [commit change]() or See [release history]()
-- 0.1
-  - Initial Release
+For help and suggestions, consider opening a
+[new discussion](https://github.com/opeolluwa/backend-for-humans)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file
-for details
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE)
+file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+I would like the acknowledge the efforts of fellow programmers and computer
+scientist who took time against all odds to make videos, articles and related
+media contents freely available for use on the internet.

@@ -44,10 +44,9 @@
 
 - [Introduction to Shell scripting](./module_4/index.md)
   - [Installing the necessary tools](./module_4/tools/index.md)
-    - [VS code](./module_4/tools/vs-code.md)
+  - [VS code](./module_4/tools/vs-code.md)
     - [WSL (optional - for Windows users)](./module_4/tools/wsl.md)
   - [What is a Shell](./module_4/what-is-a-shell.md)
-  <!-- - [Installing git and git Bash](./module_4/installing-git-and-git-bash.md) -->
   - [Learning Shell scripting](./module_4/learning-shell-scripting.md)
   - [Shell commands](./module_4/commands/index.md)
     - [echo](./module_4/commands/echo.md)
