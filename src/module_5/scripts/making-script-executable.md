@@ -1,6 +1,7 @@
 # Making scripts executable
 
-Earlier in this module, you wrote your first script and executed it directly in the terminal using the `sh <file_name>` command. It becomes tedious to do this repeatedly especially with multiple scripts but there's a solution.
+Earlier in this module, you wrote the first script, and executed directly in the terminal using the `sh <file_name>` commanand. It becomes tedious to do this repeatedly and that leads us to **making a script an executable**.
+
 
 You can make a script **executable**.
 
