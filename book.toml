@@ -3,7 +3,7 @@ authors = ["Adeoye Adefemi"]
 language = "en"
 multilingual = false
 src = "src"
-description = "Backend development guide for non-techical people"
+description = "Backend development guide for non-technical people"
 title = "Backend Roadmap for Humans"
 github = "https://github.com/opeolluwa/backend-for-humans"
 
@@ -23,6 +23,9 @@ python.loading = "lazy"
 
 [preprocessor.quiz]
 
+[preprocessor.tabs]
+
+
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
@@ -31,11 +34,19 @@ git-repository-url = "https://github.com/opeolluwa/backend-for-humans"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/opeolluwa/backend-for-humans/edit/master/{path}"
 additional-js = [
-    "plugins/mermaid.min.js",
-    "plugins/mermaid-init.js",
-    "plugins/code-line-number-plugin.js",
+    "plugins/mermaid/mermaid-init.js",
+    "plugins/mermaid/mermaid.min.js",
+    "plugins/line-number/code-line-number-plugin.js",
+    "plugins/tabs/tabs.js",
 ]
-additional-css = ["plugins/last-changed.css", "plugins/line-number.css"]
+additional-css = [
+    "plugins/last-changed/last-changed.css",
+    "plugins/line-number/line-number.css",
+    "plugins/tabs/tabs.css",
+]
+
+
+
 
 
 [preprocessor.last-changed]
