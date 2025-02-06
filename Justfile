@@ -1,4 +1,7 @@
+alias install := install-dependencies
 
+# Minimum version requirement 
+MDBOOK_VERSION := "^0.4"
 
 [doc("List available commands")]
 default:
@@ -7,7 +10,7 @@ default:
 
 [doc("Install dependencies")]
 install-dependencies:
-    cargo install --version ${MDBOOK_VERSION} mdbook
+    cargo install --version {{MDBOOK_VERSION}} mdbook
     cargo install mdbook-embedify
     cargo install mdbook-alerts
     cargo install mdbook-repl
