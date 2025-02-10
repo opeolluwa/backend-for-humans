@@ -19,6 +19,7 @@ install-dependencies:
     cargo install mdbook-last-changed
     cargo install mdbook-codeblocks
     cargo install mdbook-tabs
+    cargo install mdbook-cmdrun
 
 
 [doc("Build the book and open it in the browser")]
