@@ -4,7 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 description = "Backend development guide for non-technical people"
-title = "Backend Roadmap for Humans"
+title = "Backend for Humans"
 github = "https://github.com/opeolluwa/backend-for-humans"
 
 [build]
@@ -44,10 +44,6 @@ additional-css = [
     "plugins/line-number/line-number.css",
     "plugins/tabs/tabs.css",
 ]
-
-
-
-
 
 [preprocessor.last-changed]
 command = "mdbook-last-changed"
