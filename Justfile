@@ -1,4 +1,7 @@
 
+MDBOOK_VERSION := "0.4.42"
+
+alias install-deps := install-dependencies 
 
 [doc("List available commands")]
 default:
@@ -7,7 +10,7 @@ default:
 
 [doc("Install dependencies")]
 install-dependencies:
-    cargo install --version ${MDBOOK_VERSION} mdbook
+    cargo install --version {{MDBOOK_VERSION}} mdbook
     cargo install mdbook-embedify
     cargo install mdbook-alerts
     cargo install mdbook-repl
@@ -16,6 +19,7 @@ install-dependencies:
     cargo install mdbook-last-changed
     cargo install mdbook-codeblocks
     cargo install mdbook-tabs
+    cargo install mdbook-embed
 
 
 [doc("Build the book and open it in the browser")]
