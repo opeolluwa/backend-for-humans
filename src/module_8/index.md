@@ -1,8 +1,13 @@
 # Choosing a programming language
 
 Before we begin this section, I would like to congratulate you for getting past
-the preliminary concepts section -- that's module 1 - 7. In this section, our
-focus would be on programming! Let's being!
+the preliminary concepts section — that's module 1 - 7. In this section, our
+focus would be on programming! It's been quite interesting, Let's being!
+
+> [!TIP]
+>
+> Before you begin programming, note that, some things might take time to stick,
+> and that's not your fault
 
 ## What you should know
 
@@ -12,22 +17,22 @@ Here are some key things you should know before choosing a language
 
 <dl>
 <dt class="bold-strong"> 1. The end goal</dt>
-<dd> What you intend to achieve or the domain you want to programming in </dd>
+<dd> That's the domain you want to programming in, is it building mobile apps, building servers(backend), or working with AI? </dd>
 
-<dt class="bold-strong"> 2. Adoption</dt>
-<dd> When you build applications or software, you'd run into issues and in need of help, it's great to choose a language adopted for the domain, for instance,using Golang for embedded software might be wrong, as of the time of this writing, when compared to the use and adoption of C/C++  </dd>
+<dt class="bold-strong"> 2. Community strength and support</dt>
+<dd> When you build applications or software, you'd run into issues and you'd be  in need of help, it's great to choose a language adopted for the domain, for instance,using Golang for embedded software might be wrong because you may not get a lot of support, at least as of the time of this writing, when compared to the use and adoption of C/C++  </dd>
 
 <dt class="bold-strong"> 3. Learning curve</dt>
 <dd> While this isn't exactly a problem when you have excess time, a steep learning curve mean you need to do more groundwork to understand some concepts</dd>
 </dl>
 
-Now, let's try to review those keynotes and how this resource help you,
+Now, let's try to review those keynotes and how this resource helps you,
 
 1. **The end goal**: The end goal of this book is to teach you core programming
    concepts and make you a backend engineer.
-2. **Adoption**: I have carefully selected 4 programming languages used for
-   backend applications
-3. **Learning curve**: The 4 available languages have different learning curves
+2. **Adoption**: I have carefully selected 2 programming languages used for
+   backend applications, that's Javascript and Rust.
+3. **Learning curve**: The 2 available languages have different learning curves
    discussed below;
 
 ## Learning Curves
@@ -40,8 +45,8 @@ _**dynamically typed languages**_.
 
 ### Statically typed languages
 
-In statically typed languages, the programmer is often required to expressively
-indicate the type of a
+In statically typed languages, the programmer is often required to indicate the
+type of a
 [variable](../module_5/scripts/using-variables.html?highlight=variable#using-variable).
 This mean you must state if your variable is a number or letters (string), an
 array or something else, and example of such in this resource is the Rust
@@ -71,8 +76,9 @@ are already familiar with one. One thing you must not doing when starting out is
 learning two or more programming languages concurrently, it's usually difficult,
 frustrating and non-productive.
 
-In the next module, I'll introduce the 4 programming language, I encourage you
-to choose one that catches your interest and stick it to the end of the material
-for effective learning.
+In the next module, I'll introduce the 2 programming language — Rust and
+JavaScript, I encourage you to carefully go through each and choose one that
+catches your interest and stick it to the end of the material for effective
+learning.
 
 Happy hacking!

@@ -46,7 +46,6 @@ jobs:
           cargo install mdbook-codeblocks
           cargo install mdbook-tabs
           cargo install mdbook-hide
-          cargo install mdbook-pagetoc
           cargo install mdbook-cmdrun
       - name: Setup Pages
         id: pages

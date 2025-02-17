@@ -84,7 +84,6 @@
 - [Choosing a programming language](./module_8/index.md)
 - [Available Programming languages](./module_9/index.md)
   - [JavaScript](./module_9/javascript/index.md)
-    - [Introduction to JavaScript](./module_9/javascript/intro.md)
     - [History of JavaScript](./module_9/javascript/history.md)
     - [Use cases](./module_9/javascript/use-cases.md)
     - [Hello World!](./module_9/javascript/hello-world.md)

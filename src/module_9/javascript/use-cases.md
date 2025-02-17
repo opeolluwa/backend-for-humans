@@ -1,1 +1,1 @@
-# Use cases
+# JavaScript Use cases

@@ -22,7 +22,6 @@ install-dependencies:
     cargo install mdbook-tabs
     cargo install mdbook-embed
     cargo install mdbook-hide
-    cargo install mdbook-pagetoc
     cargo install mdbook-cmdrun
 
 

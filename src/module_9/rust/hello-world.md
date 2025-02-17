@@ -1,7 +1,7 @@
 # Hello World program in Rust
 
 In this section, we are going to install the Rust programming language and write
-a basic program that prints "Hello World!" [^note]
+a basic program that prints "Hello World!" 
 
 ## What is an "Hello World" program ?
 
