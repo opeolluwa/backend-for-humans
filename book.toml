@@ -25,6 +25,8 @@ python.loading = "lazy"
 
 [preprocessor.tabs]
 
+[preprocessor.hide]
+hide = true
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"

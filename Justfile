@@ -2,6 +2,7 @@
 MDBOOK_VERSION := "0.4.42"
 
 alias install-deps := install-dependencies 
+alias install := install-dependencies
 
 [doc("List available commands")]
 default:
@@ -20,6 +21,9 @@ install-dependencies:
     cargo install mdbook-codeblocks
     cargo install mdbook-tabs
     cargo install mdbook-embed
+    cargo install mdbook-hide
+    cargo install mdbook-pagetoc
+    cargo install mdbook-cmdrun
 
 
 [doc("Build the book and open it in the browser")]
