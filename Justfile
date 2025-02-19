@@ -1,7 +1,8 @@
+alias install-deps := install-dependencies 
 alias install := install-dependencies
 
-# Minimum version requirement 
 MDBOOK_VERSION := "^0.4"
+
 
 [doc("List available commands")]
 default:
@@ -19,6 +20,9 @@ install-dependencies:
     cargo install mdbook-last-changed
     cargo install mdbook-codeblocks
     cargo install mdbook-tabs
+    cargo install mdbook-embed
+    cargo install mdbook-hide
+    cargo install mdbook-cmdrun
 
 
 [doc("Build the book and open it in the browser")]
