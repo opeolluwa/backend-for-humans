@@ -27,7 +27,6 @@ You can change `users` in `const key = "users"` to either `recipe`, `todos`,
 To make this request, click on the play icon at the top right corner of the code
 snippet.
 
-![test](../assets/network_request.png)
 
 ```javascript
 const key = "comments"; // change this line

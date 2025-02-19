@@ -1,8 +1,8 @@
-
-MDBOOK_VERSION := "0.4.42"
-
 alias install-deps := install-dependencies 
 alias install := install-dependencies
+
+MDBOOK_VERSION := "^0.4"
+
 
 [doc("List available commands")]
 default:
