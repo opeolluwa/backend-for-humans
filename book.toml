@@ -63,3 +63,5 @@ renderer = ["html"]
 # swift = { label = "Swift code snippet", color = "skyblue" }
 # javascript = { label = "JavaScript code snippet", color = "#fdca00" }
 # bash = { label = "Bash code snipper", color = "#997C70" }
+
+[preprocessor.cmdrun]

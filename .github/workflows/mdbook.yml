@@ -45,6 +45,7 @@ jobs:
           cargo install mdbook-last-changed
           cargo install mdbook-codeblocks
           cargo install mdbook-tabs
+          cargo install mdbook-cmdrun
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
