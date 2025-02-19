@@ -93,12 +93,37 @@
     - [Hello World](./module_9/rust/hello-world.md)
   - [Python](./module_9/python/index.md)
   - [Golang](./module_9/golang/index.md)
-- [Core programming concepts]()
+  - [Summary](./module_9/summary.md)
+  - [Review questions](./module_9/quiz.md)
+
+---
+
+# Programming JavaScript
+
+- [Core programming concepts In JavaScript]()
   - [Overview of the language]()
   - [Data types]()
   - [Control flow]()
   - [Iteration]()
   - [Functions]()
+
+- [JavaScript advanced concepts]()
+
+---
+
+# Programming Rust
+
+- [Core programming concepts In Rust]()
+  - [Overview of the language]()
+  - [Data types]()
+  - [Control flow]()
+  - [Iteration]()
+  - [Functions]()
+- [Rust advanced concepts]()
+
+---
+
+# Projects
 
 - [Project 1]()
 - [Project 2]()
@@ -107,6 +132,12 @@
 - [Project 5]()
 
 ---
+
+# Object Oriented Programming in JavaScript
+
+---
+
+# Object Oriented Programming in Rust
 
 ---
 

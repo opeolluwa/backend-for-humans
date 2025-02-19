@@ -1,7 +1,7 @@
 # Hello World program in Rust
 
 In this section, we are going to install the Rust programming language and write
-a basic program that prints "Hello World!" 
+a basic program that prints "Hello World!"
 
 ## What is an "Hello World" program ?
 
@@ -25,5 +25,23 @@ touch hello_world.rs
 **Step two**: Add the code below to your `hello_world.rs` file
 
 ```rust
-{{#include ../../code-samples/module_9_rust/hello_world.rs}}
+{{#include ../../code-samples/module_9/hello_world.rs}}
 ```
+
+**Step three**
+
+1. For Windows Operating system
+
+```sh
+rustc hello_world.rs -o hello
+./hello.exe
+```
+
+2. For Linux and Mac
+
+```sh
+rustc hello_world.rs -o hello
+./hello
+```
+
+## Video Guide

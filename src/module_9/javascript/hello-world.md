@@ -3,20 +3,45 @@
 In this section, we are going to install the NodeJs and write a basic program
 that prints "Hello World!"
 
+## Installing NodeJS
+
+See the NodeJs setup guide here <https://nodejs.org/en/download>, for Windows
+user, you need to add NodeJs to you path variable, see the guide here
+<https://hackmd.io/@hm222vx/AddNodeJSPath>
+
+## Confirm NodeJs installation
+
+When you install NodeJS, it comes with other tools like `npx` and `npm`, to
+confirm the installation is successfully, open a new terminal and past the
+following commands
+
+```sh
+node -v 
+npm -v
+npx -v
+```
+
+<div class="command-output">
+<!-- cmdrun node -v  -->
+</div>
+
+<div class="command-output">
+<!-- cmdrun npm -v  -->
+</div>
+
+<div class="command-output">
+<!-- cmdrun npx -v  -->
+</div>
+
 ## What is an "Hello World" program ?
 
-Put simple, it is writing a program that prints "Hello world" (or "Hello,
-world!"). It's like some sort of ritual in the board programming community to
-welcome yourself; just like a baby's first cry.
+Put simply, it is writing a program that prints "Hello world" (or "Hello,
+world!"). It's like some sort of ritual in the broad programming community to
+welcome a new programmer, some sort of a baby's first cry.
 
-## Installing the JavaScript programming language toolchain.
+## Writing the Hello world program
 
-See this video on the installation guide and everything you need to know about
-using the Rust programming language.
-
-## Writing Hello world in Rust
-
-**Step one**: Create a new `hello_world.rs` file
+**Step one**: Create a new `hello_world.js` file
 
 ```sh
 touch hello_world.js
@@ -24,6 +49,14 @@ touch hello_world.js
 
 **Step two**: Add the code below to your `hello_world.js` file
 
-```rust
-{{#include ../../code-samples/module_9_rust/hello_world.js}}
+```javascript
+{{#include ../../code-samples/module_9/hello_world.js}}
 ```
+
+**Step three** in the same terminal used to create the new file, execute
+
+```sh
+node hello_world.js
+```
+
+## Video guide

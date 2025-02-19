@@ -6,11 +6,19 @@ before finally being named JavaScript to capitalize on the popularity of Java at
 the time.
 
 Not until the release of [NodeJs](https://nodejs.org), (discussed shortly),
-in 2009. JavaScript is used predominantly (if not entirely ) in a browser
+in 2009. JavaScript is used predominantly (if not entirely ) in a browser.
 
-However, in 2009, Ryan Dahl, created something that has since changed the fate
-of JavaScript. This tool is called NodeJs. NodeJs makes it possible for us to
-use JavaScript for virtually anything.
+Every web browsers has JavaScript engine, which makes it possible to
+programmatically control or modify the website, through two major interface
+called the _**Document Object Model**_ and the _**Browser Object Model**_. DOM
+and BOM are outside the scope of this book so we won't be discussing them any
+further.
+
+In 2009, Ryan Dahl, created something that has since changed the fate of
+JavaScript. Ryan "extracted" the JavaScript engine from a browser and make it
+use able outside the browser, he called this creation NodeJS
+
+With NodeJs, it is now possible for to use JavaScript for virtually anything.
 
 In 2010, [npm](https://npmjs.org)[^note], this makes it possible to use other
 people's code which they give out freely (Open Source Codes), thus increasing
@@ -18,13 +26,18 @@ the strength of the JavaScript community.
 
 Other important things to note are:
 
-1. Introduction of TYpescript
-2. Electron
-3. React Native
-4. React 
-5. ExpressJs 
-7. Deno
-8. Bun 
+1. 2010, [ExpressJs](https://expressjs.com/) A tool for building servers
+   (backend)
+2. 2012, [Typescript](https://www.typescriptlang.org/) another programming
+   language, modelled after JavaScript
+3. 2013, [Electron](https://www.electronjs.org/) - A tool for creating desktop
+   applications
+4. 2015, [React Native](https://reactnative.dev/) - A tool for building mobile
+   applications and desktop applications JavaScript
+5. 2018, [Deno](deno.land) Deno is a runtime for JavaScript, TypeScript, and
+   WebAssembly that is based on the V8 JavaScript engine
+6. [Bun](https://bun.sh/) Bun is a fast JavaScript runtime
 
-
-The Bottom line is, JavaScript has been around for almost three decades and, a number of dictators have tried to overthrow it (pun intended). I don't think it would be going anywhere anytime soon, especially with it increasing adoption
+The Bottom line is, JavaScript has been around for almost three decades and, a
+number of dictators have tried to overthrow it (pun intended). I don't think it
+would be going anywhere anytime soon, especially with it increasing adoption

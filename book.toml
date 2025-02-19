@@ -47,6 +47,7 @@ additional-css = [
     "plugins/last-changed/last-changed.css",
     "plugins/line-number/line-number.css",
     "plugins/tabs/tabs.css",
+    "plugins/main.css"
 ]
 
 [preprocessor.last-changed]
