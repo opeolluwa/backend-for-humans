@@ -8,21 +8,26 @@ the time.
 Not until the release of [NodeJs](https://nodejs.org), (discussed shortly),
 in 2009. JavaScript is used predominantly (if not entirely ) in a browser.
 
+## What is NodeJS?
+
 Every web browsers has JavaScript engine, which makes it possible to
 programmatically control or modify the website, through two major interface
-called the _**Document Object Model**_ and the _**Browser Object Model**_. DOM
-and BOM are outside the scope of this book so we won't be discussing them any
-further.
+called the _**Document Object Model**_ and the _**Browser Object Model**_. The
+JavaScript engine is also essentially for effective functioning of JavaScript
+frameworks ( and libraries) like Vue, Angular and React which you have probably
+heard of.
 
-In 2009, Ryan Dahl, created something that has since changed the fate of
-JavaScript. Ryan "extracted" the JavaScript engine from a browser and make it
-use able outside the browser, he called this creation NodeJS
+In 2009, a man called [Ryan Dahl](https://x.com/rough__sea?), created something
+that has since changed the fate of JavaScript. Ryan "extracted" the JavaScript
+engine from a browser and make it use able outside the browser, he called this
+creation NodeJS
 
 With NodeJs, it is now possible for to use JavaScript for virtually anything.
 
-In 2010, [npm](https://npmjs.org)[^note], this makes it possible to use other
-people's code which they give out freely (Open Source Codes), thus increasing
-the strength of the JavaScript community.
+In 2010, [npm](https://npmjs.org)[^note] was created, this made it possible to
+use other people's code, or code fragments also know as frameworks[^framework],
+or libraries[^library] which they give out freely (Open Source Codes), thus
+increasing the strength of the JavaScript community.
 
 Other important things to note are:
 
@@ -41,3 +46,14 @@ Other important things to note are:
 The Bottom line is, JavaScript has been around for almost three decades and, a
 number of dictators have tried to overthrow it (pun intended). I don't think it
 would be going anywhere anytime soon, especially with it increasing adoption
+
+[^note]: NPM stands for Node Package Manager. It's a free, open-source registry
+and command-line tool for JavaScript software packages
+
+[^framework]: Frameworks are often used as the foundation for building apps for
+specific platforms, they can be likened to skeleton
+
+[^library]: A library a collection of pre-written code that programmers can use
+to create applications, A fitting analogy is a collection of fabrics, buttons,
+threads e.t.c that seamstresses keep, with the right combination of choice you
+can make any dress

@@ -11,9 +11,9 @@ user, you need to add NodeJs to you path variable, see the guide here
 
 ## Confirm NodeJs installation
 
-When you install NodeJS, it comes with other tools like `npx` and `npm`, to
-confirm the installation is successfully, open a new terminal and past the
-following commands
+When you install NodeJs, it comes with other tools like `npx` and `npm`, to
+confirm the installation is successfully, open a new terminal and type in the
+following commands, one at a time.
 
 ```sh
 node -v 
@@ -35,11 +35,11 @@ npx -v
 
 ## What is an "Hello World" program ?
 
-Put simply, it is writing a program that prints "Hello world" (or "Hello,
-world!"). It's like some sort of ritual in the broad programming community to
-welcome a new programmer, some sort of a baby's first cry.
+Put simply, it is a program that prints "Hello world" (or "Hello, world!"). It's
+like some sort of ritual in the broad programming community to welcome a new
+programmer, some sort of a baby's first cry.
 
-## Writing the Hello world program
+## Writing the Hello world program in JavaScript
 
 **Step one**: Create a new `hello_world.js` file
 
@@ -53,10 +53,13 @@ touch hello_world.js
 {{#include ../../code-samples/module_9/hello_world.js}}
 ```
 
-**Step three** in the same terminal used to create the new file, execute
+**Step three** in the same terminal used to create the new file, execute the
+command
 
 ```sh
 node hello_world.js
 ```
 
-## Video guide
+<div class="command-output">
+<!-- cmdrun node ../../code-samples/module_9/hello_world.js -->
+</div>

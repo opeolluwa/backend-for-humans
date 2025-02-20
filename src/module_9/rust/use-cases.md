@@ -14,7 +14,7 @@ in these domains:
 
 3. **Databases**: Database projects like
    [Ahnlich](https://github.com/deven96/ahnlich), [Persy](https://persy.rs/),
-   [Surrealdb](https://github.com/surrealdb/surrealdb), and many more have been
+   [Surrealdb](https://github.com/surrealdb/surrealdb), [Qdrant](https://qdrant.tech/) and many more have been
    implemented successfully in Rust and many are currently used in Production
    environment.
 4. **Developer tooling** The popular web framework,
