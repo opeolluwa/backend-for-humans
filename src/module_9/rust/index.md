@@ -9,7 +9,7 @@ Here's a quick overview of the Rust programming language
 | Logo               | ![Rust lang logo](../../assets/rust-logo.png) |
 | File extension     | `.rs`                                         |
 | Year founded       | 2009                                          |
-| Creator            | Graydon hoare                                 |
+| Creator            | Graydon Hoare                                 |
 | Official website   | <https://rust-lang.org>                       |
 | Update frequency   | 6 weeks                                       |
 | Classification     | Compiled language                             |
@@ -24,10 +24,11 @@ When applications are built in certain programming languages there are almost
 always certain discrepancies (inadequacies, vulnerabilities, security issues,
 trade-offs) lurking around, some of which are attributed to the programming
 language of choice, while the rest can usually be traced to the way the code was
-written or the way short-coming in the
+written or the way short-coming (error, edge case, overlook, omission) in the
+implementation.
 
 The Rust programming takes a rather strict and unconventional approach to
-getting rid of most of these issues, without compromising the execution speed.
+getting rid of most of these issues, without compromising the execution speed nor security.
 
 The primary goal of the Rust programming language is to take away all the "land
 mines" you could step on while coding and certain security vulnerabilities

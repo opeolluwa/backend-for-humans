@@ -10,7 +10,7 @@ adoption, strength and trade-off.
 At the end of this module,
 
 1. You should have decided the language to learn.
-2. You should have install the programming language toolchain [^note]
+2. You should have installed the programming language toolchain [^note]
 3. You should be able to write an "Hello, World" program, in the language of
    choice.
 

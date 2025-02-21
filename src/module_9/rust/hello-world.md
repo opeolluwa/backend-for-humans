@@ -11,8 +11,8 @@ welcome yourself; just like a baby's first cry.
 
 ## Installing the Rust programming language toolchain.
 
-See this video on the installation guide and everything you need to know about
-using the Rust programming language.
+See the Rust programming language toolchain installation guide here
+<https://www.rust-lang.org/tools/install>
 
 ## Writing Hello world in Rust
 
@@ -44,4 +44,3 @@ rustc hello_world.rs -o hello
 ./hello
 ```
 
-## Video Guide

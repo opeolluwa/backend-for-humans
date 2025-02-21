@@ -1,0 +1,37 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is a kind of program used to welcome new programmers into the community called"
+context = ""
+prompt.distractors = [
+    "rust",
+    "dynamically typed language",
+    "statically typed language",
+]
+answer.answer = "hello world"
+id = "c42a2266-2f3b-4aa3-88dc-69b2bb81b82a"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Who created JavaScript"
+context = ""
+prompt.distractors = ["Robert Hoot", "Isaac Newton", "NodeJS"]
+id = "71d17c7e-a2d6-4db3-92dc-f40ee90da5b4"
+answer.answer = "Brendan Eich"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Who created NodeJs"
+context = ""
+prompt.distractors = ["Robert Hoot", "Isaac Newton", "NodeJS"]
+id = "23095655-3a7e-42b9-ba08-fe8e71d4d5aa"
+answer.answer = "Ryan Dahl"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of these is a valid JavaScript extension"
+prompt.distractors = [".pjs", ".jrs", ".cs"]
+answer.answer = ".mjs"
+id = "f30327fd-23d3-409c-93c9-65e3df40bf81"

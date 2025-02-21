@@ -17,7 +17,7 @@ Here's a quick overview of the JavaScript programming language
 
 JavaScript, also called ECMAScript, and not to be confused with another
 programming language, called Java, was created by Brendan Eich in 1995 to add
-interactivity to websites (frontends).
+interactivity to websites.
 
 Back in those days, there weren't beautiful and dynamic websites as seen today,
 JavaScript was one of the major tools that made this a reality.
