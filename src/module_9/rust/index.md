@@ -9,7 +9,7 @@ Here's a quick overview of the Rust programming language
 | Logo               | ![Rust lang logo](../../assets/rust-logo.png) |
 | File extension     | `.rs`                                         |
 | Year founded       | 2009                                          |
-| Creator            | Graydon hoare                                 |
+| Creator            | Graydon Hoare                                 |
 | Official website   | <https://rust-lang.org>                       |
 | Update frequency   | 6 weeks                                       |
 | Classification     | Compiled language                             |

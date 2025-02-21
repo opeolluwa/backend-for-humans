@@ -1,8 +1,8 @@
 # Choosing a programming language
 
-If you are reading this chapter first, or you're stating from this chapter
-without any prior experience in programming, it is important you go over the
-preliminary concepts — modules 1 - 7.
+If you are reading this chapter first, or you're starting from this chapter
+without any prior experience in programming, it is important that you have a
+firm grasp of the preliminary concepts found in modules 1 - 7.
 
 Otherwise, I would like to congratulate you for getting past the preliminary
 concepts section. You are now ready for the actual learning.
@@ -40,10 +40,10 @@ Now, let's try to review those keynotes and how this resource helps you,
 1. **The end goal**: The end goal of this book is to teach you core programming
    concepts and make you a backend engineer.
 2. **Adoption**: I have carefully selected 2 programming languages used for
-   backend applications, that's Javascript and Rust, the choice is mostly
-   influenced by what I use as a backend engineer myself. There are other great
-   alternatives Go, Java, Python, to name a few. But they won't be covered in
-   this book, or at least not yet.
+   building backend applications, that's Javascript and Rust, the choice is
+   mostly influenced by what I use as a backend engineer myself. There are other
+   great alternatives Go, Java, Python, to name a few, but they won't be covered
+   in this book, or at least not yet.
 3. **Learning curve**: The 2 available languages have different learning curves
    discussed below;
 
@@ -61,14 +61,14 @@ In statically typed languages, the programmer is often required to indicate the
 type of a
 [variable](../module_5/scripts/using-variables.html?highlight=variable#using-variable).
 This mean you must state if your variable is a number or letters (string), an
-array or something else, and example of such in this resource is the Rust
-programming language.
+array or something else, an example of such in this book is the Rust programming
+language.
 
 ### Dynamically typed languages
 
-In dynamically typed language like JavaScript, it is relatively easy
-to get to speed, compared to statically typed languages. However, down the lane
-the learning becomes hard to quantify and it seems as if learning is standstill.
+In dynamically typed language like JavaScript, it is relatively easy to get to
+speed, compared to statically typed languages. However, down the lane the
+learning becomes hard to quantify and it seems as if learning is standstill.
 
 Broadly, statically typed languages are longer to be established in and master
 but they make it easier to learn other statically typed languages and the
@@ -88,7 +88,7 @@ are already familiar with one. One thing you must not doing when starting out is
 learning two or more programming languages concurrently, it's usually difficult,
 frustrating and non-productive.
 
-In the next module, I'll introduce the 2 programming language — Rust and
+In the next module, I'll talk more about the 2 programming language — Rust and
 JavaScript, I encourage you to carefully go through each and choose one that
 catches your interest and stick it to the end of the material for effective
 learning.

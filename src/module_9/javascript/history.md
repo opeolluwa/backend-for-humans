@@ -5,20 +5,21 @@ Communications Corporation. It was originally called Mocha, then LiveScript,
 before finally being named JavaScript to capitalize on the popularity of Java at
 the time.
 
-Not until the release of [NodeJs](https://nodejs.org), (discussed shortly),
-in 2009. JavaScript is used predominantly (if not entirely ) in a browser.
+Not until 2009 when [NodeJs](https://nodejs.org), (discussed shortly), was
+released, JavaScript was used predominantly (if not entirely) for building
+websites along with HTML and CSS.
 
 ## What is NodeJS?
 
-Every web browsers has JavaScript engine, which makes it possible to
-programmatically control or modify the website, through two major interface
-called the _**Document Object Model**_ and the _**Browser Object Model**_. The
-JavaScript engine is also essentially for effective functioning of JavaScript
-frameworks ( and libraries) like Vue, Angular and React which you have probably
-heard of.
+Every web browsers has JavaScript engine (JavaScript interpreter, JavaScript
+runtime), which makes it possible to programmatically control or modify the
+website, through two major interfaces called the _**Document Object Model**_ and
+the _**Browser Object Model**_. The JavaScript engine is also essentially for
+effective functioning of JavaScript frameworks (and libraries) like Vue, Angular
+and React which you have probably heard of.
 
 In 2009, a man called [Ryan Dahl](https://x.com/rough__sea?), created something
-that has since changed the fate of JavaScript. Ryan "extracted" the JavaScript
+that has since broaden the use of JavaScript. Ryan "extracted" the JavaScript
 engine from a browser and make it use able outside the browser, he called this
 creation NodeJS
 
