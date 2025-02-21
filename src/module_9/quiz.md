@@ -4,4 +4,4 @@
 
 And now, a _quiz_:
 
-{{#quiz ../quizzes/module_9.toml}}
+{{#quiz ../quizzes/module__9.toml}}
