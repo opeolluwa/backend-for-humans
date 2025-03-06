@@ -28,7 +28,8 @@ install-dependencies:
 [doc("Build the book and open it in the browser")]
 watch:
     mdbook serve --open 
-
+start:
+    mdbook serve --open 
 [doc("Checkout a pull request to a new branch")]
 checkout-pr PR_NUMBER BRANCH_NAME: 
     git fetch origin pull/${PR_NUMBER}/head:${BRANCH_NAME}
