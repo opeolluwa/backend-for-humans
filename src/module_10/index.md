@@ -1,4 +1,4 @@
-# Elementary programming concepts
+# Elementary programming concepts 01
 
 In the last module, we installed NodeJs, which is the JavaScript runtime
 environment we would be using in this book, we also installed the Rust
@@ -6,11 +6,11 @@ toolchain.
 
 In this module we will explore some foundational concepts essential for building
 any meaningful program, there would also be a couple of video guides to enhance
-the learning process, and finally we'd have a exercise.
+the learning process, and finally we'd have an exercise.
 
 ## Learning expectation
 
-At the end of the module, you should be able to
+At the end of the module, you should be able to:
 
 1. Set up a new project for your choice programming language
 2. Explain the following terms:

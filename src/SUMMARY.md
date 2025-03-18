@@ -101,7 +101,7 @@
 # Programming concepts
 
 - [Elementary programming concepts 01](./module_10/index.md)
-  - [JavaScript](./module_10/javascript/overview.md)
+  - [JavaScript](./module_10/javascript/index.md)
     - [Variables, values and operators](./module_10/javascript/variables-and-values.md)
     - [Using packages](./module_10/javascript/using-packages.md)
     - [Control flow](./module_10/javascript/control-flow.md)
