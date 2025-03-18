@@ -1,0 +1,16 @@
+{
+  "name": "better-hello-world",
+  "version": "1.0.0",
+  "description": "a better hello world program using packages",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Adeoye Adefemi",
+  "license": "ISC",
+  "dependencies": {
+    "console": "^0.7.2",
+    "nodemon": "^3.1.9"
+  }
+}
