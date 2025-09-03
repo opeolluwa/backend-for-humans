@@ -1,4 +1,5 @@
-alias install-deps := install-dependencies 
+
+alias install-deps := install-dependencies
 alias install := install-dependencies
 
 MDBOOK_VERSION := "^0.4"
