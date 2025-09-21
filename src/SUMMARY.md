@@ -37,7 +37,7 @@
   - [Review questions](./module_2/quiz.md)
 
 - [Introduction to Operating Systems](./module_3/index.md)
-  - [Meeting the house keeper](./module_3/meeting_the_house_keeper.md)
+  - [Meeting the housekeeper](./module_3/meeting_the_house_keeper.md)
   - [Common Operating systems](./module_3/common_operating_systems.md)
   - [Module review](./module_3/review.md)
   - [Review Questions](./module_3/quiz.md)
@@ -76,23 +76,17 @@
   - [Module review](./module_5/review.md)
   - [Review questions](./module_5/quiz.md)
 
-- [Introduction to git and Github](./module_6/index.md)
+- [Introduction to git and GitHub](./module_6/index.md)
 - [Introduction backend development](./module_7/index.md)
 
 # Beginning Programming
 
 - [Choosing a programming language](./module_8/index.md)
-- [Available Programming languages](./module_9/index.md)
-  - [JavaScript](./module_9/javascript/index.md)
-    - [History of JavaScript](./module_9/javascript/history.md)
-    - [Use cases](./module_9/javascript/use-cases.md)
-    - [Hello World!](./module_9/javascript/hello-world.md)
-  - [Rust](./module_9/rust/index.md)
-    - [History of Rust programming language](./module_9/rust/history.md)
-    - [Use cases](./module_9/rust/use-cases.md)
-    - [Hello World](./module_9/rust/hello-world.md)
-  - [Python](./module_9/python/index.md)
-  - [Golang](./module_9/golang/index.md)
+- [Beginning JavaScript](./module_9/index.md)
+  - [Introduction to JavaScript](./module_9/javascript/index.md)
+  - [History of JavaScript](./module_9/javascript/history.md)
+  - [Use cases](./module_9/javascript/use-cases.md)
+  - [Hello World!](./module_9/javascript/hello-world.md)
   - [Summary](./module_9/summary.md)
   - [Review questions](./module_9/quiz.md)
 
@@ -160,7 +154,7 @@
 - [Using SQL databases]()
   - [Mysql]()
   - [Sqlite]()
-  - [PostgreSQL]()
+  - [PostgresSQL]()
 - [Database design]()
   - [What you should know]()
 - [Project]()

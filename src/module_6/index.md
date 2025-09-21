@@ -1,7 +1,7 @@
-# Introduction to git and Github
+# Introduction to git and GitHub
 
 When you work on a text document, say your CV using text editors like Google
-Docs or Microsoft word, you can undo certain changes using <kbd> Ctrl </kbd> +
+Docs or Microsoft Word, you can undo certain changes using <kbd> Ctrl </kbd> +
 <kbd> z </kbd>.
 
 Building a piece of software, can be like working on a text document. Often
@@ -12,12 +12,12 @@ Things get more interesting when you work in teams, where a few people or
 thousands of people work concurrently on the project's codebase. In this case
 using <kbd> Ctrl </kbd> + <kbd> z </kbd> is never enough, and often times, you
 have a working solution you wouldn't want to break, this is the true essence of
-git and Github.
+git and GitHub.
 
 These two tools along with other substitutes and related technologies form the
 [Version control system](https://gitlab.com/topics/version-control/).
 
-Learning git and Github is quite larger than to be crammed into this coursework,
+Learning git and GitHub is quite larger than to be crammed into this coursework,
 for this reason I have included a video from free code camp which is sufficient
 to get you up and running.
 
