@@ -2,3 +2,17 @@
     font-weight: 600;
     font-size: large;
 }
+
+.command-output {
+    opacity: 0.39;
+    font-family: monospace;
+    font-size: 12;
+    background-color:aliceblue;
+}
+
+
+.command-output::before {
+    content: "$ ";
+    margin-bottom: 4;
+    display: inline;
+}

@@ -82,17 +82,48 @@
 # Beginning Programming
 
 - [Choosing a programming language](./module_8/index.md)
-- [Available Programming languages]()
-  - [JavaScript]()
-  - [Rust]()
-  - [Python]()
-  - [Golang]()
-- [Core programming concepts]()
+- [Available Programming languages](./module_9/index.md)
+  - [JavaScript](./module_9/javascript/index.md)
+    - [History of JavaScript](./module_9/javascript/history.md)
+    - [Use cases](./module_9/javascript/use-cases.md)
+    - [Hello World!](./module_9/javascript/hello-world.md)
+  - [Rust](./module_9/rust/index.md)
+    - [History of Rust programming language](./module_9/rust/history.md)
+    - [Use cases](./module_9/rust/use-cases.md)
+    - [Hello World](./module_9/rust/hello-world.md)
+  - [Python](./module_9/python/index.md)
+  - [Golang](./module_9/golang/index.md)
+  - [Summary](./module_9/summary.md)
+  - [Review questions](./module_9/quiz.md)
+
+---
+
+# Programming JavaScript
+
+- [Core programming concepts In JavaScript]()
   - [Overview of the language]()
   - [Data types]()
   - [Control flow]()
   - [Iteration]()
   - [Functions]()
+
+- [JavaScript advanced concepts]()
+
+---
+
+# Programming Rust
+
+- [Core programming concepts In Rust]()
+  - [Overview of the language]()
+  - [Data types]()
+  - [Control flow]()
+  - [Iteration]()
+  - [Functions]()
+- [Rust advanced concepts]()
+
+---
+
+# Projects
 
 - [Project 1]()
 - [Project 2]()
@@ -101,6 +132,12 @@
 - [Project 5]()
 
 ---
+
+# Object Oriented Programming in JavaScript
+
+---
+
+# Object Oriented Programming in Rust
 
 ---
 

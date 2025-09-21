@@ -4,7 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 description = "Backend development guide for non-technical people"
-title = "Backend Roadmap for Humans"
+title = "Backend for Humans"
 github = "https://github.com/opeolluwa/backend-for-humans"
 
 [build]
@@ -21,10 +21,14 @@ python.loading = "lazy"
 
 [preprocessor.embed]
 
+[preprocessor.cmdrun]
+
 [preprocessor.quiz]
 
 [preprocessor.tabs]
 
+[preprocessor.hide]
+hide = true
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
@@ -43,11 +47,8 @@ additional-css = [
     "plugins/last-changed/last-changed.css",
     "plugins/line-number/line-number.css",
     "plugins/tabs/tabs.css",
+    "plugins/main.css"
 ]
-
-
-
-
 
 [preprocessor.last-changed]
 command = "mdbook-last-changed"

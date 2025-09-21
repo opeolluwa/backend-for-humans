@@ -1,0 +1,4 @@
+alias r:=  run
+
+run target:
+    node --watch {{target}}.js
