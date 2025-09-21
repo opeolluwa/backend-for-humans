@@ -1,5 +1,4 @@
-# Available Programming languages
-
+# Beginning JavaScript
 In the [previous module](../module_8/index.md), we talked briefly about the
 available programming languages for this coursework. In this section, we well
 delve a bit deeper into each of the languages; their use cases, community

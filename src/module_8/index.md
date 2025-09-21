@@ -2,10 +2,10 @@
 
 If you are reading this chapter first, or you're starting from this chapter
 without any prior experience in programming, it is important that you have a
-firm grasp of the preliminary concepts found in modules 1 - 7.
+firm grasp of the preliminary concepts found in modules 1 - 7.
 
-Otherwise, I would like to congratulate you for getting past the preliminary
-concepts section. You are now ready for the actual learning.
+However, if you're already established in the basics, I would like to congratulate you for getting past the preliminary
+concepts section. You are now ready for the actual work.
 
 In this section, our focus would be on programming! It's been quite interesting
 exploring the preliminary concepts, and we're finally here. Let's being!
@@ -39,13 +39,15 @@ Now, let's try to review those keynotes and how this resource helps you,
 
 1. **The end goal**: The end goal of this book is to teach you core programming
    concepts and make you a backend engineer.
-2. **Adoption**: I have carefully selected 2 programming languages used for
-   building backend applications, that's Javascript and Rust, the choice is
-   mostly influenced by what I use as a backend engineer myself. There are other
-   great alternatives Go, Java, Python, to name a few, but they won't be covered
+2. **Adoption**: I have carefully selected one of the most popular programming languages used for
+   building backend applications, and that's Javascript, the choice is
+   mostly influenced by what I use as a backend engineer myself, the ease of learning and community adoption; Note that
+   there are also
+   great alternatives — Go, Java, Python, Rust, PHP, Java, C# to name a few, but they won't be covered
    in this book, or at least not yet.
-3. **Learning curve**: The 2 available languages have different learning curves
-   discussed below;
+3. **Learning curve**: The chosen languages have a very friendly learning curves, thus I project you being up to speed
+   in a few weeks
+
 
 ## Learning Curves
 
@@ -73,24 +75,3 @@ learning becomes hard to quantify and it seems as if learning is standstill.
 Broadly, statically typed languages are longer to be established in and master
 but they make it easier to learn other statically typed languages and the
 dynamically typed ones rather quickly.
-
-## Which language should you choose?
-
-The short answer is anyone is fine.
-
-Long answer, I've used Rust and JavaScript in and out of work environment and I
-can say for a fact that It's always best to know both, personally, I prefer
-statically typed language for medium to large-size projects, while I use
-JavaScript for small size applications, scripting and prototyping.
-
-The good news is that it is relatively easy to learn other languages when you
-are already familiar with one. One thing you must not doing when starting out is
-learning two or more programming languages concurrently, it's usually difficult,
-frustrating and non-productive.
-
-In the next module, I'll talk more about the 2 programming language — Rust and
-JavaScript, I encourage you to carefully go through each and choose one that
-catches your interest and stick it to the end of the material for effective
-learning.
-
-Happy hacking!

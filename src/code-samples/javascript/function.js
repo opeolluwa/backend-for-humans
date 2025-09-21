@@ -23,9 +23,9 @@ function cookSomePasta(numberOfPasta) {
 // #  function with a return type
 function calculateIngredientsNeeded(numberOfPasta) {
   const isValidInput = validateUsersInput(numberOfPasta) == "valid";
-  if (!isValidInput) {
-    throw Error("bad data");
-  }
+  // if (!isValidInput) {
+  //   throw Error("bad data");
+  // }
 
   const ingredients = {
     egg: numberOfPasta,
@@ -40,23 +40,22 @@ function calculateIngredientsNeeded(numberOfPasta) {
 // cookSomePasta(5)
 // cookSomePasta(200)
 
-const numOfServings = 45;
+const numOfServings = 34;
 const ingredientsRequired = calculateIngredientsNeeded(numOfServings);
 
 console.log(ingredientsRequired);
 
 ///
 function validateUsersInput(number) {
-  if (number >= 1) {
-    return "valid";
-  } else {
-    return "invalid";
-  }
+  if (!typeof number == "number") throw Error("Input must be a number");
 }
 
 /////////////////
 
 function isDivisible(a, b) {
+  validateUsersInput(a);
+  validateUsersInput(b);
+
   const sum = a + b;
   if (sum % 2 === 0) {
     return sum * 2;
