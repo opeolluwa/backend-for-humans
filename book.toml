@@ -21,8 +21,6 @@ python.loading = "lazy"
 
 [preprocessor.embed]
 
-[preprocessor.cmdrun]
-
 [preprocessor.quiz]
 
 [preprocessor.tabs]
