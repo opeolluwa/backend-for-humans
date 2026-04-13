@@ -20,13 +20,13 @@ rm -r folder_name
 
 ## Deleting multiple folders
 
-To delete multiple folders, use the commands as shown below.
+To delete multiple folders at once, use `rm -r` followed by all the folder names.
 
 {{#tabs }}
 {{#tab name="Unix" }}
 
 ```sh
-rmdir -r first_folder second_folder third_folder
+rm -r first_folder second_folder third_folder
 ```
 
 {{#endtab }}
@@ -34,7 +34,7 @@ rmdir -r first_folder second_folder third_folder
 {{#tab name="Powershell" }}
 
 ```sh
-rmdir -r first_folder, second_folder, third_folder
+rm -r first_folder, second_folder, third_folder
 ```
 
 {{#endtab }}
@@ -42,10 +42,11 @@ rmdir -r first_folder, second_folder, third_folder
 {{#tab name="Linux/WSL" }}
 
 ```sh
-rmdir -r first_folder second_folder third_folder
+rm -r first_folder second_folder third_folder
 ```
 
 {{#endtab }}
 {{#endtabs }}
 
-Remember, the `-r` flag is optional and you are expected to use it only when you want to forcefully delete folder items.
+> [!WARNING]
+> The `-r` flag deletes a folder and **everything inside it**. Use it carefully — deleted files cannot be easily recovered.

@@ -6,6 +6,6 @@ In the previous lesson, we talked about the internet as the concept of computer 
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/tSodBEAJz9Y?si=EGXiqLpMR062EjdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Computer network are the linking of as many computers as you can imagine. Well, does it not bother you to think about how computers communicate with each other? How they identify themselves on a network? How they securely share information without someone eavesdropping, and many more?
+A computer network is simply a group of computers that are connected and can share information with each other. Think of it like a neighbourhood — each house (computer) has an address, and there are roads (connections) that let people (data) travel between them.
 
-We will talk about Protocols in the next section where you will learn how information sharing between computers are cordinated.
+This raises some interesting questions: How do computers identify themselves on a network? How do they share information securely without someone intercepting it? We will answer these questions in the next section, where we discuss **Protocols** — the rules that keep computer communication organized and safe.

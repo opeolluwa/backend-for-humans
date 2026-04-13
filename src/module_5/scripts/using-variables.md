@@ -15,7 +15,7 @@ Consider this JavaScript code:
 ```
 
 <div style="margin: 5rem 0">
-To be candid, for someone that has not written any code, there's going on here and I can almost guess that you scrolled past it! Now, go back. It doesn't make any or much sense but just read and observe all the lines closely.
+To be candid, for someone who has never written code before, there is a lot going on here — and I can almost guess that you scrolled past it! Go back and look again. It does not need to make full sense yet; just read through it and observe the lines closely.
 
 When you are done, click on the play icon on the top right corner to see the code in action.
 
@@ -79,7 +79,7 @@ In snake case, you separate your variables with underscore. For example,
 
 ### Upper snake case
 
-Like the snake case, you separate your variables with underscore, however these words must be capitalized. For example, `MY_NAME`, `MY_FRIENDS_NAME`. This is often used for variables that would not change, otherwise knows as constants.
+Like the snake case, you separate your variables with underscore, however these words must be capitalized. For example, `MY_NAME`, `MY_FRIENDS_NAME`. This is often used for variables that would not change, otherwise known as constants.
 
 ### Camel case
 
@@ -103,7 +103,7 @@ Finally, here we are, variables in Shell scripting. Consider a minimal reproduct
 
 On line <span class="line-number"> 3</span> and <span class="line-number"> 4</span> we declared, the variables `name` and `age`. Then on line <span class="line-number"> 6</span> and <span class="line-number"> 7 </span> we print these values using the [echo](../../module_4/commands/echo.md) command.
 
-Let's proeed to make this executable and run it.
+Let's proceed to make this executable and run it.
 
 ```sh
 chmod u+x var

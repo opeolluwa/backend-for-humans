@@ -4,7 +4,7 @@ The internet means different things to a lot of people, some people like to see 
 
 ## Learning Expectation
 
-In this module, we'll start by studying the concept of the internet in relation to computers. At the end of this module you should the able to:
+In this module, we'll start by studying the concept of the internet in relation to computers. At the end of this module you should be able to:
 
 1. Clearly explain the concept of the internet
 

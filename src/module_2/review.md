@@ -6,8 +6,7 @@
 2. The internet is a network of interconnected devices (phones, laptops,
    servers) allowing information sharing.
 
-3. Protocols is are well defined set of rules that determines how computers
-   communicate.
+3. Protocols are well-defined rules that determine how computers communicate.
 
 4. Common protocols we interact with everyday includes HTTP, HTTPS, FTP, SMTP.
 

@@ -8,7 +8,7 @@ As you may know or have heard, computers accept and process instructions in bina
 
 ![binaries](../assets//binay_numbers.png)
 
-Humans are incapable of writing complex instructions in binary due to a high tendency of attention loss that lead to making multiple mistakes. This why computer programming languages are necessary.
+Humans are incapable of writing complex instructions in binary — it's far too easy to lose track and make mistakes. This is why computer programming languages are necessary.
 
 Programming languages use an `English-like` construct which is easier to write and learn and consequently, easier to instruct the computer with. As of today, there are hundreds of programming languages, or a few thousand. Some of the popular ones are Python, C++, Java, C, and COBOL, to mention a few.
 

@@ -26,10 +26,10 @@ For instance, Ubuntu is often used to run servers, robots, and Software developm
 
 ## The mac Operating system
 
-macOS is an Apple-owned open source software that powers all apple computers.
+macOS is a proprietary operating system owned by Apple. It is closed source — meaning the code behind it is not publicly available — and it powers all Apple computers.
 
 ## Windows Operating system
 
-The Windows operating system is a closed source --- proprietary software, owned, managed and distributed by Microsoft.
+The Windows operating system is also a proprietary software, owned, managed, and distributed by Microsoft.
 
 [^uses-of-android]: <https://www.spiceworks.com/tech/tech-general/articles/android-os/>

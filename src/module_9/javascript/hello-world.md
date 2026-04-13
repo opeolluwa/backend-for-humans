@@ -5,8 +5,8 @@ that prints "Hello World!"
 
 ## Installing NodeJS
 
-See the NodeJs setup guide here <https://nodejs.org/en/download>, for Windows
-user, you need to add NodeJs to you path variable, see the guide here
+See the NodeJs setup guide here <https://nodejs.org/en/download>. For Windows
+users, you need to add NodeJs to your PATH variable — see the guide here
 <https://hackmd.io/@hm222vx/AddNodeJSPath>
 
 ## Confirm NodeJs installation

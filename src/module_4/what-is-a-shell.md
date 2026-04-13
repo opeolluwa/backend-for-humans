@@ -8,8 +8,7 @@ Essentially the Shell accepts human-readable commands from input sources such as
 keyboard-entry or file(Shell scripts) and pass this to the operating system to
 execute.
 
-Put simply, the Shell is a special kind of kind of software that let you do some
-tasks from the command line interface (CLI).
+Put simply, the Shell is a special kind of software that lets you perform tasks from the command line interface (CLI).
 
 A CLI would typically look like the image below
 
@@ -36,13 +35,13 @@ include:
 
 > [!TIP]
 
-> An Shell interpreter, like interpreter
+> A Shell interpreter, like the interpreter
 > [studied in module one](../module_1/classification_of_programming_languages.md#classification-of-programming-languages),
 > is a program that takes a Shell command and translate it to something the
 > computer can work with.
 
 This book will focus solely on Bash because it's quite popular and probably the
-most wildly adopted. Bash syntax is also compatible with other kinds of shell.
+most widely adopted. Bash syntax is also compatible with other kinds of shell.
 
 On Windows based systems, configuring WSL might be tricky especially without
 prior experience with the CLI. I have included a video by Gary below which is

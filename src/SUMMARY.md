@@ -4,7 +4,7 @@
 
 [Acknowledgement](./acknowldegement.md)
 
-[Forward](./forward.md)
+[Foreword](./forward.md)
 
 [Dedication](./dedication.md)
 
@@ -94,26 +94,69 @@
 
 # Programming JavaScript
 
-- [Core programming concepts In JavaScript]()
+- [JavaScript fundamentals]()
   - [Overview of the language]()
-  - [Data types]()
+  - [Syntax and structure]()
+  - [Variables and data types]()
+  - [Expressions and operators]()
   - [Control flow]()
   - [Iteration]()
   - [Functions]()
+  - [Objects and arrays]()
+  - [Modules and tooling]()
 
 - [JavaScript advanced concepts]()
+  - [Asynchronous programming]()
+  - [Browser and runtime APIs]()
+  - [Error handling]()
+  - [Testing and debugging]()
+  - [Performance and optimization]()
+  - [Best practices]()
+
+---
+
+# Programming Go
+
+- [Go fundamentals]()
+  - [Overview of the language]()
+  - [Syntax and structure]()
+  - [Variables and data types]()
+  - [Control flow]()
+  - [Iteration]()
+  - [Functions and methods]()
+  - [Structs and interfaces]()
+  - [Packages and modules]()
+  - [Error handling]()
+
+- [Go advanced concepts]()
+  - [Goroutines and concurrency]()
+  - [Channels and select]()
+  - [Generics]()
+  - [Testing and debugging]()
+  - [Performance and optimization]()
+  - [Best practices]()
 
 ---
 
 # Programming Rust
 
-- [Core programming concepts In Rust]()
+- [Rust fundamentals]()
   - [Overview of the language]()
-  - [Data types]()
+  - [Syntax and structure]()
+  - [Variables, ownership and borrowing]()
   - [Control flow]()
   - [Iteration]()
-  - [Functions]()
+  - [Functions and modules]()
+  - [Data types and collections]()
+  - [Error handling]()
+
 - [Rust advanced concepts]()
+  - [Cargo and package management]()
+  - [Generics and traits]()
+  - [Memory safety and borrowing rules]()
+  - [Concurrency and async]()
+  - [Performance and optimization]()
+  - [Best practices]()
 
 ---
 
@@ -161,7 +204,177 @@
 
 ---
 
-# Introduction to backend development
+# Backend Concepts
+
+- [Introduction to backend development]()
+  - [What is a backend]()
+  - [How the web works]()
+  - [Client-server model]()
+  - [Request-response cycle]()
+  - [REST and HTTP]()
+  - [APIs and endpoints]()
+
+- [Persistence and databases]()
+  - [What is persistence]()
+  - [Relational vs non-relational databases]()
+  - [CRUD operations]()
+  - [Transactions and ACID]()
+  - [Indexing and query optimization]()
+  - [Database migrations]()
+  - [ORMs and query builders]()
+  - [Connection pooling]()
+
+- [Authentication and authorization]()
+  - [What is authentication]()
+  - [What is authorization]()
+  - [Session-based authentication]()
+  - [Token-based authentication]()
+  - [JSON Web Tokens (JWT)]()
+    - [Structure of a JWT]()
+    - [Signing and verifying tokens]()
+    - [Access and refresh tokens]()
+    - [Token expiry and revocation]()
+  - [OAuth 2.0 and OpenID Connect]()
+  - [API keys]()
+  - [Role-based access control (RBAC)]()
+  - [Password hashing]()
+
+- [Caching]()
+  - [What is caching]()
+  - [Cache strategies]()
+    - [Cache-aside]()
+    - [Write-through]()
+    - [Write-behind]()
+    - [Read-through]()
+  - [Cache invalidation]()
+  - [In-memory caching]()
+  - [Distributed caching]()
+  - [Redis]()
+  - [HTTP caching and headers]()
+  - [CDN caching]()
+
+- [Security]()
+  - [HTTPS and TLS]()
+  - [CORS]()
+  - [CSRF protection]()
+  - [SQL injection]()
+  - [XSS and input sanitization]()
+  - [Rate limiting]()
+  - [Security headers]()
+  - [Secrets management]()
+  - [OWASP top 10]()
+
+- [File storage and uploads]()
+  - [Local file storage]()
+  - [Cloud object storage]()
+  - [Multipart uploads]()
+  - [File validation and security]()
+  - [Serving static assets]()
+
+- [Email and notifications]()
+  - [Sending transactional email]()
+  - [Email templating]()
+  - [Push notifications]()
+  - [Webhooks]()
+
+- [Background jobs and queues]()
+  - [What are background jobs]()
+  - [Job queues]()
+  - [Task scheduling and cron jobs]()
+  - [Message brokers]()
+  - [Event-driven architecture]()
+
+- [Real-time communication]()
+  - [Polling vs long-polling]()
+  - [Server-sent events (SSE)]()
+  - [WebSockets]()
+  - [GraphQL subscriptions]()
+
+- [APIs in depth]()
+  - [RESTful API design]()
+  - [GraphQL]()
+  - [gRPC]()
+  - [API versioning]()
+  - [Pagination]()
+  - [Filtering, sorting and searching]()
+  - [API documentation]()
+  - [Rate limiting and throttling]()
+
+- [Logging and observability]()
+  - [What is observability]()
+  - [Structured logging]()
+  - [Log levels]()
+  - [Metrics and monitoring]()
+  - [Distributed tracing]()
+  - [Error tracking]()
+  - [Alerting]()
+
+- [Testing backend systems]()
+  - [Unit testing]()
+  - [Integration testing]()
+  - [End-to-end testing]()
+  - [Testing APIs]()
+  - [Mocking and test doubles]()
+  - [Test-driven development]()
+
+- [Deployment and infrastructure]()
+  - [Environment variables and config]()
+  - [Containerization with Docker]()
+  - [Container orchestration]()
+  - [CI/CD pipelines]()
+  - [Cloud providers overview]()
+  - [Serverless functions]()
+  - [Load balancing]()
+  - [Reverse proxies]()
+  - [Horizontal vs vertical scaling]()
+
+- [Architectural patterns]()
+  - [Monolith vs microservices]()
+  - [Service-oriented architecture]()
+  - [Domain-driven design]()
+  - [CQRS and event sourcing]()
+  - [API gateway pattern]()
+  - [The twelve-factor app]()
+
+---
+
+# Programming Backend
+
+- [Building a backend with JavaScript]()
+  - [Node.js runtime]()
+  - [Setting up a project]()
+  - [Creating an HTTP server]()
+  - [Routing]()
+  - [Middleware]()
+  - [Connecting to a database]()
+  - [Authentication with JWT]()
+  - [File uploads]()
+  - [Testing your API]()
+  - [Deploying to production]()
+
+- [Building a backend with Go]()
+  - [Go for backend development]()
+  - [Setting up a project]()
+  - [Creating an HTTP server]()
+  - [Routing]()
+  - [Middleware]()
+  - [Connecting to a database]()
+  - [Authentication with JWT]()
+  - [File uploads]()
+  - [Testing your API]()
+  - [Deploying to production]()
+
+- [Building a backend with Rust]()
+  - [Rust for backend development]()
+  - [Setting up a project]()
+  - [Creating an HTTP server]()
+  - [Routing]()
+  - [Middleware]()
+  - [Connecting to a database]()
+  - [Authentication with JWT]()
+  - [File uploads]()
+  - [Testing your API]()
+  - [Deploying to production]()
 
 ---
 

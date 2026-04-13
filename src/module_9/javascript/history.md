@@ -11,22 +11,14 @@ websites along with HTML and CSS.
 
 ## What is NodeJS?
 
-Every web browsers has JavaScript engine (JavaScript interpreter, JavaScript
-runtime), which makes it possible to programmatically control or modify the
-website, through two major interfaces called the _**Document Object Model**_ and
-the _**Browser Object Model**_. The JavaScript engine is also essentially for
-effective functioning of JavaScript frameworks (and libraries) like Vue, Angular
-and React which you have probably heard of.
+Every web browser has a JavaScript engine (also called a JavaScript interpreter or runtime), which makes it possible to programmatically control or modify a webpage. This is done through two major interfaces called the _**Document Object Model**_ and the _**Browser Object Model**_. The JavaScript engine is also essential for the effective functioning of JavaScript frameworks and libraries like Vue, Angular, and React — which you have probably heard of.
 
-In 2009, a man called [Ryan Dahl](https://x.com/rough__sea?), created something
-that has since broaden the use of JavaScript. Ryan "extracted" the JavaScript
-engine from a browser and make it use able outside the browser, he called this
-creation NodeJS
+In 2009, a man called [Ryan Dahl](https://x.com/rough__sea?) created something that has since broadened the use of JavaScript. Ryan "extracted" the JavaScript engine from a browser and made it usable outside the browser. He called this creation NodeJS.
 
-With NodeJs, it is now possible for to use JavaScript for virtually anything.
+With NodeJS, it is now possible to use JavaScript for virtually anything.
 
-In 2010, [npm](https://npmjs.org)[^note] was created, this made it possible to
-use other people's code, or code fragments also know as frameworks[^framework],
+In 2010, [npm](https://npmjs.org)[^note] was created, making it possible to
+use other people's code, or code fragments also known as frameworks[^framework],
 or libraries[^library] which they give out freely (Open Source Codes), thus
 increasing the strength of the JavaScript community.
 
@@ -44,17 +36,14 @@ Other important things to note are:
    WebAssembly that is based on the V8 JavaScript engine
 6. [Bun](https://bun.sh/) Bun is a fast JavaScript runtime
 
-The Bottom line is, JavaScript has been around for almost three decades and, a
-number of dictators have tried to overthrow it (pun intended). I don't think it
-would be going anywhere anytime soon, especially with it increasing adoption
+The bottom line is: JavaScript has been around for almost three decades, and many have tried to replace it (pun intended). It is not going anywhere anytime soon, especially with its ever-increasing adoption.
 
 [^note]: NPM stands for Node Package Manager. It's a free, open-source registry
 and command-line tool for JavaScript software packages
 
 [^framework]: Frameworks are often used as the foundation for building apps for
-specific platforms, they can be likened to skeleton
+specific platforms. They can be likened to a skeleton — the structure is already there; you just fill in the details.
 
-[^library]: A library a collection of pre-written code that programmers can use
-to create applications, A fitting analogy is a collection of fabrics, buttons,
-threads e.t.c that seamstresses keep, with the right combination of choice you
-can make any dress
+[^library]: A library is a collection of pre-written code that programmers can use
+to create applications. A fitting analogy is a collection of fabrics, buttons, and
+threads that a seamstress keeps — with the right combination, you can make any dress.

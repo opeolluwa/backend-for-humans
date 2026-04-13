@@ -1,13 +1,10 @@
 # Making scripts executable
 
-Earlier in this module, you wrote the first script, and executed directly in the terminal using the `sh <file_name>` commanand. It becomes tedious to do this repeatedly and that leads us to **making a script an executable**.
+Earlier in this module, you wrote the first script and ran it using the `sh <file_name>` command. Typing `sh` before the file name every time becomes tedious — that is where **making a script executable** comes in.
 
+You can make a script **executable**, meaning the operating system will treat it like a runnable program. Instead of typing `sh hello` each time, you just type `./hello`.
 
-You can make a script **executable**.
-
-Making a script executable means that you dont have to compile it every time you want to run it which is what the `sh <file_name>` command does. Instead, you can make it executable once and run it directly from the terminal as many times as you want.
-
-This is done by using the `chmod u+x <file_name>` command to compile and change the permissions of the file, allowing it to be executed as a program.
+This is done using the `chmod u+x <file_name>` command, which updates the file's permissions to allow it to be run directly. Think of permissions as a gate — `chmod u+x` opens the gate for your user account to execute the file.
 
 Consider the previous example
 

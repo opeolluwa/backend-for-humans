@@ -1,17 +1,16 @@
 # stdin, stdout, stderr
 
-Computers use streams to accept input, return output, or inform its user when an error occur. These streams are `stdin`, `stdout` and `stderr` respectively.
+Computers use three built-in channels — called **streams** — to handle input, output, and errors. These are `stdin`, `stdout`, and `stderr`. They are not commands; they are concepts that describe how data flows in and out of a program.
 
-Contrary to what we have learnt in this module, especially about commands, `stdin`, `stdout` and `stderr` are not commands.
+Think of it like a conversation:
+- You speak → that's **input**
+- The other person replies → that's **output**
+- They tell you something went wrong → that's an **error**
 
-**stdin** stands for standard input, which is the default input device a program uses to read data. It is commonly used to read keyboard input, but it can also be a file or other input devices.
+**stdin** (standard input) is how a program receives data. Most often, this is your keyboard — when you type in the terminal, that text is sent to the program as stdin.
 
-The terminal we have been using so far is a very good example of stdin, we can pass keyboard input to the computer, just by typing in the terminal.
+**stdout** (standard output) is how a program sends its results back to you. When a command prints something to the terminal (like `echo` printing a word), that output is stdout.
 
-**stdout** stands for standard output and refers to the default output stream in a computer program. It is the channel through which a program displays its output to the user or another program. When you run a program and it produces some output, such as text or numbers, that output is typically sent to the stdout stream.
-
-The terminal we have been interacting with is also an stdout medium. Put simply, we are able to pass input (stdin) and get output (stdout).
-
-**stderr** stands for standard error - this connotes when an error is returned. For instance, you get an error when you are trying to open a file that does not exist.
+**stderr** (standard error) is a separate channel used exclusively for error messages. For example, if you try to open a file that does not exist, the error message you see is sent through stderr — not stdout.
 
 ![stderr](../../assets/shell-scripting/stderr.png)

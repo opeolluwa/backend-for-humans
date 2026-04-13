@@ -8,9 +8,9 @@ The operating system is, perhaps, the most important software that a computer ru
 
 The operating system belongs to a category of software called **System software**, while the other category includes all forms of software that you interact with daily as a conventional computer user; this category is known as **Application software**.
 
-Other examples of system software are Compilers and Interpreters[^compilers] which was introduced in module one.
+Other examples of system software include Compilers and Interpreters[^compilers], which were introduced in module one.
 
-The application software would mean the myriads of tools we use everyday, like the Internet browser, word processors, image viewer.
+Application software refers to the tools we use every day — things like web browsers, word processors, and image viewers.
 
 [^boot]: A small program that acts as an intermediary between the hardware and the Operating System
 
