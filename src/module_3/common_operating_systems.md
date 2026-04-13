@@ -32,4 +32,4 @@ macOS is a proprietary operating system owned by Apple. It is closed source — 
 
 The Windows operating system is also a proprietary software, owned, managed, and distributed by Microsoft.
 
-[^uses-of-android]: <https://www.spiceworks.com/tech/tech-general/articles/android-os/>
+<!-- [^uses-of-android]: <https://www.spiceworks.com/tech/tech-general/articles/android-os/> -->

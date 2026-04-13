@@ -17,4 +17,4 @@ Application software refers to the tools we use every day — things like web br
 
 [^compilers]: <https://www.quora.com/Why-do-some-people-consider-compiler-to-be-a-system-software>
 
-[^os]: <https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/>
+<!-- [^os]: <https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/> -->
