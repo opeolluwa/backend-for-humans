@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  /* Brand — #40513B */
+  --color-brand: #40513b;
+  --color-brand-50: #edf0ec;
+  --color-brand-100: #cdd6cb;
+  --color-brand-200: #a8b8a5;
+  --color-brand-300: #839a7e;
+  --color-brand-400: #637d5c;
+  --color-brand-500: #40513b;
+  --color-brand-600: #344330;
+  --color-brand-700: #273224;
+  --color-brand-800: #1a2118;
+  --color-brand-900: #0d110c;
+
+  /* Dark palette */
+  --color-brand-dark: #0d1220;
+  --color-brand-dark-50: #e0e6f2;
+  --color-brand-dark-100: #b8c4e0;
+  --color-brand-dark-200: #8a9dc6;
+  --color-brand-dark-300: #5e7aab;
+  --color-brand-dark-400: #375990;
+  --color-brand-dark-500: #0d1220;
+  --color-brand-dark-600: #0a0f1c;
+  --color-brand-dark-700: #070b14;
+  --color-brand-dark-800: #04070d;
+  --color-brand-dark-900: #020407;
+  --color-brand-dark-950: #010203;
+
+  --ui-primary: var(--color-brand);
+}
+
+
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+._icon {
+  @apply size-5 cursor-pointer hover:text-brand;
+}
+
+.dark {
+  --ui-bg: var(--color-brand-dark);
+  --ui-primary: var(--color-brand);
+}
