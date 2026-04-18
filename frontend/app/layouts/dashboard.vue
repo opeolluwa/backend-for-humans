@@ -49,6 +49,12 @@ const routes: RouteItem = [
   },
 
   {
+    label: "Bookmarks",
+    path: "/bookmarks",
+    icon: "heroicons:bookmark",
+  },
+
+  {
     label: "Settings",
     path: "/settings",
     icon: "heroicons:cog-6-tooth",
@@ -114,7 +120,7 @@ const logout = async () => useLogout();
       >
         <UForm :schema="schema" :state="state" class="w-80">
           <UFormField name="query">
-            <UInput
+            <AppInput
               :ref="
                 (el: any) =>
                   (searchInputRef = el?.$el?.querySelector('input') ?? null)
@@ -136,7 +142,7 @@ const logout = async () => useLogout();
                   {{ isMac ? "⌘" : "Ctrl" }}F
                 </kbd>
               </template>
-            </UInput>
+            </AppInput>
           </UFormField>
         </UForm>
 
