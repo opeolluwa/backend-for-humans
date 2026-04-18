@@ -55,6 +55,12 @@ const routes: RouteItem = [
   },
 
   {
+    label: "Notifications",
+    path: "/notifications",
+    icon: "heroicons:bell",
+  },
+
+  {
     label: "Settings",
     path: "/settings",
     icon: "heroicons:cog-6-tooth",
@@ -147,7 +153,9 @@ const logout = async () => useLogout();
         </UForm>
 
         <div class="flex items-center gap-4">
-          <UIcon name="heroicons:bell" class="_icon" />
+          <NuxtLink to="/notifications">
+            <UIcon name="heroicons:bell" class="_icon" />
+          </NuxtLink>
           <UColorModeButton />
           <NuxtLink to="/account">
             <UserCard />
