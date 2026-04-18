@@ -30,70 +30,86 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 }
 
 definePageMeta({
-  layout: "auth",
+  layout: "authentication",
 });
 </script>
 
 <template>
-  <h1 class="capitalize text-center text-5xl font-bold">Create account</h1>
-  <p class="text-center text-gray-500 leading-6 mt-2">
-    The account will be admin account
-  </p>
+  <div>
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Create your account</h1>
+    <p class="text-sm text-gray-500 dark:text-white/40 mt-1">
+      Already have an account?
+      <NuxtLink to="/" class="text-brand font-medium hover:underline">Sign in</NuxtLink>
+    </p>
 
-  <UForm
-    :schema="schema"
-    :state="state"
-    class="space-y-4 px-36 w-full mt-6"
-    @submit="onSubmit"
-  >
-    <UFormField label="First name" name="firstName" required>
-      <UInput
-        v-model="state.firstName"
-        :ui="{
-          base: 'py-4 px-6',
-        }"
-        class="border-2 rounded w-full"
-      />
-    </UFormField>
+    <UForm :schema="schema" :state="state" class="space-y-4 w-full mt-6" @submit="onSubmit">
+      <div class="grid grid-cols-2 gap-4">
+        <UFormField
+          v-slot="{ error }"
+          label="First name"
+          name="firstName"
+          required
+          :ui="{ error: 'text-red-500 text-sm mt-1' }"
+        >
+          <AppInput
+            v-model="state.firstName"
+            placeholder="John"
+            :class="['w-full', error ? 'border-red-500' : '']"
+          />
+        </UFormField>
 
-    <UFormField label="Last name" name="lastName" required>
-      <UInput
-        v-model="state.lastname"
-        :ui="{
-          base: 'py-4 px-6',
-        }"
-        class="border-2 rounded w-full"
-      />
-    </UFormField>
+        <UFormField
+          v-slot="{ error }"
+          label="Last name"
+          name="lastName"
+          required
+          :ui="{ error: 'text-red-500 text-sm mt-1' }"
+        >
+          <AppInput
+            v-model="state.lastname"
+            placeholder="Doe"
+            :class="['w-full', error ? 'border-red-500' : '']"
+          />
+        </UFormField>
+      </div>
 
-    <UFormField label="Email" name="email" required>
-      <UInput
-        v-model="state.email"
-        :ui="{
-          base: 'py-4 px-6',
-        }"
-        class="border-2 rounded w-full"
-      />
-    </UFormField>
+      <UFormField
+        v-slot="{ error }"
+        label="Email"
+        name="email"
+        required
+        :ui="{ error: 'text-red-500 text-sm mt-1' }"
+      >
+        <AppInput
+          v-model="state.email"
+          placeholder="you@example.com"
+          :class="['w-full', error ? 'border-red-500' : '']"
+        />
+      </UFormField>
 
-    <UFormField label="Password" name="password" required>
-      <UInput
-        v-model="state.password"
-        type="password"
-        :ui="{
-          base: 'py-4 px-6',
-        }"
-        class="border-2 rounded w-full"
-      />
-    </UFormField>
+      <UFormField
+        v-slot="{ error }"
+        label="Password"
+        name="password"
+        required
+        :ui="{ error: 'text-red-500 text-sm mt-1' }"
+      >
+        <AppInput
+          v-model="state.password"
+          type="password"
+          placeholder="••••••••"
+          :class="['w-full', error ? 'border-red-500' : '']"
+        />
+      </UFormField>
 
-    <UButton
-      type="submit"
-      class="bg-black flex justify-center items-center text-center w-full rounded py-4 text-white cursor-pointer"
-    >
-      Continue
-    </UButton>
-  </UForm>
+      <UButton
+        type="submit"
+        class="flex justify-center items-center text-center w-full rounded py-4 text-white cursor-pointer"
+      >
+        Continue
+      </UButton>
+    </UForm>
+  </div>
 </template>
 
 <style scoped></style>

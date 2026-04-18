@@ -6,11 +6,10 @@ import { useTokenStore } from "~/stores/token";
 import { useRouter } from "vue-router";
 
 definePageMeta({
-  breadcrumb: {
-    hidden: true,
-  },
-  layout: "auth",
+  breadcrumb: { hidden: true },
+  layout: "authentication",
 });
+
 const schema = v.object({
   email: v.pipe(v.string(), v.email("Please enter a valid email address.")),
   password: v.pipe(
@@ -36,9 +35,7 @@ async function onSubmit({ data }: FormSubmitEvent<Schema>) {
   try {
     const { status, data: respData } = await api.post("/login", data);
 
-    console.log({
-      respData,
-    });
+    console.log({ respData });
 
     if (status !== 200) {
       throw new Error(respData?.message || "Login failed");
@@ -59,51 +56,37 @@ async function onSubmit({ data }: FormSubmitEvent<Schema>) {
 
 <template>
   <div>
-    <AppLeadingText> Welcome </AppLeadingText>
-
-    <p class="text-center text-gray-500 leading-6 mt-2">
-      Please enter your email and password
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Welcome back</h1>
+    <p class="text-sm text-gray-500 dark:text-white/40 mt-1">
+      Don't have an account?
+      <NuxtLink to="/signup" class="text-brand font-medium hover:underline">Sign up</NuxtLink>
     </p>
 
-     <UAlert
-        v-if="formError"
-        color="error"
-        variant="subtle"
-        title="Request failed"
-        :description="formError"
-        class="mt-4"
-        icon="heroicons:information-circle"
-      />
-      
-    <UForm
-      :schema="schema"
-      :state="state"
-      class="space-y-4 w-full mt-6"
-      @submit="onSubmit"
-    >
-      <!-- Email Field -->
+    <UAlert
+      v-if="formError"
+      color="error"
+      variant="subtle"
+      title="Request failed"
+      :description="formError"
+      class="mt-4"
+      icon="heroicons:information-circle"
+    />
+
+    <UForm :schema="schema" :state="state" class="space-y-4 w-full mt-6" @submit="onSubmit">
       <UFormField
         v-slot="{ error }"
         label="Email"
         name="email"
         required
-        :ui="{
-          error: 'text-red-500 text-sm mt-1',
-        }"
+        :ui="{ error: 'text-red-500 text-sm mt-1' }"
       >
-        <UInput
+        <AppInput
           v-model="state.email"
-          :ui="{ base: 'py-4 px-6' }"
-          :class="[
-            'w-full transition-colors',
-            error
-              ? 'border-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:border-black',
-          ]"
+          placeholder="you@example.com"
+          :class="['w-full transition-colors', error ? 'border-red-500' : 'border-gray-300']"
         />
       </UFormField>
 
-      <!-- Password Field -->
       <UFormField
         v-slot="{ error }"
         label="Password"
@@ -112,19 +95,12 @@ async function onSubmit({ data }: FormSubmitEvent<Schema>) {
         required
         :ui="{ error: 'text-red-500 text-sm mt-1' }"
       >
-        <UInput
+        <AppInput
           id="password"
           v-model="state.password"
           :type="showPassword ? 'text' : 'password'"
-          :ui="{
-            base: 'py-4 px-6',
-          }"
-          :class="[
-            ' w-full transition-colors',
-            error
-              ? 'border-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:border-black',
-          ]"
+          placeholder="••••••••"
+          :class="['w-full transition-colors', error ? 'border-red-500' : 'border-gray-300']"
         >
           <template #trailing>
             <UButton
@@ -138,7 +114,7 @@ async function onSubmit({ data }: FormSubmitEvent<Schema>) {
               @click.prevent="showPassword = !showPassword"
             />
           </template>
-        </UInput>
+        </AppInput>
       </UFormField>
 
       <div class="flex justify-end">
@@ -158,13 +134,11 @@ async function onSubmit({ data }: FormSubmitEvent<Schema>) {
       >
         Login
       </UButton>
-     
     </UForm>
   </div>
 </template>
 
 <style scoped>
-/* Hide the password reveal button in Edge */
 ::-ms-reveal {
   display: none;
 }
