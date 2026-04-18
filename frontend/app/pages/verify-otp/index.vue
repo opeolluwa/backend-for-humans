@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useCountdown } from "@vueuse/core";
 definePageMeta({
-  layout: "security",
+  layout: "authentication",
 });
 
 const countdownSeconds = 120;

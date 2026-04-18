@@ -3,7 +3,7 @@ import api from "~/plugin/api";
 import { useRouter } from "vue-router";
 
 definePageMeta({
-  layout: "auth",
+  layout: "authentication",
 });
 
 const email = ref("");
@@ -30,31 +30,34 @@ async function onSubmit() {
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center">
-    <AppLeadingText>Forgot Password</AppLeadingText>
-    <p class="mb-2 text-gray-500 mt-1">
-      Enter your email to receive a reset link
+  <div>
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Forgot password?</h1>
+    <p class="text-sm text-gray-500 dark:text-white/40 mt-1">
+      Enter your email to receive a reset link.
     </p>
 
-    <UForm :state="{ email: '' }" class="w-full mt-6" @submit="onSubmit">
+    <UAlert
+      v-if="formError"
+      color="error"
+      variant="subtle"
+      title="Request failed"
+      :description="formError"
+      class="mt-4"
+      icon="heroicons:information-circle"
+    />
+
+    <UForm :state="{ email: '' }" class="w-full mt-6 space-y-4" @submit="onSubmit">
       <UFormField
         v-slot="{ error }"
         label="Email"
         name="email"
         required
-        :ui="{
-          error: 'text-red-500 text-sm mt-1',
-        }"
+        :ui="{ error: 'text-red-500 text-sm mt-1' }"
       >
-        <UInput
+        <AppInput
           v-model="email"
-          :ui="{ base: 'py-4 px-6' }"
-          :class="[
-            'w-full transition-colors',
-            error
-              ? 'border-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:border-black',
-          ]"
+          placeholder="you@example.com"
+          :class="['w-full transition-colors', error ? 'border-red-500' : 'border-gray-300']"
         />
       </UFormField>
 
@@ -67,9 +70,11 @@ async function onSubmit() {
       </UButton>
     </UForm>
 
-    <p v-if="formError" class="text-red-500 text-sm mt-2">
-      {{ formError }}
-    </p>
+    <div class="text-center mt-4">
+      <NuxtLink to="/" class="text-sm text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 transition-colors">
+        Back to sign in
+      </NuxtLink>
+    </div>
   </div>
 </template>
 

@@ -195,23 +195,23 @@ function saveNotifications() {
             <UForm :schema="profileSchema" :state="profileState" class="space-y-4" @submit="onProfileSubmit">
               <div class="grid grid-cols-2 gap-4">
                 <UFormField label="First name" name="firstName" required>
-                  <UInput v-model="profileState.firstName" placeholder="Jane" class="w-full" />
+                  <AppInput v-model="profileState.firstName" placeholder="Jane" class="w-full" />
                 </UFormField>
                 <UFormField label="Last name" name="lastName" required>
-                  <UInput v-model="profileState.lastName" placeholder="Doe" class="w-full" />
+                  <AppInput v-model="profileState.lastName" placeholder="Doe" class="w-full" />
                 </UFormField>
               </div>
 
               <UFormField label="Username" name="username" required>
-                <UInput v-model="profileState.username" placeholder="janedoe" class="w-full">
+                <AppInput v-model="profileState.username" placeholder="janedoe" class="w-full">
                   <template #leading>
                     <span class="text-muted text-sm">@</span>
                   </template>
-                </UInput>
+                </AppInput>
               </UFormField>
 
               <UFormField label="Email address" name="email" required>
-                <UInput v-model="profileState.email" placeholder="jane@example.com" class="w-full" />
+                <AppInput v-model="profileState.email" placeholder="jane@example.com" class="w-full" />
               </UFormField>
 
               <div class="pt-1 flex items-center justify-between">
@@ -243,16 +243,16 @@ function saveNotifications() {
 
             <UForm :schema="passwordSchema" :state="passwordState" class="space-y-4" @submit="onPasswordSubmit">
               <UFormField label="Current password" name="currentPassword" required>
-                <UInput v-model="passwordState.currentPassword" type="password" placeholder="••••••••" class="w-full" />
+                <AppInput v-model="passwordState.currentPassword" type="password" placeholder="••••••••" class="w-full" />
               </UFormField>
 
               <div class="border-t border-gray-100 dark:border-white/5 pt-4 space-y-4">
                 <UFormField label="New password" name="newPassword" required>
-                  <UInput v-model="passwordState.newPassword" type="password" placeholder="••••••••" class="w-full" />
+                  <AppInput v-model="passwordState.newPassword" type="password" placeholder="••••••••" class="w-full" />
                 </UFormField>
 
                 <UFormField label="Confirm new password" name="confirmPassword" required>
-                  <UInput v-model="passwordState.confirmPassword" type="password" placeholder="••••••••" class="w-full" />
+                  <AppInput v-model="passwordState.confirmPassword" type="password" placeholder="••••••••" class="w-full" />
                 </UFormField>
               </div>
 
@@ -276,7 +276,7 @@ function saveNotifications() {
             <div
               v-for="item in notificationItems"
               :key="item.key"
-              class="flex items-center gap-4 px-4 py-3.5 rounded-xl border border-gray-100 dark:border-white/5 hover:bg-gray-50 dark:hover:bg-white/[0.02] transition-colors"
+              class="flex items-center gap-4 px-4 py-3.5 rounded-xl border border-gray-100 dark:border-white/5 hover:bg-gray-50 dark:hover:bg-white/2 transition-colors"
             >
               <div class="w-8 h-8 rounded-lg bg-gray-50 dark:bg-white/5 flex items-center justify-center shrink-0">
                 <UIcon :name="item.icon" class="size-4 text-gray-400 dark:text-white/25" />
@@ -285,7 +285,7 @@ function saveNotifications() {
                 <p class="text-sm font-medium text-gray-800 dark:text-white/80">{{ item.label }}</p>
                 <p class="text-xs text-gray-400 dark:text-white/30 mt-0.5">{{ item.desc }}</p>
               </div>
-              <UToggle v-model="(notifications as any)[item.key]" />
+              <USwitch v-model="(notifications as any)[item.key]" />
             </div>
           </div>
 

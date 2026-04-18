@@ -1,293 +1,285 @@
 <script setup lang="ts">
-import { useUserInformationStore } from "~/stores/user";
-import { useMarketplaceStore } from "~/stores/marketplace";
-
 definePageMeta({
   layout: "dashboard",
 });
 
-const userStore = useUserInformationStore();
-const marketplaceStore = useMarketplaceStore();
-
-onMounted(async () => {
-  await marketplaceStore.fetchMarketplaces();
-});
-
-const firstName = computed(() => userStore.userFirstName || "there");
-const marketplaces = computed(() => marketplaceStore.marketplaces);
-const totalMarketplaces = computed(() => marketplaces.value.length);
-
-// Stat cards — real where available, indicative elsewhere
-const stats = computed(() => [
+const stats = [
   {
-    label: "Marketplaces",
-    value: totalMarketplaces.value,
-    trend: "+12.4%",
-    up: true,
-    icon: "heroicons:building-storefront",
-    color: "brand",
+    label: "Enrolled Courses",
+    badge: "Active",
+    value: 22,
+    progress: 55,
+    showProgress: true,
+    action: null,
+    icon: "heroicons:book-open",
   },
   {
-    label: "Total Products",
-    value: 0,
-    trend: "+8.1%",
-    up: true,
-    icon: "heroicons:tag",
-    color: "brand",
+    label: "Total Assignments",
+    badge: null,
+    value: 32,
+    showProgress: false,
+    action: "View All",
+    icon: "heroicons:clipboard-document-list",
   },
   {
-    label: "Team Members",
-    value: 0,
-    trend: "0%",
-    up: true,
-    icon: "heroicons:users",
-    color: "brand",
+    label: "Completed Courses",
+    badge: null,
+    value: 11,
+    showProgress: false,
+    action: "View Courses",
+    icon: "heroicons:academic-cap",
   },
   {
-    label: "Active Tasks",
-    value: 0,
-    trend: "+3.7%",
-    up: true,
-    icon: "heroicons:clipboard-document-check",
-    color: "brand",
+    label: "Upcoming Quiz",
+    badge: null,
+    value: "7 Days",
+    showProgress: false,
+    action: "View Schedule",
+    icon: "heroicons:calendar-days",
   },
-]);
+];
 
-// Bar chart mock data — monthly activity (Jan–Jun)
-const chartMonths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
-const chartValues = [42, 68, 55, 80, 63, 91];
+// Bar chart — days of week
+const chartDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+const chartValues = [30, 60, 45, 90, 55, 25, 40];
 const chartMax = Math.max(...chartValues);
+const activeDay = ref(3); // Thursday
 
 function barHeight(val: number) {
   return Math.round((val / chartMax) * 100);
 }
 
-// Quick links
-const quickLinks = [
-  { label: "Marketplace", path: "/marketplace", icon: "heroicons:building-storefront" },
-  { label: "Uploads", path: "/uploads", icon: "heroicons:arrow-up-tray" },
-  { label: "Team", path: "/teams", icon: "heroicons:users" },
-  { label: "Metrics", path: "/metrics", icon: "heroicons:chart-bar-square" },
-  { label: "Calendar", path: "/calendar", icon: "heroicons:calendar-days" },
-  { label: "Settings", path: "/settings", icon: "heroicons:cog-6-tooth" },
+const chartTabs = ["Daily", "Weekly", "Monthly"];
+const activeTab = ref("Daily");
+
+// Online classes
+const onlineClasses = [
+  {
+    subject: "PH",
+    name: "Physics",
+    subtitle: "Motion and Velocity",
+    time: "02:15:45",
+    progress: 88,
+    color: "bg-blue-500",
+  },
+  {
+    subject: "LT",
+    name: "Literature",
+    subtitle: "Shakespeare's Sonnets",
+    time: "03:10:22",
+    progress: 85,
+    color: "bg-purple-500",
+  },
 ];
 
-// Recent marketplaces — latest 5
-const recentMarketplaces = computed(() =>
-  [...marketplaces.value]
-    .sort((a, b) => {
-      const da = a.createdAt ? new Date(a.createdAt).getTime() : 0;
-      const db = b.createdAt ? new Date(b.createdAt).getTime() : 0;
-      return db - da;
-    })
-    .slice(0, 5),
-);
-
-function formatDate(dt?: string | null) {
-  if (!dt) return "—";
-  return new Date(dt).toLocaleDateString("en-US", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  });
-}
+// Assignment breakdown
+const breakdown = [
+  { label: "Total Submitted", value: 60, color: "bg-brand" },
+  { label: "In Review", value: 25, color: "bg-amber-400" },
+  { label: "Remaining Assignment", value: 15, color: "bg-gray-200 dark:bg-white/10" },
+];
 </script>
 
 <template>
-  <div class="space-y-8">
+  <div class="space-y-6">
 
-    <!-- Greeting row -->
-    <div class="flex items-start justify-between">
-      <div>
-        <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-white/30 mb-1">
-          Dashboard
-        </p>
-        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">
-          Hi, {{ firstName }} 👋
-        </h1>
-        <p class="text-sm text-gray-400 dark:text-white/40 mt-1">
-          Here's what's happening across your workspace today.
-        </p>
-      </div>
-    
-    </div>
-
-    <!-- Stat cards + chart -->
-    <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
-
-      <!-- Stat cards (2/3 width) -->
-      <div class="xl:col-span-2 grid grid-cols-2 gap-4">
-        <div
-          v-for="stat in stats"
-          :key="stat.label"
-          class="bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5 flex flex-col gap-4"
-        >
-          <div class="flex items-center justify-between">
-            <span class="text-sm text-gray-500 dark:text-white/40 font-medium">
-              {{ stat.label }}
-            </span>
-            <div class="w-8 h-8 rounded-xl bg-brand-50 dark:bg-brand/10 flex items-center justify-center">
-              <UIcon :name="stat.icon" class="size-4 text-brand" />
-            </div>
+    <!-- Stat cards row -->
+    <div class="grid grid-cols-2 xl:grid-cols-4 gap-4">
+      <div
+        v-for="stat in stats"
+        :key="stat.label"
+        class="bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5"
+      >
+        <!-- Top: icon + label + badge -->
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-7 h-7 rounded-lg bg-brand-50 dark:bg-brand/10 flex items-center justify-center shrink-0">
+            <UIcon :name="stat.icon" class="size-3.5 text-brand" />
           </div>
-          <div>
-            <p class="text-3xl font-bold text-gray-900 dark:text-white">
-              {{ stat.value.toLocaleString() }}
-            </p>
-            <div class="flex items-center gap-1.5 mt-1.5">
-              <UIcon
-                :name="stat.up ? 'heroicons:arrow-trending-up' : 'heroicons:arrow-trending-down'"
-                :class="stat.up ? 'text-brand' : 'text-red-500'"
-                class="size-3.5"
-              />
-              <span
-                :class="stat.up ? 'text-brand' : 'text-red-500'"
-                class="text-xs font-semibold"
-              >
-                {{ stat.trend }}
-              </span>
-              <span class="text-xs text-gray-400 dark:text-white/25">vs last month</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Activity chart (1/3 width) -->
-      <div class="bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
-        <div class="flex items-center justify-between mb-4">
-          <p class="text-sm font-semibold text-gray-700 dark:text-white/80">
-            Activity
-          </p>
-          <span class="text-xs text-gray-400 dark:text-white/30">Last 6 months</span>
-        </div>
-
-        <!-- Bar chart -->
-        <div class="flex items-end gap-2 h-28">
-          <template v-for="(val, i) in chartValues" :key="chartMonths[i]">
-            <div class="flex-1 flex flex-col items-center gap-1">
-              <div
-                class="w-full rounded-md transition-all"
-                :class="i === chartValues.length - 1
-                  ? 'bg-brand'
-                  : 'bg-brand-100 dark:bg-brand/20'"
-                :style="{ height: `${barHeight(val)}%` }"
-              />
-              <span class="text-[9px] text-gray-400 dark:text-white/25 font-medium">
-                {{ chartMonths[i] }}
-              </span>
-            </div>
-          </template>
-        </div>
-
-        <div class="mt-4 pt-4 border-t border-gray-100 dark:border-white/5 flex items-center justify-between">
-          <div>
-            <p class="text-lg font-bold text-gray-900 dark:text-white">
-              {{ chartValues[chartValues.length - 1] }}
-            </p>
-            <p class="text-xs text-gray-400 dark:text-white/30">
-              entries this month
-            </p>
-          </div>
-          <div class="flex items-center gap-1">
-            <UIcon name="heroicons:arrow-trending-up" class="size-3.5 text-brand" />
-            <span class="text-xs font-semibold text-brand">+44%</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Quick links + Recent marketplaces -->
-    <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
-
-      <!-- Quick links -->
-      <div class="bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
-        <p class="text-sm font-semibold text-gray-700 dark:text-white/80 mb-4">
-          Quick access
-        </p>
-        <div class="grid grid-cols-3 gap-3">
-          <NuxtLink
-            v-for="link in quickLinks"
-            :key="link.path"
-            :to="link.path"
-            class="flex flex-col items-center gap-2 p-3 rounded-xl bg-gray-50 dark:bg-white/5 hover:bg-brand-50 dark:hover:bg-brand/10 hover:text-brand group transition-all"
+          <span class="text-xs font-medium text-gray-500 dark:text-white/40 truncate">
+            {{ stat.label }}
+          </span>
+          <span
+            v-if="stat.badge"
+            class="ml-auto shrink-0 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-brand-50 dark:bg-brand/10 text-brand"
           >
-            <UIcon
-              :name="link.icon"
-              class="size-5 text-gray-400 dark:text-white/30 group-hover:text-brand transition-colors"
+            {{ stat.badge }}
+          </span>
+        </div>
+
+        <!-- Value -->
+        <p class="text-3xl font-bold text-gray-900 dark:text-white">
+          {{ stat.value }}
+        </p>
+
+        <!-- Progress bar -->
+        <div v-if="stat.showProgress" class="mt-3">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs text-gray-400 dark:text-white/30">Progress</span>
+            <span class="text-xs font-semibold text-gray-500 dark:text-white/50">{{ stat.progress }}%</span>
+          </div>
+          <div class="h-1.5 rounded-full bg-gray-100 dark:bg-white/10">
+            <div
+              class="h-full rounded-full bg-brand transition-all"
+              :style="{ width: `${stat.progress}%` }"
             />
-            <span class="text-[10px] font-medium text-gray-500 dark:text-white/40 group-hover:text-brand transition-colors text-center leading-tight">
-              {{ link.label }}
-            </span>
-          </NuxtLink>
+          </div>
+        </div>
+
+        <!-- Action link -->
+        <div v-else-if="stat.action" class="mt-3">
+          <button class="flex items-center gap-1 text-xs text-gray-400 dark:text-white/30 hover:text-brand transition-colors group">
+            {{ stat.action }}
+            <UIcon name="heroicons:arrow-right" class="size-3 group-hover:translate-x-0.5 transition-transform" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart + right panel -->
+    <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
+
+      <!-- Report Analytics bar chart -->
+      <div class="xl:col-span-2 bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
+        <div class="flex items-center justify-between mb-5">
+          <p class="text-sm font-semibold text-gray-700 dark:text-white/80">
+            Report Analytics
+          </p>
+          <div class="flex items-center gap-1 bg-gray-50 dark:bg-white/5 rounded-lg p-1">
+            <button
+              v-for="tab in chartTabs"
+              :key="tab"
+              class="px-3 py-1 rounded-md text-xs font-medium transition-all"
+              :class="activeTab === tab
+                ? 'bg-white dark:bg-brand-dark-500 text-gray-800 dark:text-white shadow-sm'
+                : 'text-gray-400 dark:text-white/30 hover:text-gray-600 dark:hover:text-white/50'"
+              @click="activeTab = tab"
+            >
+              {{ tab }}
+            </button>
+          </div>
+        </div>
+
+        <!-- Y-axis + bars -->
+        <div class="flex gap-3">
+          <div class="flex flex-col justify-between h-40 text-right pr-1 shrink-0">
+            <span class="text-[10px] text-gray-300 dark:text-white/20">24h</span>
+            <span class="text-[10px] text-gray-300 dark:text-white/20">18h</span>
+            <span class="text-[10px] text-gray-300 dark:text-white/20">12h</span>
+            <span class="text-[10px] text-gray-300 dark:text-white/20">6h</span>
+            <span class="text-[10px] text-gray-300 dark:text-white/20">0h</span>
+          </div>
+
+          <div class="flex-1 flex items-end gap-2 h-40">
+            <div
+              v-for="(val, i) in chartValues"
+              :key="chartDays[i]"
+              class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end"
+            >
+              <div
+                v-if="i === activeDay"
+                class="bg-brand text-white text-[10px] font-bold px-2 py-0.5 rounded-md"
+              >
+                {{ val }}h
+              </div>
+              <div
+                class="w-full rounded-md cursor-pointer transition-all"
+                :class="i === activeDay
+                  ? 'bg-brand'
+                  : 'bg-brand-100 dark:bg-brand/20 hover:bg-brand/40'"
+                :style="{ height: `${barHeight(val)}%` }"
+                @click="activeDay = i"
+              />
+              <span class="text-[10px] text-gray-400 dark:text-white/25 font-medium">
+                {{ chartDays[i] }}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Recent marketplaces -->
-      <div class="xl:col-span-2 bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
-        <div class="flex items-center justify-between mb-4">
-          <p class="text-sm font-semibold text-gray-700 dark:text-white/80">
-            Recent stores
-          </p>
-          <NuxtLink
-            to="/marketplace"
-            class="text-xs text-brand hover:text-brand-600 dark:text-brand-300 font-medium transition-colors"
-          >
-            View all
-          </NuxtLink>
-        </div>
+      <!-- Right panel -->
+      <div class="flex flex-col gap-4">
 
-        <!-- Empty state -->
-        <div
-          v-if="recentMarketplaces.length === 0"
-          class="flex flex-col items-center justify-center py-10 gap-3 text-center"
-        >
-          <div class="w-10 h-10 rounded-xl bg-gray-50 dark:bg-white/5 flex items-center justify-center">
-            <UIcon name="heroicons:building-storefront" class="size-5 text-gray-300 dark:text-white/20" />
+        <!-- Online Classes -->
+        <div class="flex-1 bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
+          <div class="flex items-center justify-between mb-4">
+            <p class="text-sm font-semibold text-gray-700 dark:text-white/80">
+              Online Classes
+            </p>
+            <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-brand-50 dark:bg-brand/10 text-brand">
+              3 Ongoing
+            </span>
           </div>
-          <p class="text-sm text-gray-400 dark:text-white/30">
-            No stores yet.
-            <NuxtLink to="/marketplace" class="text-brand hover:underline ml-1">Create one →</NuxtLink>
-          </p>
-        </div>
 
-        <!-- Marketplace list -->
-        <div v-else class="divide-y divide-gray-50 dark:divide-white/5">
-          <div
-            v-for="mp in recentMarketplaces"
-            :key="mp.identifier"
-            class="flex items-center gap-4 py-3"
-          >
-            <!-- Avatar -->
-            <div class="w-9 h-9 rounded-xl bg-brand-50 dark:bg-brand/10 flex items-center justify-center shrink-0">
-              <UIcon name="heroicons:building-storefront" class="size-4 text-brand" />
-            </div>
+          <div class="space-y-3">
+            <div
+              v-for="cls in onlineClasses"
+              :key="cls.name"
+              class="flex items-center gap-3"
+            >
+              <!-- Subject avatar -->
+              <div
+                class="w-9 h-9 rounded-xl flex items-center justify-center shrink-0 text-white text-xs font-bold"
+                :class="cls.color"
+              >
+                {{ cls.subject }}
+              </div>
 
-            <!-- Info -->
-            <div class="flex-1 min-w-0">
-              <p class="text-sm font-medium text-gray-800 dark:text-white/90 truncate">
-                {{ mp.name }}
-              </p>
-              <p class="text-xs text-gray-400 dark:text-white/30 truncate">
-                /{{ mp.slug }}
-              </p>
-            </div>
+              <div class="flex-1 min-w-0">
+                <p class="text-xs font-semibold text-gray-800 dark:text-white/90 truncate">
+                  {{ cls.name }}
+                </p>
+                <p class="text-[10px] text-gray-400 dark:text-white/30 truncate">
+                  {{ cls.subtitle }}
+                </p>
+              </div>
 
-            <!-- Date + action -->
-            <div class="flex items-center gap-3 shrink-0">
-              <span class="text-xs text-gray-400 dark:text-white/25">
-                {{ formatDate(mp.createdAt) }}
-              </span>
-              <NuxtLink :to="`/marketplace/${mp.identifier}/products`">
-                <UButton
-                  icon="heroicons:arrow-right"
-                  size="xs"
-                  color="neutral"
-                  variant="ghost"
-                />
-              </NuxtLink>
+              <div class="shrink-0 text-right">
+                <p class="text-xs font-semibold text-gray-600 dark:text-white/60 font-mono">
+                  {{ cls.time }}
+                </p>
+                <div class="flex items-center justify-end gap-1 mt-0.5">
+                  <div class="w-1.5 h-1.5 rounded-full bg-brand" />
+                  <span class="text-[10px] text-brand">{{ cls.progress }}%</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <!-- Assignment Breakdown -->
+        <div class="bg-white dark:bg-brand-dark-600 border border-gray-100 dark:border-white/5 rounded-2xl p-5">
+          <div class="flex items-center justify-between mb-4">
+            <p class="text-sm font-semibold text-gray-700 dark:text-white/80">
+              Assignment Breakdown
+            </p>
+            <UIcon name="heroicons:information-circle" class="size-4 text-gray-300 dark:text-white/20" />
+          </div>
+
+          <!-- Stacked bar -->
+          <div class="flex h-2.5 rounded-full overflow-hidden gap-px">
+            <div
+              v-for="seg in breakdown"
+              :key="seg.label"
+              class="h-full transition-all"
+              :class="seg.color"
+              :style="{ width: `${seg.value}%` }"
+            />
+          </div>
+
+          <!-- Legend -->
+          <div class="flex flex-wrap gap-x-4 gap-y-1.5 mt-3">
+            <div
+              v-for="seg in breakdown"
+              :key="seg.label"
+              class="flex items-center gap-1.5"
+            >
+              <div class="w-2 h-2 rounded-full shrink-0" :class="seg.color" />
+              <span class="text-[10px] text-gray-400 dark:text-white/30">{{ seg.label }}</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 

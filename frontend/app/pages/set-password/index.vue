@@ -3,7 +3,7 @@ import api from "~/plugin/api";
 import { useRouter, useRoute } from "vue-router";
 
 definePageMeta({
-  layout: "security",
+  layout: "authentication",
 });
 
 const password = ref("");
@@ -43,74 +43,73 @@ async function onSubmit() {
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center">
+  <div class="flex flex-col">
     <template v-if="!token">
-      <AppLeadingText>Unauthorized</AppLeadingText>
-      <p class="mb-2 text-gray-500 mt-1">This link is invalid or has expired.</p>
+      <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Invalid link</h1>
+      <p class="text-sm text-gray-500 dark:text-white/40 mt-1">This link is invalid or has expired.</p>
+      <NuxtLink to="/" class="text-brand text-sm font-medium hover:underline mt-4 inline-block">
+        Back to sign in
+      </NuxtLink>
     </template>
 
     <template v-else>
-    <AppLeadingText>Set New Password</AppLeadingText>
-    <p class="mb-2 text-gray-500 mt-1">Enter and confirm your new password</p>
+      <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Set new password</h1>
+      <p class="text-sm text-gray-500 dark:text-white/40 mt-1">Enter and confirm your new password.</p>
 
-    <UForm
-      :state="{ password: '', confirmPassword: '' }"
-      class="w-full mt-6"
-      @submit="onSubmit"
-    >
-      <UFormField
-        v-slot="{ error }"
-        label="New Password"
-        name="password"
-        required
-        :ui="{ error: 'text-red-500 text-sm mt-1' }"
-      >
-        <UInput
-          v-model="password"
-          type="password"
-          :ui="{ base: 'py-4 px-6' }"
-          :class="[
-            'w-full transition-colors',
-            error
-              ? 'border-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:border-black',
-          ]"
-        />
-      </UFormField>
-
-      <UFormField
-        v-slot="{ error }"
-        label="Confirm Password"
-        name="confirmPassword"
-        required
-        :ui="{ error: 'text-red-500 text-sm mt-1' }"
+      <UAlert
+        v-if="formError"
+        color="error"
+        variant="subtle"
+        title="Error"
+        :description="formError"
         class="mt-4"
-      >
-        <UInput
-          v-model="confirmPassword"
-          type="password"
-          :ui="{ base: 'py-4 px-6' }"
-          :class="[
-            'w-full transition-colors',
-            error
-              ? 'border-red-500 focus:border-red-500'
-              : 'border-gray-300 focus:border-black',
-          ]"
-        />
-      </UFormField>
+        icon="heroicons:information-circle"
+      />
 
-      <UButton
-        type="submit"
-        :loading="loading"
-        class="flex justify-center items-center text-center w-full rounded py-4 text-white cursor-pointer mt-6"
+      <UForm
+        :state="{ password: '', confirmPassword: '' }"
+        class="w-full mt-6"
+        @submit="onSubmit"
       >
-        Reset Password
-      </UButton>
-    </UForm>
+        <UFormField
+          v-slot="{ error }"
+          label="New Password"
+          name="password"
+          required
+          :ui="{ error: 'text-red-500 text-sm mt-1' }"
+        >
+          <AppInput
+            v-model="password"
+            type="password"
+            placeholder="••••••••"
+            :class="['w-full transition-colors', error ? 'border-red-500' : 'border-gray-300']"
+          />
+        </UFormField>
 
-    <p v-if="formError" class="text-red-500 text-sm mt-2">
-      {{ formError }}
-    </p>
+        <UFormField
+          v-slot="{ error }"
+          label="Confirm Password"
+          name="confirmPassword"
+          required
+          :ui="{ error: 'text-red-500 text-sm mt-1' }"
+          class="mt-4"
+        >
+          <AppInput
+            v-model="confirmPassword"
+            type="password"
+            placeholder="••••••••"
+            :class="['w-full transition-colors', error ? 'border-red-500' : 'border-gray-300']"
+          />
+        </UFormField>
+
+        <UButton
+          type="submit"
+          :loading="loading"
+          class="flex justify-center items-center text-center w-full rounded py-4 text-white cursor-pointer mt-6"
+        >
+          Reset Password
+        </UButton>
+      </UForm>
     </template>
   </div>
 </template>
