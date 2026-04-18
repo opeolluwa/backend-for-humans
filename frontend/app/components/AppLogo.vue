@@ -1,29 +1,19 @@
 <template>
   <div class="flex items-center gap-3">
     <div class="w-8 h-8 shrink-0">
-      <svg
-        viewBox="0 0 120 90"
-        fill="none"
-        class="w-full h-full text-brand"
-        stroke="currentColor"
-        stroke-width="14"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <polyline points="8,8 38,78 60,32 82,78 112,8" />
-      </svg>
+      <img
+        src="/app-logo.png"
+        alt="BHE Logo"
+        class="w-full h-full object-cover rounded dark:invert"
+      />
     </div>
     <div>
       <p
         class="font-bold text-gray-900 dark:text-white text-[15px] leading-tight tracking-tight"
       >
-        backoffice
+        BHE
       </p>
-      <p
-        class="text-[9px] text-gray-400 dark:text-white/30 uppercase tracking-widest mt-0.5"
-      >
-        Agro · Veterinary
-      </p>
+      <p class="text-gray-500 dark:text-white/40 text-xs">Backend for Humans</p>
     </div>
   </div>
 </template>

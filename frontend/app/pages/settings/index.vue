@@ -276,7 +276,7 @@ function saveNotifications() {
             <div
               v-for="item in notificationItems"
               :key="item.key"
-              class="flex items-center gap-4 px-4 py-3.5 rounded-xl border border-gray-100 dark:border-white/5 hover:bg-gray-50 dark:hover:bg-white/[0.02] transition-colors"
+              class="flex items-center gap-4 px-4 py-3.5 rounded-xl border border-gray-100 dark:border-white/5 hover:bg-gray-50 dark:hover:bg-white/2 transition-colors"
             >
               <div class="w-8 h-8 rounded-lg bg-gray-50 dark:bg-white/5 flex items-center justify-center shrink-0">
                 <UIcon :name="item.icon" class="size-4 text-gray-400 dark:text-white/25" />
@@ -285,7 +285,7 @@ function saveNotifications() {
                 <p class="text-sm font-medium text-gray-800 dark:text-white/80">{{ item.label }}</p>
                 <p class="text-xs text-gray-400 dark:text-white/30 mt-0.5">{{ item.desc }}</p>
               </div>
-              <UToggle v-model="(notifications as any)[item.key]" />
+              <USwitch v-model="(notifications as any)[item.key]" />
             </div>
           </div>
 

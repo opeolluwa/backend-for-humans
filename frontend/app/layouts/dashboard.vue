@@ -27,62 +27,27 @@ interface Route {
   path: string;
 }
 
-interface Divider {
-  divider: true;
-  label?: string;
-}
+type RouteItem = Route[];
 
-type RouteItem = Route | Divider;
-
-const routes: RouteItem[] = [
+const routes: RouteItem = [
   {
     label: "Dashboard",
     path: "/home",
-    icon: "heroicons:squares-2x2",
+    icon: "ri:home-line",
   },
+
   {
-    label: "Calendar",
-    path: "/calendar",
-    icon: "heroicons:calendar-days",
+    label: "Courses",
+    path: "/courses",
+    icon: "heroicons:book-open",
   },
-  {
-    divider: true,
-    label: "Operations",
-  },
-  {
-    label: "Messages",
-    path: "/messages",
-    icon: "heroicons:envelope",
-  },
-  {
-    label: "Marketplace",
-    path: "/marketplace",
-    icon: "heroicons:building-storefront",
-  },
-  {
-    label: "Uploads",
-    path: "/uploads",
-    icon: "heroicons:arrow-up-tray",
-  },
+
   {
     label: "Metrics",
     path: "/metrics",
     icon: "heroicons:chart-bar-square",
   },
-  {
-    label: "Revenue",
-    path: "/revenue",
-    icon: "heroicons:banknotes",
-  },
-  {
-    divider: true,
-    label: "Workspace",
-  },
-  {
-    label: "Team",
-    path: "/teams",
-    icon: "heroicons:users",
-  },
+
   {
     label: "Settings",
     path: "/settings",
@@ -99,8 +64,6 @@ const state = reactive({
 });
 
 const logout = async () => useLogout();
-const getKey = (item: RouteItem) =>
-  "divider" in item ? `div-${item.label ?? Math.random()}` : item.path;
 </script>
 
 <template>
@@ -116,30 +79,15 @@ const getKey = (item: RouteItem) =>
 
       <!-- Navigation -->
       <nav class="flex-1 px-3 py-4 overflow-y-auto">
-        <template v-for="item in routes" :key="getKey(item)">
-          <!-- Section label -->
-          <template v-if="'divider' in item">
-            <div class="pt-5 pb-2 px-2">
-              <p
-                v-if="item.label"
-                class="text-[9px] font-semibold uppercase tracking-widest text-gray-400 dark:text-white/25"
-              >
-                {{ item.label }}
-              </p>
-            </div>
-          </template>
-
-          <!-- Nav link -->
-          <template v-else>
-            <NuxtLink
-              :href="item.path"
-              class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-500 dark:text-white/40 hover:text-gray-800 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-all mb-0.5"
-              active-class="!text-brand dark:!text-brand-300 !bg-brand-50 dark:!bg-brand/10 font-medium"
-            >
-              <UIcon :name="item.icon" class="size-4 shrink-0" />
-              <span>{{ item.label }}</span>
-            </NuxtLink>
-          </template>
+        <template v-for="item in routes" :key="item.path">
+          <NuxtLink
+            :href="item.path"
+            class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-500 dark:text-white/40 hover:text-gray-800 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-all mb-0.5"
+            active-class="!text-brand dark:!text-brand-300 !bg-brand-50 dark:!bg-brand/10 font-medium"
+          >
+            <UIcon :name="item.icon" class="size-4 shrink-0" />
+            <span>{{ item.label }}</span>
+          </NuxtLink>
         </template>
       </nav>
 
@@ -167,13 +115,19 @@ const getKey = (item: RouteItem) =>
         <UForm :schema="schema" :state="state" class="w-80">
           <UFormField name="query">
             <UInput
-              :ref="(el: any) => (searchInputRef = el?.$el?.querySelector('input') ?? null)"
+              :ref="
+                (el: any) =>
+                  (searchInputRef = el?.$el?.querySelector('input') ?? null)
+              "
               v-model="state.query"
               placeholder="Search..."
               icon="heroicons:magnifying-glass"
               variant="outline"
               class="w-full"
-              @keydown.escape="state.query = ''; ($event.target as HTMLInputElement).blur()"
+              @keydown.escape="
+                state.query = '';
+                ($event.target as HTMLInputElement).blur();
+              "
             >
               <template #trailing>
                 <kbd
